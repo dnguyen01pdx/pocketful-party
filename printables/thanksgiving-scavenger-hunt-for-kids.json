@@ -1,0 +1,195 @@
+{
+ "slug": "thanksgiving-scavenger-hunt-for-kids",
+ "title": "Thanksgiving Scavenger Hunt",
+ "subtitle": "3 hunts · ages 4-12",
+ "theme": "thanksgiving",
+ "type": "list",
+ "board": "thanksgiving",
+ "expires": "2026-11-27",
+ "checkbox": true,
+ "name_line": true,
+ "big": true,
+ "pages": [
+  {
+   "title": "Indoor Turkey Day Hunt",
+   "note": "Find it, tick the box, and leave it where it was (or bring it to the hunt table if a grown-up says so). Stay out of the oven zone!",
+   "sections": [
+    {
+     "h": "Around the house",
+     "items": [
+      "Something orange",
+      "Something brown and soft",
+      "A sock with stripes",
+      "A photo of someone in your family",
+      "A book with an animal on the cover",
+      "Something shaped like a circle",
+      "A blanket you'd snuggle in after dinner",
+      "Something that starts with T",
+      "A coat that isn't yours",
+      "Something that makes a noise"
+     ]
+    },
+    {
+     "h": "In the kitchen (ask first)",
+     "items": [
+      "A wooden spoon",
+      "A potato",
+      "Something that smells like cinnamon",
+      "A can with a vegetable on the label",
+      "A measuring cup",
+      "Something red that you can eat",
+      "An oven mitt",
+      "A recipe card or a recipe on a box"
+     ]
+    },
+    {
+     "h": "At the table",
+     "items": [
+      "A napkin folded in a fun shape",
+      "A cup that's a different color from the rest",
+      "The salt and the pepper",
+      "A name card or a seat with your name",
+      "Something with a leaf on it",
+      "A dish you've never tasted"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Outdoor Fall Hunt",
+   "note": "Bring a bag for treasures you're allowed to keep. Look at feathers and critters, don't touch. Stay where a grown-up can see you.",
+   "sections": [
+    {
+     "h": "Find it",
+     "items": [
+      "A red leaf",
+      "A yellow leaf",
+      "A brown, crunchy leaf",
+      "A leaf bigger than your hand",
+      "An acorn (bonus: one with its cap)",
+      "A pinecone",
+      "A stick shaped like a letter",
+      "A smooth rock",
+      "A seed or seed pod",
+      "Something fuzzy, like moss",
+      "A puddle or something wet",
+      "A pumpkin or a gourd"
+     ]
+    },
+    {
+     "h": "Spot it",
+     "items": [
+      "A bird in a tree",
+      "A squirrel",
+      "A feather on the ground (look, don't touch)",
+      "A bird nest",
+      "A spiderweb",
+      "A house with fall decorations"
+     ]
+    },
+    {
+     "h": "Use your senses",
+     "items": [
+      "Hear a bird sing",
+      "Feel rough tree bark",
+      "Smell the cold air (or a fireplace)",
+      "Hear leaves crunch under your feet"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Thankful Hunt",
+   "note": "No right answers here. Find each one, then tell someone what you picked and why. Grown-ups can help little ones write or draw.",
+   "sections": [
+    {
+     "h": "Find something",
+     "items": [
+      "That makes you laugh",
+      "That keeps you warm",
+      "You use every single day",
+      "Someone gave you as a gift",
+      "That reminds you of a friend",
+      "You'd save if you could only keep one toy",
+      "That helps you learn",
+      "You think is beautiful"
+     ]
+    },
+    {
+     "h": "Family challenges",
+     "items": [
+      "Find the oldest person here and ask their favorite Thanksgiving food",
+      "Find someone who helped cook and say thank you",
+      "Find someone who traveled the farthest today",
+      "Learn one new thing about a cousin",
+      "Give 3 high fives to 3 different people",
+      "Help set the table or clear one plate",
+      "Find someone who shares your birthday month",
+      "Make someone laugh with a joke"
+     ]
+    },
+    {
+     "h": "I'm thankful for...",
+     "items": [
+      "______________________________",
+      "______________________________",
+      "______________________________"
+     ]
+    }
+   ]
+  }
+ ],
+ "pins": [
+  {
+   "template": "stack",
+   "headline": "Thanksgiving scavenger hunt for kids",
+   "kicker": "Free printable · 3 hunts",
+   "title": "Thanksgiving Scavenger Hunt for Kids (Free Printable)",
+   "description": "A free printable Thanksgiving scavenger hunt with three versions: an indoor turkey day hunt, an outdoor fall nature hunt, and a thankful hunt with family challenges. Made for ages 4-12, no prep beyond printing."
+  },
+  {
+   "template": "list",
+   "headline": "Keep the kids busy while the turkey cooks",
+   "kicker": "Free 3-page printable",
+   "items": [
+    "Find a wooden spoon",
+    "Spot a squirrel",
+    "Find an acorn with its cap",
+    "Find something that makes you laugh",
+    "Thank someone who cooked"
+   ],
+   "title": "Thanksgiving Games for Kids: Printable Scavenger Hunt",
+   "description": "Kids getting restless before dinner? Print this Thanksgiving scavenger hunt and hand out pencils. Indoor, outdoor and thankful versions with checkboxes, plus easy tips for little ones and big groups of cousins."
+  },
+  {
+   "template": "fan",
+   "headline": "Indoor, outdoor and thankful hunts",
+   "kicker": "Free printable · ages 4-12",
+   "pages": [
+    1,
+    2,
+    3
+   ],
+   "title": "3 Free Thanksgiving Scavenger Hunts (Indoor + Outdoor)",
+   "description": "Three printable Thanksgiving scavenger hunts in one free PDF. Search the house and kitchen, hunt for leaves and acorns outside, then finish with a gratitude hunt and family challenges. Great for a mixed-age crowd."
+  },
+  {
+   "template": "hook",
+   "kicker": "From the indoor hunt",
+   "quote": "Find a dish you've never tasted.",
+   "headline": "61 more to find, indoors and out",
+   "sub": "Free printable Thanksgiving scavenger hunt",
+   "title": "Thanksgiving Activity for Kids: Find-It Scavenger Hunt",
+   "description": "A Thanksgiving find-it hunt with a few fun extras, like spotting a dish you've never tasted. Free printable with indoor, outdoor and thankful pages, checkboxes and a spot for each hunter's name."
+  },
+  {
+   "template": "split",
+   "headline": "Fall nature scavenger hunt",
+   "kicker": "Print · grab a bag · go outside",
+   "sub": "Leaves, acorns, pinecones and critters to spot, plus 2 bonus Thanksgiving hunts.",
+   "page": 2,
+   "title": "Outdoor Fall Scavenger Hunt for Kids (Printable)",
+   "description": "Get the kids outside on Thanksgiving with a printable fall nature hunt: colorful leaves, acorns, pinecones, birds and squirrels to spot. Comes with an indoor hunt and a thankful hunt in the same free PDF."
+  }
+ ]
+}

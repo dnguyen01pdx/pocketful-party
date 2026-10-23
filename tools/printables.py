@@ -8,7 +8,7 @@ Spec fields: slug, title, subtitle, theme (see THEMES), type, and per type:
   trivia: questions [{q, a}], key_title
   cards:  cards [str], card_label, per_page (6 or 8)
   bingo:  words [str] (24+), count, free_label, caller (bool)
-  list:   sections [{h, items [str]}], checkbox (bool), note
+  list:   sections [{h, items [str]}], checkbox (bool), note; or pages [{title, note, sections}], name_line (bool), big (bool, larger type for kids)
   story:  paragraphs [str], how_to (str)
 Usage: python3 tools/printables.py printables/<slug>.json
 """
@@ -90,6 +90,11 @@ body{{font-family:'{t['body']}',sans-serif;color:var(--a);background:#fff}}
 .sec li{{break-inside:avoid;margin-bottom:6px;display:flex;gap:9px}}
 .sec li .bx{{min-width:13px;height:13px;border:1.6px solid var(--a);margin-top:3px}}
 .note{{font-size:12px;margin-top:4px;opacity:.9}}
+.big .sec h2{{font-size:31px;margin:24px 0 12px}}
+.big .sec ul{{font-size:17.5px;line-height:1.45}}
+.big .sec li{{margin-bottom:15px;gap:12px}}
+.big .sec li .bx{{min-width:18px;height:18px;margin-top:2px}}
+.big .note{{font-size:14px}}
 .story p{{font-size:14.5px;line-height:1.75;margin-bottom:11px}}
 .story b{{color:var(--b);filter:brightness(.8);letter-spacing:.06em}}
 .howto{{border:2px solid var(--a);padding:10px 14px;font-size:12px;margin-bottom:16px}}
@@ -174,12 +179,20 @@ def bingo(spec, t):
 
 
 def listing(spec, t):
-    secs = ""
-    for s in spec["sections"]:
-        lis = "".join(f'<li>{"<span class=bx></span>" if spec.get("checkbox", True) else ""}<span>{html.escape(i)}</span></li>' for i in s["items"])
-        secs += f'<div class="sec"><h2 class="disp">{html.escape(s["h"])}</h2><ul>{lis}</ul></div>'
-    note = f'<p class="note">{html.escape(spec["note"])}</p>' if spec.get("note") else ""
-    return [page(t, spec, note + secs, 1, 1, ("6.8in", "-1in", "2.2in"))]
+    # one page from "sections", or several from "pages": [{title, note, sections}]
+    parts = spec.get("pages") or [dict(note=spec.get("note"), sections=spec["sections"])]
+    pages = []
+    for n, part in enumerate(parts, 1):
+        secs = ""
+        for s in part["sections"]:
+            lis = "".join(f'<li>{"<span class=bx></span>" if spec.get("checkbox", True) else ""}<span>{html.escape(i)}</span></li>' for i in s["items"])
+            secs += f'<div class="sec"><h2 class="disp">{html.escape(s["h"])}</h2><ul>{lis}</ul></div>'
+        note = f'<p class="note">{html.escape(part["note"])}</p>' if part.get("note") else ""
+        name = '<div class="score mono"><span>Hunter / team</span><span style="flex:.45">Found</span></div><div style="height:10px"></div>' if spec.get("name_line") else ""
+        pspec = dict(spec, title=part["title"]) if part.get("title") else spec
+        body = f'<div class="big">{note + secs}</div>' if spec.get("big") else note + secs
+        pages.append(page(t, pspec, name + body, n, len(parts), ("6.8in", "-1in", "2.2in") if n == 1 else None))
+    return pages
 
 
 def story(spec, t):

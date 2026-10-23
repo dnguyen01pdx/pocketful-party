@@ -166,5 +166,65 @@
   "expires": "2026-12-26",
   "status": "queued",
   "publish_at": "2026-10-31T16:37:00Z"
+ },
+ {
+  "id": "thanksgiving-scavenger-hunt-for-kids-1",
+  "post": "thanksgiving-scavenger-hunt-for-kids",
+  "board": "thanksgiving",
+  "image": "pins/thanksgiving-scavenger-hunt-for-kids-1.jpg",
+  "title": "Thanksgiving Scavenger Hunt for Kids (Free Printable)",
+  "description": "A free printable Thanksgiving scavenger hunt with three versions: an indoor turkey day hunt, an outdoor fall nature hunt, and a thankful hunt with family challenges. Made for ages 4-12, no prep beyond printing.",
+  "template": "stack",
+  "expires": "2026-11-27",
+  "status": "queued",
+  "publish_at": "2026-10-23T18:22:00Z"
+ },
+ {
+  "id": "thanksgiving-scavenger-hunt-for-kids-2",
+  "post": "thanksgiving-scavenger-hunt-for-kids",
+  "board": "thanksgiving",
+  "image": "pins/thanksgiving-scavenger-hunt-for-kids-2.jpg",
+  "title": "Thanksgiving Games for Kids: Printable Scavenger Hunt",
+  "description": "Kids getting restless before dinner? Print this Thanksgiving scavenger hunt and hand out pencils. Indoor, outdoor and thankful versions with checkboxes, plus easy tips for little ones and big groups of cousins.",
+  "template": "list",
+  "expires": "2026-11-27",
+  "status": "queued",
+  "publish_at": "2026-10-25T18:22:00Z"
+ },
+ {
+  "id": "thanksgiving-scavenger-hunt-for-kids-3",
+  "post": "thanksgiving-scavenger-hunt-for-kids",
+  "board": "thanksgiving",
+  "image": "pins/thanksgiving-scavenger-hunt-for-kids-3.jpg",
+  "title": "3 Free Thanksgiving Scavenger Hunts (Indoor + Outdoor)",
+  "description": "Three printable Thanksgiving scavenger hunts in one free PDF. Search the house and kitchen, hunt for leaves and acorns outside, then finish with a gratitude hunt and family challenges. Great for a mixed-age crowd.",
+  "template": "fan",
+  "expires": "2026-11-27",
+  "status": "queued",
+  "publish_at": "2026-10-27T18:22:00Z"
+ },
+ {
+  "id": "thanksgiving-scavenger-hunt-for-kids-4",
+  "post": "thanksgiving-scavenger-hunt-for-kids",
+  "board": "thanksgiving",
+  "image": "pins/thanksgiving-scavenger-hunt-for-kids-4.jpg",
+  "title": "Thanksgiving Activity for Kids: Find-It Scavenger Hunt",
+  "description": "A Thanksgiving find-it hunt with a few fun extras, like spotting a dish you've never tasted. Free printable with indoor, outdoor and thankful pages, checkboxes and a spot for each hunter's name.",
+  "template": "hook",
+  "expires": "2026-11-27",
+  "status": "queued",
+  "publish_at": "2026-10-29T18:22:00Z"
+ },
+ {
+  "id": "thanksgiving-scavenger-hunt-for-kids-5",
+  "post": "thanksgiving-scavenger-hunt-for-kids",
+  "board": "thanksgiving",
+  "image": "pins/thanksgiving-scavenger-hunt-for-kids-5.jpg",
+  "title": "Outdoor Fall Scavenger Hunt for Kids (Printable)",
+  "description": "Get the kids outside on Thanksgiving with a printable fall nature hunt: colorful leaves, acorns, pinecones, birds and squirrels to spot. Comes with an indoor hunt and a thankful hunt in the same free PDF.",
+  "template": "split",
+  "expires": "2026-11-27",
+  "status": "queued",
+  "publish_at": "2026-10-31T18:22:00Z"
  }
 ]
