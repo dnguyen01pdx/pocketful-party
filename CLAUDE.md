@@ -39,7 +39,7 @@ python3 tools/build.py                    # local build into _site/
    - `python3 tools/pipeline.py check <slug>` must report 0 problems. Then `python3 tools/pipeline.py schedule`.
    - Set the calendar entry's status to `published`.
 4. **Commit and push to main** (message: what was added/fixed). The deploy workflow builds and releases due pins.
-5. **Verify the deploy**: wait for the Actions run, then fetch the new post URL and one feed. If it failed, read the log, fix, push again (up to 3 attempts; then log it as a blocker).
+5. **Verify the deploy**: wait for the Actions run (GitHub MCP `actions_list`), then fetch the new post URL and one feed with WebFetch (the cloud box's curl can't reach github.io). If it failed, read the log, fix, push again (up to 3 attempts; then log it as a blocker).
 6. **Log** to `data/runs/YYYY-MM-DD.md`: what was done, checks, anything failed or skipped, queue runway. Commit it.
 7. End with a 3-5 line summary (it is pushed to Dylan's phone): what went live, queue runway, anything that needs him.
 
@@ -56,6 +56,10 @@ python3 tools/build.py                    # local build into _site/
 ## Monthly analytics (1st of the month)
 
 Pinterest analytics: read the business account's analytics (Chrome, logged in as Dylan) for the last 30 days: impressions, saves, outbound clicks per pin. Map pins by the `utm_content=<pin id>` on each link. Save `data/analytics/YYYY-MM.json`, update `data/designs.json` weights (outbound clicks per 1k impressions by template; floor 0.5, cap 3), list the top 5 posts and the content gaps (searches in the trends file with no post), and add the gaps to `data/calendar.json`. Refresh Pinterest Trends data for the next 3 months of seasons.
+
+## Pinterest connection (one-time, needs Dylan's yes)
+
+Pins stay unreleased while `site.json` has `"pins_start": null`. Once the blog's Pinterest business account exists: claim the site (put the code in `site.json` `pinterest_verify`), add one RSS feed per board that has pins (`<base_url>/feeds/<board>.xml` -> matching board), set `pins_start` to the current UTC time, run `python3 tools/pipeline.py reschedule`, commit and push.
 
 ## Never without Dylan's explicit OK
 
