@@ -57,7 +57,11 @@ python3 tools/build.py                    # local build into _site/
 
 Pinterest analytics: read the business account's analytics (Chrome, logged in as Dylan) for the last 30 days: impressions, saves, outbound clicks per pin. Map pins by the `utm_content=<pin id>` on each link. Save `data/analytics/YYYY-MM.json`, update `data/designs.json` weights (outbound clicks per 1k impressions by template; floor 0.5, cap 3), list the top 5 posts and the content gaps (searches in the trends file with no post), and add the gaps to `data/calendar.json`. Refresh Pinterest Trends data for the next 3 months of seasons.
 
-## Pinterest connection (one-time, needs Dylan's yes)
+## Pinterest connection
+
+Done 2026-10-23 on Dylan's account `dylannguyen01` (now a business account; it also holds his Etsy tracker boards). Site claimed; feeds connected are listed in `site.json` `connected_feeds`. **When a post uses a board that isn't connected yet**, in the same run: create the board on Pinterest if it doesn't exist (Chrome, own tab), add its feed at Settings > Bulk create Pins > Auto-publish > Add another, then add the board key to `connected_feeds`. The health check flags any board with pins but no connected feed.
+
+### Original setup steps (for reference)
 
 Pins stay unreleased while `site.json` has `"pins_start": null`. Once the blog's Pinterest business account exists: claim the site (put the code in `site.json` `pinterest_verify`), add one RSS feed per board that has pins (`<base_url>/feeds/<board>.xml` -> matching board), set `pins_start` to the current UTC time, run `python3 tools/pipeline.py reschedule`, commit and push.
 

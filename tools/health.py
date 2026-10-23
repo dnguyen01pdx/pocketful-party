@@ -60,6 +60,10 @@ def imgs():
 check("Pin images", imgs)
 
 queue = json.load(open(os.path.join(ROOT, "data", "pins.json")))
+unconnected = sorted({p["board"] for p in queue} - set(SITE.get("connected_feeds", [])))
+if unconnected:
+    bad.append("Pinterest feeds not connected for board(s): " + ", ".join(unconnected)
+               + " (connect in Pinterest Settings > Bulk create Pins > Auto-publish, then add to site.json connected_feeds)")
 future = sorted(utc(p["publish_at"]) for p in queue if p.get("publish_at") and utc(p["publish_at"]) > now)
 waiting = [p for p in queue if not p.get("publish_at") and p.get("status", "queued") == "queued"]
 runway = (future[-1] - now).days if future else 0

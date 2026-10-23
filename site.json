@@ -28,5 +28,10 @@
     "min_hours_between_same_post": 48,
     "max_pins_per_post_per_30_days": 6
   },
-  "pins_start": "2026-10-23T14:27:25Z"
+  "pins_start": "2026-10-23T14:27:25Z",
+  "connected_feeds": [
+    "thanksgiving",
+    "christmas"
+  ],
+  "pinterest_account": "dylannguyen01 (business)"
 }
