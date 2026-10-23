@@ -1,0 +1,32 @@
+{
+ "slug": "christmas-party-bingo",
+ "title": "Christmas Party Bingo",
+ "subtitle": "12 different cards + caller list",
+ "theme": "christmas",
+ "type": "bingo",
+ "board": "christmas",
+ "expires": "2026-12-26",
+ "count": 12,
+ "free_label": "Ho ho ho",
+ "caller": true,
+ "words": ["Candy cane", "Reindeer", "Snowman", "Stocking", "Mistletoe", "Gingerbread", "Hot cocoa", "Ornament", "Wreath", "Sleigh", "Elf", "Chimney", "Twinkle lights", "Ugly sweater", "Eggnog", "Snowflake", "Tinsel", "Nutcracker", "Jingle bells", "Holly", "Present", "Christmas tree", "Star", "Santa hat", "Mittens", "Carolers", "Fireplace", "Cookies for Santa", "North Pole", "Wrapping paper", "Snow globe", "Poinsettia", "Bow", "Angel", "Candle", "Advent calendar", "Sled", "Scarf", "Peppermint", "Marshmallows"],
+ "pins": [
+  {"template": "fan", "headline": "Christmas bingo for a crowd", "kicker": "Free printable · 12 cards", "sub": "12 different cards + a caller's list", "pages": [1, 2, 13],
+   "title": "Free Printable Christmas Bingo Cards (12 Different Cards)",
+   "description": "Free Christmas bingo printable with 12 different cards and a caller's checklist. Picture-free word cards that print clean in black and white. Great for a Christmas party with a big group."},
+  {"template": "stack", "headline": "Christmas party bingo, ready to print", "kicker": "12 cards · free PDF", "page": 1,
+   "title": "Christmas Party Games for Groups: Printable Bingo",
+   "description": "An easy Christmas party game for groups: print 12 different bingo cards, cut up the caller's list, and play. Includes prize ideas and five ways to win so the game lasts longer."},
+  {"template": "hook", "kicker": "Christmas party bingo", "quote": "First to five in a row wins the ugly sweater",
+   "headline": "Free printable bingo for your party", "sub": "12 cards, caller's list and prize ideas",
+   "title": "Christmas Bingo Game for Family and Office Parties",
+   "description": "Christmas bingo that works for family gatherings and office parties alike. 12 different printable cards, a caller's checklist and five ways to win. Download the free PDF."},
+  {"template": "list", "headline": "5 ways to play Christmas bingo", "kicker": "Free printable cards inside",
+   "items": ["Five in a row", "Four corners", "Candy cane (an L shape)", "Picture frame", "Blackout for the big prize"],
+   "title": "Christmas Bingo Ideas: 5 Ways to Play (Free Printable)",
+   "description": "Make Christmas bingo last all party with five ways to win, from four corners to a full blackout. Free printable with 12 different cards and a caller's list."},
+  {"template": "split", "headline": "Holiday bingo night", "kicker": "Print at home · 12 cards", "sub": "Words, not pictures, so it works for kids who read and grown-ups who compete.", "page": 2,
+   "title": "Holiday Bingo Printable for Kids and Adults",
+   "description": "A free holiday bingo printable with 12 cards, 40 Christmas words and a caller's checklist. Works for classrooms, family game night and office parties."}
+ ]
+}

@@ -1,0 +1,46 @@
+# Daily health report. Opens (or updates) a GitHub issue when something is wrong,
+# which notifies Dylan in the GitHub app; closes it again once everything is green.
+name: Daily health check
+on:
+  schedule:
+    - cron: "41 11 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install markdown==3.7 pillow==11.0.0
+      - name: Run checks
+        id: h
+        run: |
+          set +e
+          python3 tools/health.py > report.md
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Open or update the health issue
+        if: steps.h.outputs.status != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh issue list --label health --state open --json number -q '.[0].number')
+          if [ -z "$n" ]; then
+            gh label create health --color D9452F --force
+            gh issue create --title "Health check: something needs attention" --label health --body-file report.md
+          else
+            gh issue comment "$n" --body-file report.md
+          fi
+      - name: Close the health issue when green
+        if: steps.h.outputs.status == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for n in $(gh issue list --label health --state open --json number -q '.[].number'); do
+            gh issue close "$n" --comment "All checks green again on $(date -u +%F)."
+          done

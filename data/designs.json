@@ -1,0 +1,10 @@
+{
+ "weights": {
+  "stack": 1,
+  "split": 1,
+  "list": 1,
+  "fan": 1,
+  "hook": 1
+ },
+ "note": "Updated monthly from Pinterest analytics: templates with higher outbound-click rate get higher weight; the daily writer picks pin templates in proportion."
+}

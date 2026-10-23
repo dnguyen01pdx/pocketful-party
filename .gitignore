@@ -1,0 +1,5 @@
+_site/
+printables/_html/
+printables/_png/
+__pycache__/
+*.pyc
