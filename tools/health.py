@@ -15,7 +15,7 @@ bad, ok = [], []
 
 
 def get(u):
-    req = urllib.request.Request(u, headers={"User-Agent": "pocketful-health/1.0"})
+    req = urllib.request.Request(u, headers={"User-Agent": "site-health/1.0"})
     with urllib.request.urlopen(req, timeout=20) as r:
         return r.status, r.read()
 
@@ -30,7 +30,7 @@ def check(name, fn):
 
 def home():
     s, b = get(url())
-    assert s == 200 and b"Pocketful" in b, f"status {s}"
+    assert s == 200 and SITE["name"].encode() in b, f"status {s}"
     return "up"
 
 
@@ -85,7 +85,7 @@ if logs:
 else:
     bad.append("Daily writer: no run logs yet")
 
-print(f"## Pocketful Party health · {now:%Y-%m-%d %H:%M} UTC\n")
+print(f"## {SITE['name']} health · {now:%Y-%m-%d %H:%M} UTC\n")
 print("**Needs attention**\n" + "\n".join(f"- {x}" for x in bad) + "\n" if bad else "**All green.**\n")
 print("**OK**\n" + "\n".join(f"- {x}" for x in ok))
 sys.exit(1 if bad else 0)

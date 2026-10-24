@@ -10,9 +10,14 @@ Spec fields: slug, title, subtitle, theme (see THEMES), type, and per type:
   bingo:  words [str] (24+), count, free_label, caller (bool)
   list:   sections [{h, items [str]}], checkbox (bool), note; or pages [{title, note, sections}], name_line (bool), big (bool, larger type for kids)
   story:  paragraphs [str], how_to (str)
+  grid:   cols [str], rows [str], note, name_line_label; optional extra page "after": {title, note, sections} drawn like list
+  fill:   sections [{h, lines [str]}]: labelled write-in lines ("AMCAS: $180 + $48 x ___"), note
 Usage: python3 tools/printables.py printables/<slug>.json
 """
 import html, json, os, random, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from brand import SITE, logo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,6 +30,13 @@ THEMES = {
     "newyear": dict(a="#1B1F3B", b="#D4A537", paper="#F7F4EE", disp="Big Shoulders Display", dispw=900, body="DM Sans", tag="New Year's Eve"),
     "valentines": dict(a="#C2185B", b="#FF8FB1", paper="#FFF6F4", disp="Fraunces", dispw=800, body="DM Sans", tag="Valentine's"),
     "shower": dict(a="#4A6C5B", b="#E7A99B", paper="#FBF7F1", disp="Fraunces", dispw=700, body="DM Sans", tag="Shower"),
+    "med": dict(a="#16213E", b="#FF48B0", paper="#F4F1EA", disp="Big Shoulders Display", dispw=900, body="Archivo", tag="Med school apps"),
+    "med-blue": dict(a="#22397A", b="#FF8FC8", paper="#F6F2EA", disp="Bricolage Grotesque", dispw=800, body="Archivo", tag="Med school apps"),
+    "study": dict(a="#1E3B34", b="#7FD1AE", paper="#F3F1E8", disp="Fraunces", dispw=800, body="DM Sans", tag="Med school life"),
+    "residency": dict(a="#00727A", b="#FF6C2F", paper="#F5F1E8", disp="Big Shoulders Display", dispw=900, body="Archivo", tag="Residency"),
+    "pa": dict(a="#3F6B57", b="#FFB511", paper="#F6F2E6", disp="Bricolage Grotesque", dispw=800, body="Archivo", tag="PA school"),
+    "dental": dict(a="#6A4C9C", b="#6FD3CF", paper="#F6F3EE", disp="Fraunces", dispw=800, body="DM Sans", tag="Dental school"),
+    "vet": dict(a="#8C5546", b="#FF7477", paper="#F8F1E8", disp="Fraunces", dispw=800, body="Archivo", tag="Vet school"),
     "party": dict(a="#3E5C86", b="#D9452F", paper="#F5ECDC", disp="Big Shoulders Display", dispw=900, body="Archivo", tag="Party"),
 }
 
@@ -55,7 +67,8 @@ body{{font-family:'{t['body']}',sans-serif;color:var(--a);background:#fff}}
 .head h1{{font-size:44px;max-width:5.4in}}
 .head .mono{{font-size:10px;text-align:right}}
 .blob{{position:absolute;border-radius:50%;background:var(--b);opacity:.85}}
-.foot{{position:absolute;left:.6in;right:.6in;bottom:.28in;display:flex;justify-content:space-between;font:400 8.5px 'DM Mono',monospace;letter-spacing:.08em;text-transform:uppercase;opacity:.8}}
+.foot .logo{{vertical-align:-3px;margin-right:4px}}
+.foot{{position:absolute;left:.6in;right:.6in;bottom:.28in;display:flex;align-items:center;justify-content:space-between;font:400 8.5px 'DM Mono',monospace;letter-spacing:.08em;text-transform:uppercase;opacity:.8}}
 .pk{{display:inline-block;width:13px;height:11px;background:#3E5C86;clip-path:polygon(0 0,100% 0,100% 62%,50% 100%,0 62%);vertical-align:-1px;margin-right:6px}}
 /* trivia */
 .qs{{columns:2;column-gap:.35in;font-size:13.4px;line-height:1.42}}
@@ -97,6 +110,17 @@ body{{font-family:'{t['body']}',sans-serif;color:var(--a);background:#fff}}
 .big .note{{font-size:14px}}
 .story p{{font-size:14.5px;line-height:1.75;margin-bottom:11px}}
 .story b{{color:var(--b);filter:brightness(.8);letter-spacing:.06em}}
+/* grid planner */
+.gp{{display:grid;border:2.5px solid var(--a);margin-top:6px}}
+.gp div{{border:1px solid var(--a);margin:-.5px;padding:5px 6px;font-size:10.5px}}
+.gp .ch{{font:800 17px '{t['disp']}';text-align:center;background:var(--a);color:var(--paper);padding:7px 2px 5px;text-transform:uppercase}}
+.gp .rh{{font:500 9.5px 'DM Mono';letter-spacing:.06em;text-transform:uppercase;display:flex;align-items:center;background:color-mix(in srgb,var(--b) 30%,var(--paper))}}
+.sec li .wl{{flex:1;border-bottom:1.2px solid var(--a);height:18px;opacity:.5}}
+/* fill-in worksheet */
+.fill h2{{font-size:24px;margin:16px 0 6px}}
+.fill .fl{{display:flex;gap:10px;align-items:flex-end;font-size:13px;padding:7px 0 4px;border-bottom:1.2px solid color-mix(in srgb,var(--a) 45%,transparent)}}
+.fill .fl span{{flex:1}}
+.fill .fl i{{font-style:normal;font:500 11px 'DM Mono';min-width:1.2in;text-align:right;opacity:.75}}
 .howto{{border:2px solid var(--a);padding:10px 14px;font-size:12px;margin-bottom:16px}}
 """
 
@@ -109,8 +133,8 @@ def page(t, spec, inner, n, total, blob=None):
     return (f'<section class="page">{blob_html}'
             f'<div class="head"><h1 class="disp">{html.escape(spec["title"])}</h1>'
             f'<div class="mono">{html.escape(spec.get("subtitle", ""))}<br>{THEMES[spec["theme"]]["tag"]} · page {n}/{total}</div></div>'
-            f'{inner}<div class="foot"><span><span class="pk"></span>Pocketful Party · free for personal use</span>'
-            f'<span>more free games: {html.escape(spec.get("site_label", "pocketful party"))}</span></div><div class="grain"></div></section>')
+            f'{inner}<div class="foot"><span>{logo(14)} {html.escape(SITE["name"])} · free for personal use</span>'
+            f'<span>more free printables: {html.escape(spec.get("site_label", SITE["name"]))}</span></div><div class="grain"></div></section>')
 
 
 def trivia(spec, t):
@@ -201,7 +225,40 @@ def story(spec, t):
     return [page(t, spec, how + f'<div class="story">{paras}</div>', 1, 1)]
 
 
-KINDS = dict(trivia=trivia, cards=cards, bingo=bingo, list=listing, story=story)
+def grid(spec, t):
+    cols, rows = spec["cols"], spec["rows"]
+    h = spec.get("row_h", "1.05in")
+    cells = '<div class="rh"></div>' + "".join(f'<div class="ch">{html.escape(c)}</div>' for c in cols)
+    for r in rows:
+        cells += f'<div class="rh">{html.escape(r)}</div>' + "<div></div>" * len(cols)
+    note = f'<p class="note">{html.escape(spec["note"])}</p>' if spec.get("note") else ""
+    week = '<div class="score mono"><span>Week of</span><span style="flex:.6">Exam / quiz this week</span></div><div style="height:8px"></div>'
+    inner = (f'{week}{note}<div class="gp" style="grid-template-columns:.95in repeat({len(cols)},1fr);'
+             f'grid-template-rows:auto repeat({len(rows)},{h})">{cells}</div>')
+    pages = [page(t, spec, inner, 1, 2 if spec.get("after") else 1)]
+    if spec.get("after"):
+        a = spec["after"]
+        secs = ""
+        for sct in a["sections"]:
+            lis = "".join(f'<li><span class=bx></span><span>{html.escape(i)}</span></li>' if i
+                          else '<li><span class=bx></span><span class="wl"></span></li>' for i in sct["items"])
+            secs += f'<div class="sec"><h2 class="disp">{html.escape(sct["h"])}</h2><ul>{lis}</ul></div>'
+        an = f'<p class="note">{html.escape(a["note"])}</p>' if a.get("note") else ""
+        pages.append(page(t, dict(spec, title=a["title"]), an + secs, 2, 2, ("6.8in", "-1in", "2.2in")))
+    return pages
+
+
+def fill(spec, t):
+    out = ""
+    for sct in spec["sections"]:
+        lines = "".join(f'<div class="fl"><span>{html.escape(l)}</span><i>$ ________</i></div>' if not l.startswith("~")
+                        else f'<div class="fl"><span>{html.escape(l[1:])}</span><i></i></div>' for l in sct["lines"])
+        out += f'<div class="fill"><h2 class="disp">{html.escape(sct["h"])}</h2>{lines}</div>'
+    note = f'<p class="note">{html.escape(spec["note"])}</p>' if spec.get("note") else ""
+    return [page(t, spec, note + out, 1, 1, ("6.9in", "-1in", "2.1in"))]
+
+
+KINDS = dict(grid=grid, fill=fill, trivia=trivia, cards=cards, bingo=bingo, list=listing, story=story)
 
 
 def main(path):

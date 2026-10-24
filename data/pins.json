@@ -20,8 +20,8 @@
   "description": "Can you answer these? A free Thanksgiving trivia printable with 40 family-friendly questions, an answer key and a score line for teams. Print it, split into teams, and play between dinner and dessert.",
   "template": "list",
   "expires": "2026-11-27",
-  "status": "queued",
-  "publish_at": "2026-10-25T14:52:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "thanksgiving-trivia-for-families-3",
@@ -32,8 +32,8 @@
   "description": "A quick, printable Thanksgiving trivia game that works for mixed ages. 40 questions, answer key on its own page, and tips for playing with a big family crowd. Free PDF, no sign-up.",
   "template": "hook",
   "expires": "2026-11-27",
-  "status": "queued",
-  "publish_at": "2026-10-27T14:52:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "thanksgiving-trivia-for-families-4",
@@ -44,8 +44,8 @@
   "description": "Need a Thanksgiving game everyone can play at the table? This free printable trivia sheet has 40 questions and a separate answer key. Works for teams of 2-6, from kids to grandparents.",
   "template": "split",
   "expires": "2026-11-27",
-  "status": "queued",
-  "publish_at": "2026-10-29T14:52:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "thanksgiving-trivia-for-families-5",
@@ -56,8 +56,8 @@
   "description": "An easy Thanksgiving family game: print three pages, hand out pens, and play. 40 trivia questions with answers, from the Mayflower to Snoopy's toast-and-popcorn dinner.",
   "template": "fan",
   "expires": "2026-11-27",
-  "status": "queued",
-  "publish_at": "2026-10-31T14:52:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "friendsgiving-would-you-rather-1",
@@ -80,8 +80,8 @@
   "description": "An easy Friendsgiving game for adults: printable would you rather cards with 24 food-and-holiday questions. Print on cardstock, cut on the dashed lines, and pass them around after dinner.",
   "template": "split",
   "expires": "2026-11-27",
-  "status": "queued",
-  "publish_at": "2026-10-25T16:37:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "friendsgiving-would-you-rather-3",
@@ -92,8 +92,8 @@
   "description": "Funny Friendsgiving would you rather questions you can print and play tonight. 24 cards for adults, with rules for scoring and three ways to play. Free download.",
   "template": "list",
   "expires": "2026-11-27",
-  "status": "queued",
-  "publish_at": "2026-10-27T16:37:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "friendsgiving-would-you-rather-4",
@@ -104,8 +104,8 @@
   "description": "Need a Friendsgiving game with no setup? Print these 24 would you rather cards, cut them, and play at the table. Clean, funny questions about food, hosting and holiday chaos.",
   "template": "stack",
   "expires": "2026-11-27",
-  "status": "queued",
-  "publish_at": "2026-10-29T16:37:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "christmas-party-bingo-1",
@@ -128,8 +128,8 @@
   "description": "An easy Christmas party game for groups: print 12 different bingo cards, cut up the caller's list, and play. Includes prize ideas and five ways to win so the game lasts longer.",
   "template": "stack",
   "expires": "2026-12-26",
-  "status": "queued",
-  "publish_at": "2026-10-25T20:07:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "christmas-party-bingo-3",
@@ -140,8 +140,8 @@
   "description": "Christmas bingo that works for family gatherings and office parties alike. 12 different printable cards, a caller's checklist and five ways to win. Download the free PDF.",
   "template": "hook",
   "expires": "2026-12-26",
-  "status": "queued",
-  "publish_at": "2026-10-27T20:07:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "christmas-party-bingo-4",
@@ -152,8 +152,8 @@
   "description": "Make Christmas bingo last all party with five ways to win, from four corners to a full blackout. Free printable with 12 different cards and a caller's list.",
   "template": "list",
   "expires": "2026-12-26",
-  "status": "queued",
-  "publish_at": "2026-10-29T20:07:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "christmas-party-bingo-5",
@@ -164,8 +164,8 @@
   "description": "A free holiday bingo printable with 12 cards, 40 Christmas words and a caller's checklist. Works for classrooms, family game night and office parties.",
   "template": "split",
   "expires": "2026-12-26",
-  "status": "queued",
-  "publish_at": "2026-10-31T20:07:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "thanksgiving-scavenger-hunt-for-kids-1",
@@ -188,8 +188,8 @@
   "description": "Kids getting restless before dinner? Print this Thanksgiving scavenger hunt and hand out pencils. Indoor, outdoor and thankful versions with checkboxes, plus easy tips for little ones and big groups of cousins.",
   "template": "list",
   "expires": "2026-11-27",
-  "status": "queued",
-  "publish_at": "2026-10-25T18:22:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "thanksgiving-scavenger-hunt-for-kids-3",
@@ -200,8 +200,8 @@
   "description": "Three printable Thanksgiving scavenger hunts in one free PDF. Search the house and kitchen, hunt for leaves and acorns outside, then finish with a gratitude hunt and family challenges. Great for a mixed-age crowd.",
   "template": "fan",
   "expires": "2026-11-27",
-  "status": "queued",
-  "publish_at": "2026-10-27T18:22:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "thanksgiving-scavenger-hunt-for-kids-4",
@@ -212,8 +212,8 @@
   "description": "A Thanksgiving find-it hunt with a few fun extras, like spotting a dish you've never tasted. Free printable with indoor, outdoor and thankful pages, checkboxes and a spot for each hunter's name.",
   "template": "hook",
   "expires": "2026-11-27",
-  "status": "queued",
-  "publish_at": "2026-10-29T18:22:00Z"
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "id": "thanksgiving-scavenger-hunt-for-kids-5",
@@ -224,7 +224,187 @@
   "description": "Get the kids outside on Thanksgiving with a printable fall nature hunt: colorful leaves, acorns, pinecones, birds and squirrels to spot. Comes with an indoor hunt and a thankful hunt in the same free PDF.",
   "template": "split",
   "expires": "2026-11-27",
+  "status": "hold",
+  "hold_reason": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
+ },
+ {
+  "id": "med-school-application-timeline-1",
+  "post": "med-school-application-timeline",
+  "board": "medschool",
+  "image": "pins/med-school-application-timeline-1.jpg",
+  "title": "Med School Application Timeline: 5 Steps in Order (Free Checklist)",
+  "description": "The whole med school application cycle in order, from the MCAT to acceptances, with real AMCAS dates from the 2027 cycle. Free printable month-by-month checklist from a first-year med student.",
+  "template": "list",
+  "expires": null,
   "status": "queued",
-  "publish_at": "2026-10-31T18:22:00Z"
+  "publish_at": "2026-10-25T13:07:00Z"
+ },
+ {
+  "id": "med-school-application-timeline-2",
+  "post": "med-school-application-timeline",
+  "board": "medschool",
+  "image": "pins/med-school-application-timeline-2.jpg",
+  "title": "Free Printable Med School Application Timeline Checklist",
+  "description": "A two-page med school application checklist that goes month by month: MCAT, letters, personal statement, AMCAS, secondaries, interviews and decisions. Download the free PDF.",
+  "template": "fan",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-27T13:07:00Z"
+ },
+ {
+  "id": "med-school-application-timeline-3",
+  "post": "med-school-application-timeline",
+  "board": "medschool",
+  "image": "pins/med-school-application-timeline-3.jpg",
+  "title": "When to Submit AMCAS (and Why Early Matters)",
+  "description": "AMCAS verification can take about six weeks in the busy season, and most schools review on a rolling basis. Here are the 2027 cycle dates and a free month-by-month application checklist.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-29T13:07:00Z"
+ },
+ {
+  "id": "med-school-application-timeline-4",
+  "post": "med-school-application-timeline",
+  "board": "medschool",
+  "image": "pins/med-school-application-timeline-4.jpg",
+  "title": "Applying to Med School Next Cycle? Start With This Timeline",
+  "description": "Applying to medical school next cycle? This month-by-month timeline covers the MCAT, letters of recommendation, AMCAS, secondaries and interviews, with a free printable checklist.",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-31T13:07:00Z"
+ },
+ {
+  "id": "med-school-application-timeline-5",
+  "post": "med-school-application-timeline",
+  "board": "medschool",
+  "image": "pins/med-school-application-timeline-5.jpg",
+  "title": "Pre Med Checklist: Med School Application Month by Month",
+  "description": "A pre-med checklist for the med school application: what to do 12, 9 and 6 months before AMCAS opens, then through secondaries and interviews. Free printable from a current med student.",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-02T13:07:00Z"
+ },
+ {
+  "id": "how-much-does-it-cost-to-apply-to-med-school-1",
+  "post": "how-much-does-it-cost-to-apply-to-med-school",
+  "board": "medschool",
+  "image": "pins/how-much-does-it-cost-to-apply-to-med-school-1.jpg",
+  "title": "How Much Does It Cost to Apply to Med School? (2027 Fees)",
+  "description": "The real cost of applying to med school in 2027: MCAT $360, AMCAS $180 plus $48 per school, secondaries up to about $150 each. Worked example for 20 schools and a free budget worksheet.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-25T14:52:00Z"
+ },
+ {
+  "id": "how-much-does-it-cost-to-apply-to-med-school-2",
+  "post": "how-much-does-it-cost-to-apply-to-med-school",
+  "board": "medschool",
+  "image": "pins/how-much-does-it-cost-to-apply-to-med-school-2.jpg",
+  "title": "AMCAS Fees for 20 Schools: $1,092 (Full Cost Breakdown)",
+  "description": "AMCAS charges $180 for the first school and $48 for each one after, so 20 schools comes to $1,092 before secondaries. See the full med school application budget and a free worksheet.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-27T14:52:00Z"
+ },
+ {
+  "id": "how-much-does-it-cost-to-apply-to-med-school-3",
+  "post": "how-much-does-it-cost-to-apply-to-med-school",
+  "board": "medschool",
+  "image": "pins/how-much-does-it-cost-to-apply-to-med-school-3.jpg",
+  "title": "Free Med School Application Budget Worksheet",
+  "description": "A free printable budget worksheet for med school applications with lines for the MCAT, AMCAS, each secondary fee and interview costs. Uses official 2027 AAMC prices.",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-29T14:52:00Z"
+ },
+ {
+  "id": "how-much-does-it-cost-to-apply-to-med-school-4",
+  "post": "how-much-does-it-cost-to-apply-to-med-school",
+  "board": "medschool",
+  "image": "pins/how-much-does-it-cost-to-apply-to-med-school-4.jpg",
+  "title": "Cost of Applying to Medical School: Line by Line",
+  "description": "Every cost of applying to medical school in one place: test fees, AMCAS, secondaries, interviews and what the AAMC Fee Assistance Program covers. Free printable budget worksheet.",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-31T14:52:00Z"
+ },
+ {
+  "id": "how-much-does-it-cost-to-apply-to-med-school-5",
+  "post": "how-much-does-it-cost-to-apply-to-med-school",
+  "board": "medschool",
+  "image": "pins/how-much-does-it-cost-to-apply-to-med-school-5.jpg",
+  "title": "Pre Med Budget: Plan Your Application Costs",
+  "description": "Plan your pre-med application budget before July hits. Fill in your MCAT date, school count and each secondary fee to see your real total. Free printable worksheet.",
+  "template": "fan",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-02T14:52:00Z"
+ },
+ {
+  "id": "med-school-weekly-study-schedule-1",
+  "post": "med-school-weekly-study-schedule",
+  "board": "medlife",
+  "image": "pins/med-school-weekly-study-schedule-1.jpg",
+  "title": "Med School Weekly Study Schedule (Free Printable Planner)",
+  "description": "A weekly med school study schedule built around daily reviews, new lectures and a Saturday question block. Free printable planner with a weekly grid and a Sunday planning page.",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-25T16:37:00Z"
+ },
+ {
+  "id": "med-school-weekly-study-schedule-2",
+  "post": "med-school-weekly-study-schedule",
+  "board": "medlife",
+  "image": "pins/med-school-weekly-study-schedule-2.jpg",
+  "title": "Med School Study Tips: The Daily Loop That Keeps You Afloat",
+  "description": "A simple daily study loop for med school: reviews first, then new lectures, then new cards, then a real stop time. Based on spaced and practice-testing research. Free printable planner.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-27T16:37:00Z"
+ },
+ {
+  "id": "med-school-weekly-study-schedule-3",
+  "post": "med-school-weekly-study-schedule",
+  "board": "medlife",
+  "image": "pins/med-school-weekly-study-schedule-3.jpg",
+  "title": "Study Smarter in Med School: Practice Testing + Spacing",
+  "description": "A big 2013 review of learning techniques rated practice testing and spaced practice the most useful, and rereading near the bottom. Here's how to build a med school week around them, with a free planner.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-29T16:37:00Z"
+ },
+ {
+  "id": "med-school-weekly-study-schedule-4",
+  "post": "med-school-weekly-study-schedule",
+  "board": "medlife",
+  "image": "pins/med-school-weekly-study-schedule-4.jpg",
+  "title": "Free Printable Weekly Study Planner for Med Students",
+  "description": "A free two-page weekly study planner for med students: a seven-day grid for reviews and study blocks, and a Sunday page for lectures, exams, weak topics and an end-of-week check-in.",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-31T16:37:00Z"
+ },
+ {
+  "id": "med-school-weekly-study-schedule-5",
+  "post": "med-school-weekly-study-schedule",
+  "board": "medlife",
+  "image": "pins/med-school-weekly-study-schedule-5.jpg",
+  "title": "Med Student Study Schedule Template",
+  "description": "A med student study schedule template you can print every Sunday: block out fixed sessions, plan reviews and lectures, and add a weekly question block. Free PDF download.",
+  "template": "fan",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-02T16:37:00Z"
  }
 ]

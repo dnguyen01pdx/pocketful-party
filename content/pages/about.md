@@ -1,16 +1,25 @@
 ---
-title: About Pocketful Party
-date: 2026-10-23
-description: Who makes Pocketful Party and how the free printable games are made.
+title: About Med Mapped
+date: 2026-10-24
+description: Who writes Med Mapped, why it exists, and how the guides and printables are made.
 ---
-Pocketful Party is a small site of free printable party games: holiday games, shower games, birthday and sleepover games, and anything else that gets a room full of people laughing at the same time.
+Hi, I'm Dylan. I'm a first-year med student, class of 2030.
 
-It's run by Dylan, who also runs [Pocketful Studio on Etsy](https://www.etsy.com/shop/PocketfulStudioCo). Every post comes with a free PDF you can download right from the page. No email sign-up, no pop-ups asking for your address.
+Getting into med school felt like a road trip without a map. Nobody hands you the route: when to take the MCAT, what AMCAS costs, how many secondaries show up in July. Med Mapped is my attempt to draw that map for whoever is a few steps behind me, plus notes on what the first year of med school is like from the inside.
 
-## How the games are made
+## What you'll find here
 
-We use AI tools to help draft posts, write question lists and lay out the printables, the same way a small team might use spell check or a design app. Every game is checked before it goes up: rules are read through for anything confusing, trivia answers are verified against reliable sources, and every printable page is checked at full size. If something's wrong or confusing, we fix it.
+- **Applying.** Month-by-month timelines, real fee math, secondary essay planning and interview prep, for med school first and the other health programs too: PA, dental, vet and residency.
+- **Med school life.** Study schedules, how the first blocks work, and the small things that make a long week easier.
+- **Free printables.** Most posts come with a PDF you can download right from the page. No email sign-up, no pop-ups.
 
-## Using the printables
+## The shop
 
-The free printables are for personal use: your party, your classroom, your family game night. Please don't resell them or post the PDF somewhere else. Sharing a link to the post is always welcome.
+I also make application tracker spreadsheets and sell them in my Etsy shop, [Med Mapped on Etsy](https://www.etsy.com/shop/MedMapped). Posts that link there say so. Everything on this site works without buying anything.
+
+## How the posts are made
+
+I use AI tools to help draft posts and lay out the printables, the same way you might use spell check or a design app. Fees, dates and rules are checked against the official source (AAMC, CASPA, AADSAS, VMCAS, ERAS) before a post goes up, and each post says where the numbers come from. Fees change every cycle, so always confirm on the official page before you pay.
+
+Nothing here is official admissions advice, and I don't speak for any school. If something is wrong or out of date, tell me in a comment on the Pinterest pin and I'll fix it.
+

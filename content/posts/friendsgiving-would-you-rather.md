@@ -3,6 +3,7 @@ title: Friendsgiving Would You Rather: 24 Printable Cards for Adults
 date: 2026-10-23T05:05:00Z
 description: Free printable Friendsgiving would you rather cards for adults. 24 funny food-and-hosting questions plus three ways to play.
 keyword: friendsgiving games for adults
+category: extras
 season_label: Friendsgiving · games for adults
 cover: pins/friendsgiving-would-you-rather-1.jpg
 cover_alt: Friendsgiving would you rather printable cards
