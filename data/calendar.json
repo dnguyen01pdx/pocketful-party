@@ -47,7 +47,8 @@
   "theme": "christmas-cozy",
   "type": "trivia",
   "publish_by": "2026-10-28",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "left-right-christmas-game",
@@ -57,7 +58,8 @@
   "theme": "christmas",
   "type": "story",
   "publish_by": "2026-10-30",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "office-christmas-party-games",
@@ -67,7 +69,8 @@
   "theme": "christmas",
   "type": "cards",
   "publish_by": "2026-11-02",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "christmas-charades-for-family",
@@ -77,7 +80,8 @@
   "theme": "christmas-cozy",
   "type": "cards",
   "publish_by": "2026-11-04",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "white-elephant-rules-and-twists",
@@ -87,7 +91,8 @@
   "theme": "christmas",
   "type": "list",
   "publish_by": "2026-11-06",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "christmas-scavenger-hunt-for-kids",
@@ -97,7 +102,8 @@
   "theme": "christmas",
   "type": "list",
   "publish_by": "2026-11-09",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "christmas-minute-to-win-it-games",
@@ -107,7 +113,8 @@
   "theme": "christmas",
   "type": "list",
   "publish_by": "2026-11-11",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "christmas-games-for-adults",
@@ -117,7 +124,8 @@
   "theme": "christmas-cozy",
   "type": "cards",
   "publish_by": "2026-11-13",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "baby-shower-bingo",
@@ -127,7 +135,8 @@
   "theme": "shower",
   "type": "bingo",
   "publish_by": "2026-11-16",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "christmas-would-you-rather-for-kids",
@@ -137,7 +146,8 @@
   "theme": "christmas",
   "type": "cards",
   "publish_by": "2026-11-18",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "christmas-family-feud-questions",
@@ -147,7 +157,8 @@
   "theme": "christmas-cozy",
   "type": "trivia",
   "publish_by": "2026-11-20",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "game-night-categories",
@@ -157,7 +168,8 @@
   "theme": "party",
   "type": "list",
   "publish_by": "2026-11-23",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "new-years-eve-games-for-adults",
@@ -167,7 +179,8 @@
   "theme": "newyear",
   "type": "cards",
   "publish_by": "2026-11-30",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "new-years-eve-games-for-kids",
@@ -177,7 +190,8 @@
   "theme": "newyear",
   "type": "list",
   "publish_by": "2026-12-02",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "new-years-trivia",
@@ -187,7 +201,8 @@
   "theme": "newyear",
   "type": "trivia",
   "publish_by": "2026-12-04",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "bridal-shower-who-knows-the-bride",
@@ -197,7 +212,8 @@
   "theme": "shower",
   "type": "trivia",
   "publish_by": "2026-12-07",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "sleepover-games-truth-or-dare",
@@ -207,7 +223,8 @@
   "theme": "party",
   "type": "cards",
   "publish_by": "2026-12-09",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "galentines-party-games",
@@ -217,7 +234,8 @@
   "theme": "valentines",
   "type": "cards",
   "publish_by": "2026-12-28",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "valentines-day-trivia",
@@ -227,7 +245,8 @@
   "theme": "valentines",
   "type": "trivia",
   "publish_by": "2027-01-04",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "valentines-bingo-for-kids",
@@ -237,7 +256,8 @@
   "theme": "valentines",
   "type": "bingo",
   "publish_by": "2027-01-06",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "birthday-party-games-for-kids",
@@ -247,7 +267,8 @@
   "theme": "party",
   "type": "list",
   "publish_by": "2027-01-08",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "icebreaker-questions-cards",
@@ -257,7 +278,8 @@
   "theme": "party",
   "type": "cards",
   "publish_by": "2027-01-11",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "road-trip-bingo",
@@ -267,7 +289,8 @@
   "theme": "party",
   "type": "bingo",
   "publish_by": "2027-01-13",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "baby-shower-games-funny",
@@ -277,7 +300,8 @@
   "theme": "shower",
   "type": "list",
   "publish_by": "2027-01-15",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "minute-to-win-it-games-for-teens",
@@ -287,7 +311,8 @@
   "theme": "party",
   "type": "list",
   "publish_by": "2027-01-18",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "bachelorette-party-games",
@@ -297,7 +322,8 @@
   "theme": "valentines",
   "type": "cards",
   "publish_by": "2027-01-20",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "st-patricks-day-games",
@@ -307,7 +333,8 @@
   "theme": "party",
   "type": "list",
   "publish_by": "2027-02-08",
-  "status": ""
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
  },
  {
   "slug": "easter-games-for-kids",
@@ -317,6 +344,147 @@
   "theme": "party",
   "type": "list",
   "publish_by": "2027-02-26",
+  "status": "skipped",
+  "note": "2026-10-24 rebrand to Med Mapped: holiday content moves to its own home"
+ },
+ {
+  "slug": "med-school-application-timeline",
+  "idea": "Med school application timeline, month by month",
+  "keyword": "med school application timeline",
+  "board": "medschool",
+  "theme": "med",
+  "type": "list",
+  "publish_by": "2026-10-24",
+  "status": "published"
+ },
+ {
+  "slug": "how-much-does-it-cost-to-apply-to-med-school",
+  "idea": "Cost of applying to med school (2027 fees)",
+  "keyword": "cost of applying to medical school",
+  "board": "medschool",
+  "theme": "med-blue",
+  "type": "fill",
+  "publish_by": "2026-10-24",
+  "status": "published"
+ },
+ {
+  "slug": "med-school-weekly-study-schedule",
+  "idea": "Weekly med school study schedule + planner",
+  "keyword": "med school study schedule",
+  "board": "medlife",
+  "theme": "study",
+  "type": "grid",
+  "publish_by": "2026-10-24",
+  "status": "published"
+ },
+ {
+  "slug": "secondary-essay-prompts-prewriting",
+  "idea": "How to pre-write med school secondaries (common prompt types + tracker sheet)",
+  "keyword": "med school secondary essays",
+  "board": "medschool",
+  "theme": "med",
+  "type": "list",
+  "publish_by": "2026-10-28",
+  "status": ""
+ },
+ {
+  "slug": "pa-school-application-checklist",
+  "idea": "PA school application checklist (CASPA fees, hours, timeline)",
+  "keyword": "pa school",
+  "board": "pa",
+  "theme": "pa",
+  "type": "list",
+  "publish_by": "2026-10-30",
+  "status": ""
+ },
+ {
+  "slug": "med-school-interview-prep",
+  "idea": "Med school interview prep: traditional vs MMI, question log printable",
+  "keyword": "med school interview",
+  "board": "medschool",
+  "theme": "med-blue",
+  "type": "list",
+  "publish_by": "2026-11-02",
+  "status": ""
+ },
+ {
+  "slug": "first-year-med-student-must-haves",
+  "idea": "What first-year med students actually use (no affiliate links unless disclosed)",
+  "keyword": "med student must haves",
+  "board": "medlife",
+  "theme": "study",
+  "type": "list",
+  "publish_by": "2026-11-04",
+  "status": ""
+ },
+ {
+  "slug": "mcat-study-schedule",
+  "idea": "MCAT study schedule template (3-month plan printable)",
+  "keyword": "mcat study schedule",
+  "board": "medschool",
+  "theme": "med",
+  "type": "grid",
+  "publish_by": "2026-11-06",
+  "status": ""
+ },
+ {
+  "slug": "dental-school-application-checklist",
+  "idea": "Dental school application checklist (AADSAS fees, DAT, shadowing)",
+  "keyword": "dental school",
+  "board": "dental",
+  "theme": "dental",
+  "type": "list",
+  "publish_by": "2026-11-09",
+  "status": ""
+ },
+ {
+  "slug": "personal-statement-brainstorm",
+  "idea": "Med school personal statement brainstorm worksheet",
+  "keyword": "med school personal statement",
+  "board": "medschool",
+  "theme": "med-blue",
+  "type": "fill",
+  "publish_by": "2026-11-11",
+  "status": ""
+ },
+ {
+  "slug": "vet-school-application-checklist",
+  "idea": "Vet school application checklist (VMCAS fees, animal and vet hours)",
+  "keyword": "vet school",
+  "board": "vet",
+  "theme": "vet",
+  "type": "list",
+  "publish_by": "2026-11-13",
+  "status": ""
+ },
+ {
+  "slug": "residency-application-timeline",
+  "idea": "Residency application timeline (ERAS, MSPE, interviews, Match)",
+  "keyword": "residency application",
+  "board": "residency",
+  "theme": "residency",
+  "type": "list",
+  "publish_by": "2026-11-16",
+  "status": ""
+ },
+ {
+  "slug": "med-school-exam-week-plan",
+  "idea": "How to plan a med school exam week (2-week countdown printable)",
+  "keyword": "med school study tips",
+  "board": "medlife",
+  "theme": "study",
+  "type": "grid",
+  "publish_by": "2026-11-18",
+  "status": ""
+ },
+ {
+  "slug": "white-coat-ceremony-guide",
+  "idea": "White coat ceremony: what to expect and what to wear",
+  "keyword": "white coat ceremony",
+  "board": "medlife",
+  "theme": "study",
+  "type": "list",
+  "publish_by": "2027-05-15",
   "status": ""
  }
 ]

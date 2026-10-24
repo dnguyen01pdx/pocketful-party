@@ -3,6 +3,7 @@ title: Thanksgiving Trivia for Families: 40 Questions + a Free Printable
 date: 2026-10-23T05:00:00Z
 description: A free printable Thanksgiving trivia game with 40 questions and an answer key. Works for kids, grandparents and everyone in between.
 keyword: thanksgiving games for family
+category: extras
 season_label: Thanksgiving · family games
 cover: pins/thanksgiving-trivia-for-families-1.jpg
 cover_alt: Thanksgiving trivia printable with 40 questions

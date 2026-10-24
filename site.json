@@ -1,19 +1,80 @@
 {
-  "name": "Pocketful Party",
-  "tagline": "Free printable party games that actually get people playing",
+  "name": "Med Mapped",
+  "tagline": "The road to med school, mapped out by a first-year med student",
   "base_url": "https://dnguyen01pdx.github.io/pocketful-party",
   "author": "Dylan",
+  "author_bio": "I'm Dylan, a first-year med student. I'm mapping out the road I just traveled: real deadlines, real costs, and free printables to keep it all in one place.",
   "language": "en-us",
   "pinterest_verify": "56d793d0642b5f3dd05031f4717e5d47",
-  "etsy_shop": "https://www.etsy.com/shop/PocketfulStudioCo",
+  "shop_name": "Med Mapped",
+  "etsy_shop": "https://www.etsy.com/shop/MedMapped",
   "etsy_products": {
+    "med-tracker": {
+      "title": "Med School Application Command Center",
+      "track": "Med school (MD/DO)",
+      "url": "https://www.etsy.com/listing/4598156444",
+      "price": "$14",
+      "blurb": "School list, AMCAS and secondary fees, essays, interviews and offers in one spreadsheet."
+    },
+    "residency-tracker": {
+      "title": "Residency Application Tracker (ERAS)",
+      "track": "Residency",
+      "url": "https://www.etsy.com/listing/4601383469",
+      "price": "$16",
+      "blurb": "Programs, ERAS fees, letters, interviews and your rank list in one spreadsheet."
+    },
+    "pa-tracker": {
+      "title": "PA School Application Tracker (CASPA)",
+      "track": "PA school",
+      "url": "https://www.etsy.com/listing/4601410476",
+      "price": "$12",
+      "blurb": "Programs, CASPA fees, patient care hours and interviews in one spreadsheet."
+    },
+    "dental-tracker": {
+      "title": "Dental School Application Tracker (AADSAS)",
+      "track": "Dental school",
+      "url": "https://www.etsy.com/listing/4601399738",
+      "price": "$12",
+      "blurb": "Schools, AADSAS fees, shadowing hours and interviews in one spreadsheet."
+    },
+    "vet-tracker": {
+      "title": "Vet School Application Tracker (VMCAS)",
+      "track": "Vet school",
+      "url": "https://www.etsy.com/listing/4601396447",
+      "price": "$12",
+      "blurb": "Schools, VMCAS fees, animal and vet hours and interviews in one spreadsheet."
+    },
+    "grad-tracker": {
+      "title": "Grad School Application Tracker",
+      "track": "Grad school",
+      "url": "https://www.etsy.com/listing/4601411546",
+      "price": "$9.99",
+      "blurb": "Programs, fees, recommenders, statements and funding in one spreadsheet."
+    },
     "christmas-bundle": {
       "title": "The Jolly Good Game Night (10 printable Christmas games)",
       "url": "https://www.etsy.com/listing/4601410849",
       "price": "$7.99"
     }
   },
+  "categories": {
+    "applying": {
+      "title": "Applying",
+      "blurb": "Timelines, costs, essays and interviews for med school and other health programs."
+    },
+    "med-school": {
+      "title": "Med school life",
+      "blurb": "Studying, schedules and the day-to-day of the first years."
+    }
+  },
   "boards": {
+    "medschool": "Med School Applications",
+    "medlife": "Med Student Life & Study Tips",
+    "residency": "Residency Applications & Match",
+    "pa": "PA School Applications",
+    "dental": "Dental School Applications",
+    "vet": "Vet School Applications",
+    "grad": "Grad School Applications",
     "christmas": "Christmas Party Games",
     "thanksgiving": "Thanksgiving & Friendsgiving Games",
     "newyear": "New Year's Eve Party Games",
@@ -33,5 +94,6 @@
     "thanksgiving",
     "christmas"
   ],
-  "pinterest_account": "dylannguyen01 (business)"
+  "pinterest_account": "dylannguyen01 (business)",
+  "start_here": "med-school-application-timeline"
 }

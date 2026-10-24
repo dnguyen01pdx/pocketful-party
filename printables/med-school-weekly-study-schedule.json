@@ -1,0 +1,127 @@
+{
+ "slug": "med-school-weekly-study-schedule",
+ "title": "Weekly Study Planner",
+ "subtitle": "med school edition",
+ "theme": "study",
+ "type": "grid",
+ "board": "medlife",
+ "site_label": "med mapped",
+ "cols": [
+  "Mon",
+  "Tue",
+  "Wed",
+  "Thu",
+  "Fri",
+  "Sat",
+  "Sun"
+ ],
+ "rows": [
+  "Reviews",
+  "Morning",
+  "Midday",
+  "Afternoon",
+  "Evening",
+  "Questions",
+  "Stop by"
+ ],
+ "row_h": "1.08in",
+ "note": "Fixed sessions in pen, study blocks in pencil. Reviews first, new material second, a set stop time every day.",
+ "after": {
+  "title": "This week's plan",
+  "note": "Fill this in on Sunday. Check in again next Sunday before you print a new week.",
+  "sections": [
+   {
+    "h": "Lectures and sessions",
+    "items": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   },
+   {
+    "h": "Exams, quizzes, deadlines",
+    "items": [
+     "",
+     "",
+     ""
+    ]
+   },
+   {
+    "h": "Weak topics from questions",
+    "items": [
+     "",
+     "",
+     "",
+     ""
+    ]
+   },
+   {
+    "h": "End-of-week check-in",
+    "items": [
+     "Reviews done most days?",
+     "Question scores going up?",
+     "What worked this week:",
+     "What to change next week:",
+     "One non-medicine thing I did:"
+    ]
+   }
+  ]
+ },
+ "pins": [
+  {
+   "template": "stack",
+   "headline": "A med school week that actually works",
+   "kicker": "Free weekly planner",
+   "page": 1,
+   "title": "Med School Weekly Study Schedule (Free Printable Planner)",
+   "description": "A weekly med school study schedule built around daily reviews, new lectures and a Saturday question block. Free printable planner with a weekly grid and a Sunday planning page."
+  },
+  {
+   "template": "list",
+   "headline": "The daily study loop",
+   "kicker": "Med school study tips",
+   "items": [
+    "Do your due flashcards first",
+    "Learn today's lectures",
+    "Make cards for today",
+    "Stop at a set time"
+   ],
+   "title": "Med School Study Tips: The Daily Loop That Keeps You Afloat",
+   "description": "A simple daily study loop for med school: reviews first, then new lectures, then new cards, then a real stop time. Based on spaced and practice-testing research. Free printable planner."
+  },
+  {
+   "template": "hook",
+   "kicker": "Study research",
+   "quote": "Practice testing and spaced practice beat rereading",
+   "headline": "Build your week around them",
+   "sub": "Free med school study planner",
+   "title": "Study Smarter in Med School: Practice Testing + Spacing",
+   "description": "A big 2013 review of learning techniques rated practice testing and spaced practice the most useful, and rereading near the bottom. Here's how to build a med school week around them, with a free planner."
+  },
+  {
+   "template": "split",
+   "headline": "Plan your study week on Sunday",
+   "kicker": "Free printable · 2 pages",
+   "sub": "A weekly grid, plus a page for lectures, exams and weak topics.",
+   "page": 2,
+   "title": "Free Printable Weekly Study Planner for Med Students",
+   "description": "A free two-page weekly study planner for med students: a seven-day grid for reviews and study blocks, and a Sunday page for lectures, exams, weak topics and an end-of-week check-in."
+  },
+  {
+   "template": "fan",
+   "headline": "Med student study schedule",
+   "kicker": "Free planner",
+   "sub": "Weekly grid + Sunday planning page",
+   "pages": [
+    1,
+    2,
+    1
+   ],
+   "title": "Med Student Study Schedule Template",
+   "description": "A med student study schedule template you can print every Sunday: block out fixed sessions, plan reviews and lectures, and add a weekly question block. Free PDF download."
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "slug": "med-school-application-timeline",
+ "title": "Med School Application Timeline",
+ "subtitle": "month-by-month checklist",
+ "theme": "med",
+ "type": "list",
+ "board": "medschool",
+ "checkbox": true,
+ "site_label": "med mapped",
+ "pages": [
+  {
+   "title": "Before AMCAS opens",
+   "note": "Anchor dates from the AAMC's 2027 AMCAS cycle. New dates come out each spring and usually land in the same weeks; confirm before you plan around them.",
+   "sections": [
+    {
+     "h": "A year out (summer)",
+     "items": [
+      "Pick an MCAT date that leaves room for a retake",
+      "Start an activity log: dates, hours, a contact for each",
+      "Keep clinical and volunteer hours steady",
+      "List possible letter writers"
+     ]
+    },
+    {
+     "h": "Fall and winter",
+     "items": [
+      "Apply for Fee Assistance (FAP) before paying for anything",
+      "Study for and take the MCAT ($360 in 2027, $145 with FAP)",
+      "Ask for letters: CV, talking points, early deadline",
+      "Check each school's letter requirements"
+     ]
+    },
+    {
+     "h": "January to April",
+     "items": [
+      "Personal statement drafts (5,300 characters max)",
+      "Activity descriptions (700 characters each)",
+      "Choose up to 3 Most Meaningful experiences",
+      "First school list: mission, cost, MSAR stats",
+      "Write each school's secondary fee and deadline down"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "From AMCAS to acceptance",
+   "sections": [
+    {
+     "h": "May-June: the primary",
+     "items": [
+      "AMCAS opens (May 5 in the 2027 cycle)",
+      "Request every transcript the day it opens",
+      "Submit early in the window (from May 28 in 2027)",
+      "Pre-write secondaries: why us, challenge, diversity, gap year",
+      "Schools start receiving applications (June 26 in 2027)"
+     ]
+    },
+    {
+     "h": "July-September: secondaries",
+     "items": [
+      "Turn each secondary around in about 2 weeks",
+      "Budget for secondary fees (free to about $150 each)",
+      "Ask about fee waivers if you have FAP",
+      "Early Decision deadline (Aug 3 in 2027), if applying ED"
+     ]
+    },
+    {
+     "h": "September-March: interviews",
+     "items": [
+      "Practice traditional and MMI formats",
+      "Test your camera, light and sound for virtual days",
+      "Log each interview: date, people, questions",
+      "Send thank-you notes where schools allow them"
+     ]
+    },
+    {
+     "h": "Spring: decisions",
+     "items": [
+      "Read the AAMC application and acceptance protocols",
+      "Compare offers: cost, aid, fit",
+      "Respond to every school by its deadline"
+     ]
+    }
+   ]
+  }
+ ],
+ "pins": [
+  {
+   "template": "list",
+   "headline": "The med school application, in order",
+   "kicker": "Free printable checklist",
+   "items": [
+    "Take the MCAT early enough to retake",
+    "Ask for letters months ahead",
+    "Apply for FAP before paying anything",
+    "Submit AMCAS early in June",
+    "Pre-write your secondaries"
+   ],
+   "title": "Med School Application Timeline: 5 Steps in Order (Free Checklist)",
+   "description": "The whole med school application cycle in order, from the MCAT to acceptances, with real AMCAS dates from the 2027 cycle. Free printable month-by-month checklist from a first-year med student."
+  },
+  {
+   "template": "fan",
+   "headline": "Med school application timeline",
+   "kicker": "2 page printable · free",
+   "sub": "Month by month, from MCAT to acceptance",
+   "pages": [
+    1,
+    2,
+    1
+   ],
+   "title": "Free Printable Med School Application Timeline Checklist",
+   "description": "A two-page med school application checklist that goes month by month: MCAT, letters, personal statement, AMCAS, secondaries, interviews and decisions. Download the free PDF."
+  },
+  {
+   "template": "hook",
+   "kicker": "Pre-med timing tip",
+   "quote": "AMCAS can take about 6 weeks to verify your application",
+   "headline": "So submit early in the window",
+   "sub": "Real 2027 AMCAS dates + a free checklist",
+   "title": "When to Submit AMCAS (and Why Early Matters)",
+   "description": "AMCAS verification can take about six weeks in the busy season, and most schools review on a rolling basis. Here are the 2027 cycle dates and a free month-by-month application checklist."
+  },
+  {
+   "template": "split",
+   "headline": "Applying to med school next cycle?",
+   "kicker": "Free printable checklist",
+   "sub": "Every step from the MCAT to acceptance day, with real AMCAS dates.",
+   "page": 2,
+   "title": "Applying to Med School Next Cycle? Start With This Timeline",
+   "description": "Applying to medical school next cycle? This month-by-month timeline covers the MCAT, letters of recommendation, AMCAS, secondaries and interviews, with a free printable checklist."
+  },
+  {
+   "template": "stack",
+   "headline": "Your med school app, month by month",
+   "kicker": "Free checklist",
+   "page": 1,
+   "title": "Pre Med Checklist: Med School Application Month by Month",
+   "description": "A pre-med checklist for the med school application: what to do 12, 9 and 6 months before AMCAS opens, then through secondaries and interviews. Free printable from a current med student."
+  }
+ ],
+ "big": true
+}

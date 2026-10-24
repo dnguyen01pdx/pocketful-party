@@ -1,0 +1,112 @@
+{
+ "slug": "how-much-does-it-cost-to-apply-to-med-school",
+ "title": "Med School Application Budget",
+ "subtitle": "fill-in worksheet",
+ "theme": "med-blue",
+ "type": "fill",
+ "board": "medschool",
+ "site_label": "med mapped",
+ "note": "2027 prices from the AAMC. Fees change every cycle, so confirm each one on the official page before you pay.",
+ "sections": [
+  {
+   "h": "Tests",
+   "lines": [
+    "MCAT registration ($360 in 2027, $145 with FAP)",
+    "Reschedule fee, if any ($55 / $110 / $210)",
+    "Casper or PREview, if your schools require it",
+    "Prep materials or course"
+   ]
+  },
+  {
+   "h": "AMCAS",
+   "lines": [
+    "~Number of schools: ______",
+    "First school: $180",
+    "Each additional: $48 x ______ schools",
+    "Transcripts (each college you attended)"
+   ]
+  },
+  {
+   "h": "Secondaries",
+   "lines": [
+    "~School 1: ____________________  fee $______  waived? Y / N",
+    "~School 2: ____________________  fee $______  waived? Y / N",
+    "~School 3: ____________________  fee $______  waived? Y / N",
+    "~School 4: ____________________  fee $______  waived? Y / N",
+    "~School 5: ____________________  fee $______  waived? Y / N",
+    "Secondary fees total (all schools)"
+   ]
+  },
+  {
+   "h": "Interviews and after",
+   "lines": [
+    "Webcam, light or mic for virtual interviews",
+    "Interview outfit",
+    "Optional visits or travel",
+    "Deposit, if your school asks for one"
+   ]
+  },
+  {
+   "h": "Total",
+   "lines": [
+    "Grand total",
+    "~Fee Assistance applied for? Y / N     Date: __________"
+   ]
+  }
+ ],
+ "pins": [
+  {
+   "template": "list",
+   "headline": "What applying to med school costs",
+   "kicker": "2027 fees · free worksheet",
+   "items": [
+    "MCAT: $360",
+    "AMCAS first school: $180",
+    "Each additional school: $48",
+    "Secondaries: free to about $150 each",
+    "20 schools: about $3,500 total"
+   ],
+   "title": "How Much Does It Cost to Apply to Med School? (2027 Fees)",
+   "description": "The real cost of applying to med school in 2027: MCAT $360, AMCAS $180 plus $48 per school, secondaries up to about $150 each. Worked example for 20 schools and a free budget worksheet."
+  },
+  {
+   "template": "hook",
+   "kicker": "AMCAS fee math",
+   "quote": "20 schools on AMCAS = $1,092",
+   "headline": "Before a single secondary",
+   "sub": "The full cost breakdown + a free budget sheet",
+   "title": "AMCAS Fees for 20 Schools: $1,092 (Full Cost Breakdown)",
+   "description": "AMCAS charges $180 for the first school and $48 for each one after, so 20 schools comes to $1,092 before secondaries. See the full med school application budget and a free worksheet."
+  },
+  {
+   "template": "split",
+   "headline": "Budget your med school applications",
+   "kicker": "Free printable worksheet",
+   "sub": "MCAT, AMCAS, secondaries and interviews, with blanks for your own numbers.",
+   "page": 1,
+   "title": "Free Med School Application Budget Worksheet",
+   "description": "A free printable budget worksheet for med school applications with lines for the MCAT, AMCAS, each secondary fee and interview costs. Uses official 2027 AAMC prices."
+  },
+  {
+   "template": "stack",
+   "headline": "The cost of applying, line by line",
+   "kicker": "Free worksheet",
+   "page": 1,
+   "title": "Cost of Applying to Medical School: Line by Line",
+   "description": "Every cost of applying to medical school in one place: test fees, AMCAS, secondaries, interviews and what the AAMC Fee Assistance Program covers. Free printable budget worksheet."
+  },
+  {
+   "template": "fan",
+   "headline": "Pre-med money plan",
+   "kicker": "Free printable",
+   "sub": "Fill in your school list and see your real total",
+   "pages": [
+    1,
+    1,
+    1
+   ],
+   "title": "Pre Med Budget: Plan Your Application Costs",
+   "description": "Plan your pre-med application budget before July hits. Fill in your MCAT date, school count and each secondary fee to see your real total. Free printable worksheet."
+  }
+ ]
+}

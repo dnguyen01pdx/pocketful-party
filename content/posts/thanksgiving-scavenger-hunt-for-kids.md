@@ -3,6 +3,7 @@ title: Thanksgiving Scavenger Hunt for Kids: 3 Free Printable Hunts
 date: 2026-10-23T11:00:00Z
 description: A free printable Thanksgiving scavenger hunt for kids with three versions: indoor, outdoor fall nature, and a thankful hunt with family challenges.
 keyword: thanksgiving games for kids
+category: extras
 season_label: Thanksgiving · games for kids
 cover: pins/thanksgiving-scavenger-hunt-for-kids-1.jpg
 cover_alt: Printable Thanksgiving scavenger hunt checklist for kids

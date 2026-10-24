@@ -3,6 +3,7 @@ title: Christmas Party Bingo: 12 Free Printable Cards for a Crowd
 date: 2026-10-23T05:10:00Z
 description: Free printable Christmas bingo with 12 different cards and a caller's list. Five ways to win and prize ideas for family and office parties.
 keyword: christmas party games for groups
+category: extras
 season_label: Christmas · party games for groups
 cover: pins/christmas-party-bingo-1.jpg
 cover_alt: Christmas party bingo printable cards
