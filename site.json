@@ -92,7 +92,9 @@
   "pins_start": "2026-10-23T14:27:25Z",
   "connected_feeds": [
     "thanksgiving",
-    "christmas"
+    "christmas",
+    "medschool",
+    "medlife"
   ],
   "pinterest_account": "dylannguyen01 (business)",
   "start_here": "med-school-application-timeline"

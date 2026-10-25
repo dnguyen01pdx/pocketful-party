@@ -160,6 +160,7 @@ def build_pin_feeds(out, now, posts_by_slug):
         for p in items:
             img = url(p["image"])
             link = url(p["post"] + "/") + f"?utm_source=pinterest&utm_medium=pin&utm_content={p['id']}"
+            mime = "image/jpeg" if p["image"].lower().endswith((".jpg", ".jpeg")) else "image/png"
             size = 0
             fp = os.path.join(ROOT, "static", p["image"])
             if os.path.exists(fp):
@@ -168,8 +169,8 @@ def build_pin_feeds(out, now, posts_by_slug):
                     f"<guid isPermaLink=\"false\">{p['id']}</guid>",
                     f"<pubDate>{format_datetime(utc(p['publish_at']))}</pubDate>",
                     f"<description>{escape(p['description'])}</description>",
-                    f'<enclosure url="{img}" type="image/png" length="{size}"/>',
-                    f'<media:content url="{img}" medium="image" type="image/png"/>', "</item>"]
+                    f'<enclosure url="{img}" type="{mime}" length="{size}"/>',
+                    f'<media:content url="{img}" medium="image" type="{mime}"/>', "</item>"]
         xml.append("</channel></rss>")
         write(out, f"feeds/{board}.xml", "\n".join(xml))
     return len(released), len(pins)
