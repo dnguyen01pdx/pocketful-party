@@ -5,7 +5,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = json.load(open(os.path.join(ROOT, "site.json")))
 
 
-def logo(size=40, paper="#FFFFFF", ink="#16213E", fold="#3255A4", pin="#FF48B0"):
+def logo(size=40, paper="#FFFFFF", ink="#0E3B46", fold="#3C9DC2", pin="#FF6F59"):
     """Folded map with a dotted route that ends at a map pin with a medical cross."""
     return (f'<svg class="logo" width="{size}" height="{size}" viewBox="0 0 40 40" aria-hidden="true">'
             f'<path d="M2 13L13 9L25 13L36 9V35L25 39L13 35L2 39Z" fill="{paper}" stroke="{ink}" stroke-width="2.4" stroke-linejoin="round"/>'
