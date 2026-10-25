@@ -65,7 +65,7 @@ Pinterest analytics: read the business account's analytics (Chrome, logged in as
 
 ## Pinterest connection
 
-Done 2026-10-23 on Dylan's account `dylannguyen01` (now a business account; it also holds his Etsy tracker boards). Site claimed; feeds connected are listed in `site.json` `connected_feeds`. The med feeds go to his existing tracker boards (Med School Applications, PA School Applications, etc.) plus "Med Student Life & Study Tips". **When a post uses a board that isn't connected yet**, in the same run: create the board on Pinterest if it doesn't exist (Chrome, own tab), add its feed at Settings > Bulk create Pins > Auto-publish > Add another, then add the board key to `connected_feeds`. The health check flags any board with pins but no connected feed.
+Done 2026-10-23 on Dylan's account `dylannguyen01` (now a business account; it also holds his Etsy tracker boards). Site claimed; feeds connected are listed in `site.json` `connected_feeds`. The med feeds go to his existing tracker boards (Med School Applications, PA School Applications, etc.) plus "Med Student Life & Study Tips". **When a post uses a board that isn't connected yet**, in the same run: create the board on Pinterest if it doesn't exist (Chrome, own tab), add its feed at Settings > Bulk create Pins > Auto-publish > Add another, then add the board key to `connected_feeds`. Pinterest refuses a feed with no items, so connect it only after the board's first pin has been released and deployed (move that pin's `publish_at` earlier if needed). The health check flags any board with pins but no connected feed.
 
 ### Original setup steps (for reference)
 
