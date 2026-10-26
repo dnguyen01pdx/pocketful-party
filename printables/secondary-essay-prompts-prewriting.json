@@ -1,0 +1,154 @@
+{
+ "slug": "secondary-essay-prompts-prewriting",
+ "title": "Secondary Essay Pre-Writing Plan",
+ "subtitle": "prompt-by-prompt checklist",
+ "theme": "med",
+ "type": "list",
+ "board": "medschool",
+ "checkbox": true,
+ "site_label": "med mapped",
+ "pages": [
+  {
+   "title": "Pre-write by prompt type",
+   "note": "Most schools reuse a handful of prompt types every year. Draft one strong version of each before secondaries arrive, then cut and adapt it per school. Word and character limits vary by school, so keep a long and a short version.",
+   "sections": [
+    {
+     "h": "Why our school?",
+     "items": [
+      "List 3 reasons you'd pick a school, beyond location",
+      "Write a reusable opening about what you want in training",
+      "Leave a slot for 2 school-specific details per school",
+      "Each detail ties back to something you've done"
+     ]
+    },
+    {
+     "h": "Challenge or setback",
+     "items": [
+      "Pick one real difficulty, not a humblebrag",
+      "Keep the setup short; spend most words on what you did",
+      "End with what changed in how you work now",
+      "Check it doesn't repeat your personal statement"
+     ]
+    },
+    {
+     "h": "Diversity / what you'd add",
+     "items": [
+      "Brainstorm: background, identity, skills, experiences",
+      "Choose one specific story, not a list of traits",
+      "Say how it shapes the way you'd treat patients or peers",
+      "Write a 100-word and a 300-word version"
+     ]
+    },
+    {
+     "h": "Gap year / what you're doing now",
+     "items": [
+      "List current roles with start dates and hours",
+      "One line on why you chose each",
+      "Use present tense for anything still going",
+      "Note anything new since you submitted AMCAS"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "When secondaries arrive",
+   "sections": [
+    {
+     "h": "Anything else? (often optional)",
+     "items": [
+      "Decide if you need it: grade dip, gap, change of path",
+      "If yes, explain in plain words, no excuses",
+      "If not, a short update is fine, or leave it blank"
+     ]
+    },
+    {
+     "h": "Before they show up (May-June)",
+     "items": [
+      "Draft all five prompt types",
+      "Have one reader check them for clarity",
+      "Save every draft in one folder, one file per type",
+      "Look up each school's secondary fee and policy in MSAR",
+      "Set aside a budget for secondary fees"
+     ]
+    },
+    {
+     "h": "Turnaround plan",
+     "items": [
+      "Log each secondary the day it arrives",
+      "Do schools with stated deadlines first",
+      "Aim for about 2 weeks per school, quality first",
+      "Goal: half done in the first 2 weeks, rest in the next 2",
+      "Have FAP? Ask schools that didn't waive the fee"
+     ]
+    },
+    {
+     "h": "For every school, before you submit",
+     "items": [
+      "Answer exactly the question they asked",
+      "Swap in this school's name and details everywhere",
+      "Search the draft for any other school's name",
+      "Under the word or character limit",
+      "Fee paid or waiver confirmed",
+      "Save a copy of what you sent for interview prep"
+     ]
+    }
+   ]
+  }
+ ],
+ "pins": [
+  {
+   "template": "list",
+   "headline": "5 secondary prompts to pre-write",
+   "kicker": "Free printable checklist",
+   "items": [
+    "Why our school?",
+    "A challenge you faced",
+    "Diversity / what you'd add",
+    "Your gap year or current year",
+    "Anything else to share"
+   ],
+   "title": "Med School Secondary Essays: 5 Prompt Types to Pre-Write",
+   "description": "Most med schools reuse the same few secondary prompt types every year: why us, a challenge, diversity, your gap year and an optional extra. How to pre-write each one before secondaries arrive, plus a free printable checklist."
+  },
+  {
+   "template": "hook",
+   "kicker": "Med school secondaries",
+   "quote": "Secondaries come fast once AMCAS reaches schools",
+   "headline": "Pre-write them in May",
+   "sub": "Prompt-by-prompt plan + a free checklist",
+   "title": "When to Start Med School Secondary Essays (Before They Arrive)",
+   "description": "Secondaries show up soon after schools get your AMCAS application, often several in one week. Pre-write the common prompt types in May and June so each one only needs adapting. Free printable pre-writing plan."
+  },
+  {
+   "template": "fan",
+   "headline": "Secondary essay pre-writing plan",
+   "kicker": "2 page printable · free",
+   "sub": "Prompt-by-prompt checklist and a turnaround plan",
+   "pages": [
+    1,
+    2,
+    1
+   ],
+   "title": "Free Printable: Med School Secondary Essay Pre-Writing Checklist",
+   "description": "A two-page printable for med school secondary essays: a checklist for each common prompt type, a plan for turning secondaries around, and a final check to run before you submit each one. Free PDF."
+  },
+  {
+   "template": "split",
+   "headline": "Applying to med school this cycle?",
+   "kicker": "Pre-med tip · secondaries",
+   "sub": "Draft your secondaries before they arrive. Here's how, prompt by prompt.",
+   "page": 1,
+   "title": "Pre Med Tip: Pre-Write Your Secondary Essays",
+   "description": "Applying to medical school? Pre-writing your secondary essays is one of the best ways to keep up in July and August. A plan for each common prompt type and a free printable checklist from a current med student."
+  },
+  {
+   "template": "stack",
+   "headline": "Before you hit submit on a secondary",
+   "kicker": "Free checklist",
+   "page": 2,
+   "title": "Med School Secondary Checklist: 6 Things to Check Before Submitting",
+   "description": "Before you submit a med school secondary: answer the exact question, swap in the right school's details, search for other schools' names, check the limit, confirm the fee or waiver, and save a copy for interview prep."
+  }
+ ],
+ "big": true
+}
