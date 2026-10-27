@@ -357,7 +357,7 @@
   "template": "stack",
   "expires": null,
   "status": "queued",
-  "publish_at": "2026-10-25T16:37:00Z"
+  "publish_at": "2026-10-25T13:12:00Z"
  },
  {
   "id": "med-school-weekly-study-schedule-2",
@@ -406,5 +406,65 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-02T16:37:00Z"
+ },
+ {
+  "id": "secondary-essay-prompts-prewriting-1",
+  "post": "secondary-essay-prompts-prewriting",
+  "board": "medschool",
+  "image": "pins/secondary-essay-prompts-prewriting-1.jpg",
+  "title": "Med School Secondary Essays: 5 Prompt Types to Pre-Write",
+  "description": "Most med schools reuse the same few secondary prompt types every year: why us, a challenge, diversity, your gap year and an optional extra. How to pre-write each one before secondaries arrive, plus a free printable checklist.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-26T13:07:00Z"
+ },
+ {
+  "id": "secondary-essay-prompts-prewriting-2",
+  "post": "secondary-essay-prompts-prewriting",
+  "board": "medschool",
+  "image": "pins/secondary-essay-prompts-prewriting-2.jpg",
+  "title": "When to Start Med School Secondary Essays (Before They Arrive)",
+  "description": "Secondaries show up soon after schools get your AMCAS application, often several in one week. Pre-write the common prompt types in May and June so each one only needs adapting. Free printable pre-writing plan.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-28T13:07:00Z"
+ },
+ {
+  "id": "secondary-essay-prompts-prewriting-3",
+  "post": "secondary-essay-prompts-prewriting",
+  "board": "medschool",
+  "image": "pins/secondary-essay-prompts-prewriting-3.jpg",
+  "title": "Free Printable: Med School Secondary Essay Pre-Writing Checklist",
+  "description": "A two-page printable for med school secondary essays: a checklist for each common prompt type, a plan for turning secondaries around, and a final check to run before you submit each one. Free PDF.",
+  "template": "fan",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-30T13:07:00Z"
+ },
+ {
+  "id": "secondary-essay-prompts-prewriting-4",
+  "post": "secondary-essay-prompts-prewriting",
+  "board": "medschool",
+  "image": "pins/secondary-essay-prompts-prewriting-4.jpg",
+  "title": "Pre Med Tip: Pre-Write Your Secondary Essays",
+  "description": "Applying to medical school? Pre-writing your secondary essays is one of the best ways to keep up in July and August. A plan for each common prompt type and a free printable checklist from a current med student.",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-01T13:07:00Z"
+ },
+ {
+  "id": "secondary-essay-prompts-prewriting-5",
+  "post": "secondary-essay-prompts-prewriting",
+  "board": "medschool",
+  "image": "pins/secondary-essay-prompts-prewriting-5.jpg",
+  "title": "Med School Secondary Checklist: 6 Things to Check Before Submitting",
+  "description": "Before you submit a med school secondary: answer the exact question, swap in the right school's details, search for other schools' names, check the limit, confirm the fee or waiver, and save a copy for interview prep.",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-03T13:07:00Z"
  }
 ]
