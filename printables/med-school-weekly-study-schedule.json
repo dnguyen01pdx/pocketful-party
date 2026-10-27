@@ -122,6 +122,29 @@
    ],
    "title": "Med Student Study Schedule Template",
    "description": "A med student study schedule template you can print every Sunday: block out fixed sessions, plan reviews and lectures, and add a weekly question block. Free PDF download."
+  },
+  {
+   "template": "list",
+   "headline": "The shape of a med school week",
+   "kicker": "Weekly study template",
+   "items": [
+    "Mon to Thu: reviews + new lectures",
+    "Fri: catch up on what slipped",
+    "Sat: practice questions, then a break",
+    "Sun: light reviews + plan the week",
+    "Exam weeks: fewer new cards, more questions"
+   ],
+   "title": "Med School Weekly Routine: What Each Day Is For",
+   "description": "A simple weekly shape for med school studying: daily reviews and new lectures Monday to Thursday, catch-up Friday, practice questions Saturday, planning Sunday, and how exam weeks change it. Free printable weekly study planner."
+  },
+  {
+   "template": "hook",
+   "kicker": "Med school study tip",
+   "quote": "Flashcards check if you remember it. Questions check if you can use it.",
+   "headline": "Do both every week",
+   "sub": "Free weekly study planner",
+   "title": "Flashcards vs Practice Questions in Med School",
+   "description": "Why a weekly practice-question block matters alongside daily Anki reviews, how it shows your weak topics before the exam, and how to shift the balance in exam weeks. Free printable med school study planner."
   }
  ]
 }
