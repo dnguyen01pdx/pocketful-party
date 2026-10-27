@@ -1,7 +1,7 @@
 # Med Mapped: operator runbook
 
 **Med Mapped** ("the road to med school, mapped out") is a blog written from the perspective of Dylan, a first-year med student (MD class of 2030). It gets free traffic from Pinterest and sends readers to his Etsy application trackers (med, residency, PA, dental, vet, grad; listing links in `site.json` `etsy_products`). Owner: Dylan (non-engineer, <5 hrs/week, wants it hands-off).
-Renamed from "Pocketful Party" (party games) on 2026-10-24. The repo and URL keep the old name until a custom domain is bought (renaming the repo would break the Pinterest site claim and feeds). The old party posts have `category: extras`: their pages stay live for pins already out, but they're hidden from the site, sitemap and feeds, and their unreleased pins are on `hold`. Dylan wants holiday content to be its own separate thing, so don't write party posts here and don't release held pins.
+Renamed from "Pocketful Party" (party games) on 2026-10-24. The site lives at **https://medmapped.com** (bought 2026-10 at Porkbun, Dylan's account; DNS at Porkbun points to GitHub Pages, custom domain set in the repo's Pages settings). The repo keeps the old name; old github.io/pocketful-party links redirect to the domain. The old party posts have `category: extras`: their pages stay live for pins already out, but they're hidden from the site, sitemap and feeds, and their unreleased pins are on `hold`. Dylan wants holiday content to be its own separate thing, so don't write party posts here and don't release held pins.
 Site: static, built by `tools/build.py`, hosted on GitHub Pages, deployed by `.github/workflows/deploy.yml` on every push and every hour.
 
 ## How the pieces fit
@@ -43,7 +43,7 @@ python3 tools/build.py                    # local build into _site/
    - `python3 tools/pipeline.py check <slug>` must report 0 problems. Then `python3 tools/pipeline.py schedule`.
    - Set the calendar entry's status to `published`.
 4. **Commit and push to main** (message: what was added/fixed). The deploy workflow builds and releases due pins.
-5. **Verify the deploy**: wait for the Actions run (GitHub MCP `actions_list`), then fetch the new post URL and one feed with WebFetch (the cloud box's curl can't reach github.io). If it failed, read the log, fix, push again (up to 3 attempts; then log it as a blocker).
+5. **Verify the deploy**: wait for the Actions run (GitHub MCP `actions_list`), then fetch the new post URL and one feed with WebFetch (the cloud box's curl can't reach the site). If it failed, read the log, fix, push again (up to 3 attempts; then log it as a blocker).
 6. **Log** to `data/runs/YYYY-MM-DD.md`: what was done, checks, anything failed or skipped, queue runway. Commit it.
 7. End with a 3-5 line summary (it is pushed to Dylan's phone): what went live, queue runway, anything that needs him.
 
