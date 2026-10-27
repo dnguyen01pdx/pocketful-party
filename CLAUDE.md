@@ -2,6 +2,7 @@
 
 **Med Mapped** ("the road to med school, mapped out") is a blog written from the perspective of Dylan, a first-year med student (MD class of 2030). It gets free traffic from Pinterest and sends readers to his Etsy application trackers (med, residency, PA, dental, vet, grad; listing links in `site.json` `etsy_products`). Owner: Dylan (non-engineer, <5 hrs/week, wants it hands-off).
 Renamed from "Pocketful Party" (party games) on 2026-10-24. The repo and URL keep the old name until a custom domain is bought (renaming the repo would break the Pinterest site claim and feeds). The old party posts have `category: extras`: their pages stay live for pins already out, but they're hidden from the site, sitemap and feeds, and their unreleased pins are on `hold`. Dylan wants holiday content to be its own separate thing, so don't write party posts here and don't release held pins.
+The scheduled tasks that run this blog were created before the rename and their prompts still say "Pocketful Party blog (free printable party games)" and "verify every trivia fact". Those tasks can't be edited in place, so this file wins: it is the Med Mapped blog, every post follows the content rules below, and no party posts.
 Site: static, built by `tools/build.py`, hosted on GitHub Pages, deployed by `.github/workflows/deploy.yml` on every push and every hour.
 
 ## How the pieces fit
