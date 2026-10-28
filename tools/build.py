@@ -258,14 +258,14 @@ def main():
             f'<ol class="atlas-route"><li><b>Planner</b><span>Every week, all four years</span></li><li><b>Primary</b><span>Sophomore year through May</span></li>'
             f'<li><b>Secondaries</b><span>June through September</span></li><li><b>Interviews</b><span>September through March</span></li></ol></section>'
             f'<section class="trackers"><h2 class="sec-h">Application trackers I made</h2>'
-            f'<p class="sec-p">Spreadsheets from my Etsy shop, {SITE["shop_name"]}. Every guide here works without them; they just keep everything in one file.</p>'
+            f'<p class="sec-p">Spreadsheets from my Etsy shop, {SITE["shop_name"]}. Every guide here works without them; they just keep everything happily in one file!</p>'
             f'<div class="tiles">{tiles}</div></section>')
     write(out, "index.html", layout(SITE["name"] + ": " + SITE["tagline"], home, SITE["tagline"], url()))
 
     # one page per category
     for key, c in SITE["categories"].items():
         items = [p for p in posts if p.get("category", "applying") == key]
-        grid = "".join(card(p) for p in items) or '<p class="sec-p">The first posts here are on the way.</p>'
+        grid = "".join(card(p) for p in items) or '<p class="sec-p">The first posts here are on the way, so check back soon!</p>'
         write(out, f"{key}/index.html",
               layout(c["title"] + " | " + SITE["name"],
                      f'<section class="hero small"><div class="hero-k">{html.escape(SITE["name"])}</div><h1>{html.escape(c["title"])}</h1>'

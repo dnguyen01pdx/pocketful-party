@@ -3,7 +3,7 @@
   "tagline": "The road to med school, mapped out by a first-year med student",
   "base_url": "https://medmapped.com",
   "author": "Dylan",
-  "author_bio": "I'm Dylan, a first-year med student. I'm mapping out the road I just traveled: real deadlines, real costs, and free printables to keep it all in one place.",
+  "author_bio": "Hi, I'm Dylan, a first-year med student! I'm mapping out the road I just traveled for you: real deadlines, real costs, and free printables to keep it all in one place. Welcome, I'm so glad you're here!",
   "language": "en-us",
   "pinterest_verify": "56d793d0642b5f3dd05031f4717e5d47",
   "shop_name": "Med Mapped",
@@ -11,11 +11,11 @@
   "atlas": {
     "name": "MD Atlas",
     "url": "https://atlas.medmapped.com",
-    "blurb": "My free app for the whole med school application: a weekly planner that totals your hours, an activity log with the AMCAS character limits, a secondaries tracker with prompts for 150+ programs, and an interview tracker.",
+    "blurb": "My free app for the whole med school application: a weekly planner that totals your hours, an activity log with the AMCAS character limits, a secondaries tracker with prompts for 150+ programs, and an interview tracker. It's all free, so come take a look!",
     "tools": {
       "primary": {"path": "primary", "title": "Log activities as you go", "text": "MD Atlas has a free activity log: hours, dates and a contact for each one, plus Work and Activities drafts with the AMCAS character limits counted as you type. No account needed."},
       "secondaries": {"path": "prompts", "title": "See which schools ask what", "text": "MD Atlas, my free app, lists the reported secondary prompts for 150+ MD programs, searchable by school and prompt type, so you can see which prompts repeat across your list and pre-write once. Prompts are labeled when they aren't confirmed by the school, so always check your actual secondary."},
-      "planner": {"path": "planner", "title": "Plan your week, count your hours", "text": "MD Atlas has a free weekly planner that adds up your clinical, research and volunteer hours as you go, so the numbers are ready when AMCAS asks."}
+      "planner": {"path": "planner", "title": "Plan your week, count your hours", "text": "MD Atlas has a free weekly planner that adds up your clinical, research and volunteer hours as you go, so the numbers are ready and waiting when AMCAS asks!"}
     }
   },
   "etsy_products": {
@@ -70,11 +70,11 @@
   "categories": {
     "applying": {
       "title": "Applying",
-      "blurb": "Timelines, costs, essays and interviews for med school and other health programs."
+      "blurb": "Timelines, costs, essays and interviews for med school and other health programs. Let's get you there!"
     },
     "med-school": {
       "title": "Med school life",
-      "blurb": "Studying, schedules and the day-to-day of the first years."
+      "blurb": "Studying, schedules and the day-to-day of the first years, shared like a friend one step ahead."
     }
   },
   "boards": {
