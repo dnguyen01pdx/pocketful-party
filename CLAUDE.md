@@ -10,6 +10,7 @@ Site: static, built by `tools/build.py`, hosted on GitHub Pages, deployed by `.g
 |---|---|
 | Posts | `content/posts/<slug>.md` (front matter + markdown; `[[printable]]` and `[[etsy:key]]` shortcodes; `category: applying` or `med-school`) |
 | Brand (name, logo SVG) | `tools/brand.py` + `site.json` `name`/`tagline`/`author_bio`; the site, printables and pins all read it |
+| MD Atlas (Dylan's free app, repo `dnguyen01pdx/Premed-Project`, Vercel) | `site.json` `atlas` (URL, blurb, tool cards). Linked in the nav, footer and a homepage block; `[[atlas:primary|secondaries|planner]]` drops a card into a post (use at most once, not next to the Etsy card). MD Atlas links back to the blog and shows its newest posts from `feed.xml`; both sites share the same colors and fonts |
 | Facts about Dylan | `data/dylan_facts.md`: the only personal details posts may use |
 | Printable specs (game content + pin texts) | `printables/<slug>.json`, rendered by `tools/printables.py` + `tools/render.js` |
 | Pin queue | `data/pins.json`. A pin goes live when the hourly build puts it into `feeds/<board>.xml`; Pinterest auto-publishes from those RSS feeds |

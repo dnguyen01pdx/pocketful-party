@@ -64,7 +64,7 @@ MD = markdown.Markdown(extensions=["tables", "attr_list", "md_in_html", "toc"])
 
 def render_md(src):
     MD.reset()
-    # shortcodes: [[printable]] -> download box, [[etsy:key]] -> shop card
+    # shortcodes: [[printable]] -> download box, [[etsy:key]] -> shop card, [[atlas:tool]] -> MD Atlas card
     out = MD.convert(src)
     return out
 
@@ -90,7 +90,17 @@ def shortcodes(body, post):
                 f'<div class="dl-m">My own shop, {SITE["shop_name"]} · {p["price"]} · instant download</div>'
                 f'<a class="btn alt" href="{p["url"]}" rel="noopener">See it on Etsy</a></aside>')
 
+    def atlas(m):
+        a = SITE.get("atlas") or {}
+        t = a.get("tools", {}).get(m.group(1))
+        if not t:
+            return ""
+        return (f'<aside class="atlas"><div class="dl-k">Free tool · {html.escape(a["name"])}</div>'
+                f'<div class="dl-t">{html.escape(t["title"])}</div><p class="shop-b">{html.escape(t["text"])}</p>'
+                f'<a class="btn" href="{a["url"]}/{t.get("path", m.group(1))}" rel="noopener">Open {html.escape(a["name"])}</a></aside>')
+
     body = re.sub(r"(?:<p>\s*)?\[\[printable\]\](?:\s*</p>)?", printable, body)
+    body = re.sub(r"(?:<p>\s*)?\[\[atlas:([\w-]+)\]\](?:\s*</p>)?", atlas, body)
     body = re.sub(r"(?:<p>\s*)?\[\[etsy:([\w-]+)\]\](?:\s*</p>)?", etsy, body)
     return body
 
@@ -116,10 +126,10 @@ def layout(title, body, desc="", canonical="", image="", kind="website", extra_h
 {FONTS}<link rel="stylesheet" href="{rel('css/site.css')}">{extra_head}
 </head><body>
 <header class="top"><a class="brand" href="{rel()}">{logo(38)}<span>{wordmark()}</span></a>
-<nav><a href="{rel('applying/')}">Applying</a><a href="{rel('med-school/')}">Med school</a><a href="{rel('about/')}">About</a><a href="{SITE['etsy_shop']}" rel="noopener">Shop</a></nav></header>
+<nav><a href="{rel('applying/')}">Applying</a><a href="{rel('med-school/')}">Med school</a><a href="{SITE['atlas']['url']}" rel="noopener">MD Atlas</a><a href="{rel('about/')}">About</a><a href="{SITE['etsy_shop']}" rel="noopener">Shop</a></nav></header>
 <main>{body}</main>
 <footer class="foot"><div>{logo(22)} {SITE['name']} · the road to med school, mapped out</div>
-<div><a href="{rel('about/')}">About</a> · <a href="{rel('disclosure/')}">Disclosure</a> · <a href="{rel('privacy/')}">Privacy</a> · <a href="{rel('feed.xml')}">RSS</a></div></footer>
+<div><a href="{SITE['atlas']['url']}" rel="noopener">MD Atlas (free app)</a> · <a href="{rel('about/')}">About</a> · <a href="{rel('disclosure/')}">Disclosure</a> · <a href="{rel('privacy/')}">Privacy</a> · <a href="{rel('feed.xml')}">RSS</a></div></footer>
 </body></html>"""
 
 
@@ -240,6 +250,13 @@ def main():
             f'<p>{html.escape(SITE["author_bio"])}</p>'
             f'<p class="hero-cta">{cta}<a class="btn ghost" href="{rel("about/")}">About me</a></p></section>'
             f'<section id="latest"><h2 class="sec-h">Latest</h2><div class="grid">' + "".join(card(p) for p in main_posts) + "</div></section>"
+            f'<section class="atlas-home"><div class="atlas-copy"><div class="hero-k">Free app</div>'
+            f'<h2>{html.escape(SITE["atlas"]["name"])}: the whole application in one place</h2>'
+            f'<p>{html.escape(SITE["atlas"]["blurb"])}</p>'
+            f'<p class="hero-cta"><a class="btn alt" href="{SITE["atlas"]["url"]}" rel="noopener">Open {html.escape(SITE["atlas"]["name"])}</a>'
+            f'<a class="btn ghost inv" href="{SITE["atlas"]["url"]}/prompts" rel="noopener">Browse secondary prompts</a></p></div>'
+            f'<ol class="atlas-route"><li><b>Planner</b><span>Every week, all four years</span></li><li><b>Primary</b><span>Sophomore year through May</span></li>'
+            f'<li><b>Secondaries</b><span>June through September</span></li><li><b>Interviews</b><span>September through March</span></li></ol></section>'
             f'<section class="trackers"><h2 class="sec-h">Application trackers I made</h2>'
             f'<p class="sec-p">Spreadsheets from my Etsy shop, {SITE["shop_name"]}. Every guide here works without them; they just keep everything in one file.</p>'
             f'<div class="tiles">{tiles}</div></section>')

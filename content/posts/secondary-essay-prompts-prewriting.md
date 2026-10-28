@@ -54,6 +54,8 @@ If you're not applying straight out of college, expect to be asked what you're d
 
 This one is often optional. Use it if there's something the rest of your application doesn't explain: a semester where your grades dropped, a gap in your timeline, or a change of career path. Explain it plainly and briefly, without excuses. If there's nothing to address, a short update or leaving it blank is fine. Not every optional box needs an essay.
 
+[[atlas:secondaries]]
+
 ## When secondaries start arriving
 
 Pre-writing gets you most of the way. The rest is staying organized:
