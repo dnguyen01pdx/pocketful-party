@@ -1,0 +1,152 @@
+{
+ "slug": "pa-school-application-checklist",
+ "title": "PA School Application Checklist",
+ "subtitle": "CASPA, step by step",
+ "theme": "pa",
+ "type": "list",
+ "board": "pa",
+ "checkbox": true,
+ "site_label": "med mapped",
+ "pages": [
+  {
+   "title": "Before you submit",
+   "note": "CASPA's 2026-27 cycle opened April 30, 2026. Each program sets its own deadline, and many review on a rolling basis, so aim to submit well before the date on the program's page. Confirm fees and dates with CASPA and each program before you pay.",
+   "sections": [
+    {
+     "h": "Pick your programs",
+     "items": [
+      "Note each program's deadline and whether it's rolling",
+      "Check prerequisites against your transcript",
+      "Check minimum hours, GPA and any test (GRE, PA-CAT)",
+      "Note any supplemental application or fee",
+      "Budget CASPA: $185 first program + $65 each extra"
+     ]
+    },
+    {
+     "h": "Transcripts and coursework",
+     "items": [
+      "Order official transcripts from every college attended",
+      "Include schools whose credits transferred",
+      "Enter your US coursework exactly as the transcript shows",
+      "Order official test scores to CASPA"
+     ]
+    },
+    {
+     "h": "Experiences and hours",
+     "items": [
+      "Sort each role: patient care, healthcare or other",
+      "Average weekly hours you actually worked, not planned",
+      "Don't count the same hours in two categories",
+      "Supervisor name and contact for every entry",
+      "Shadowing logged, ideally with a PA"
+     ]
+    },
+    {
+     "h": "Evaluations",
+     "items": [
+      "Request at least 2 (CASPA takes up to 5)",
+      "Match what each program asks for, e.g. a PA",
+      "Decide on the right-to-view waiver (it can't be changed)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Submit and follow through",
+   "sections": [
+    {
+     "h": "Personal statement",
+     "items": [
+      "Answer why you want to be a PA, specifically",
+      "Under 5,000 characters, spaces included",
+      "Have one person read it for clarity",
+      "Proofread: it can't be edited after you submit"
+     ]
+    },
+    {
+     "h": "Submit (6-8 weeks before deadlines)",
+     "items": [
+      "Fee waiver? Request it BEFORE you submit",
+      "Add every program before you hit submit",
+      "Pay CASPA and any program fees",
+      "Save a PDF of the whole application"
+     ]
+    },
+    {
+     "h": "Track verification",
+     "items": [
+      "Watch your status until it says Verified",
+      "Verification can take up to 10 business days",
+      "Chase missing transcripts or evaluations fast",
+      "Fix an Undelivered application the same day"
+     ]
+    },
+    {
+     "h": "After that",
+     "items": [
+      "Send each program's supplemental, if it has one",
+      "Log new hours to mention in interviews",
+      "Reread your application before each interview",
+      "Track every program's status in one place"
+     ]
+    }
+   ]
+  }
+ ],
+ "pins": [
+  {
+   "template": "list",
+   "headline": "PA school application checklist",
+   "kicker": "CASPA 2026-27 · free printable",
+   "items": [
+    "Programs + prerequisites",
+    "Transcripts to CASPA",
+    "Patient care hours, logged",
+    "2 to 5 evaluations",
+    "5,000-character statement"
+   ],
+   "title": "PA School Application Checklist (CASPA, Step by Step)",
+   "description": "Everything a CASPA application needs, in order: programs and prerequisites, transcripts, patient care and healthcare hours, evaluations and the personal statement. Plus a free printable checklist to tick off as you go. You've got this!"
+  },
+  {
+   "template": "hook",
+   "kicker": "CASPA 2026-27 fees",
+   "quote": "$185 for your first program, $65 for each one after",
+   "headline": "Budget before you apply",
+   "sub": "What 5, 10 or 15 programs costs + a free checklist",
+   "title": "How Much Does CASPA Cost? 2026-27 PA School Application Fees",
+   "description": "CASPA charges $185 for the first program and $65 for each additional one in the 2026-27 cycle, so 10 programs is $770 before any program fees. What that adds up to, how fee waivers work, and a free printable PA application checklist."
+  },
+  {
+   "template": "fan",
+   "headline": "PA school application checklist",
+   "kicker": "2 page printable · free",
+   "sub": "Before you submit, then verification and after",
+   "pages": [
+    1,
+    2,
+    1
+   ],
+   "title": "Free Printable: PA School Application Checklist for CASPA",
+   "description": "A free two-page printable for PA school applicants: programs, transcripts, hours, evaluations and personal statement on page one, then submitting, verification and what to do after on page two. Print it and check things off!"
+  },
+  {
+   "template": "split",
+   "headline": "Applying to PA school this cycle?",
+   "kicker": "Pre-PA tip · hours",
+   "sub": "Patient care vs healthcare hours: how CASPA sorts them, and why it matters",
+   "page": 1,
+   "title": "Patient Care vs Healthcare Experience Hours on CASPA",
+   "description": "CASPA counts patient care experience (you're directly responsible for the patient, like an EMT or nurse) separately from healthcare experience (like scribing). How to sort your hours without double counting, plus a free PA application checklist."
+  },
+  {
+   "template": "stack",
+   "headline": "After you hit submit on CASPA",
+   "kicker": "Free checklist",
+   "page": 2,
+   "title": "After You Submit CASPA: Verification and What Comes Next",
+   "description": "What to do after you submit your PA school application: watch for Verified status, chase missing transcripts and evaluations, send each program's supplemental and get ready for interviews. Free printable checklist. Almost there!"
+  }
+ ],
+ "big": true
+}
