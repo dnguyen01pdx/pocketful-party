@@ -61,6 +61,3 @@ Some of these cards look silly and then turn into the best talk of the night. "D
 
 Keep the cards in an envelope with the date and the guest list written on it. Pull them out next year and see whose answers changed. The person who switched from "dry every dish" to "wash every dish" has clearly grown as a person.
 
-If your group loves games, the holidays are the perfect time to keep going. Our Christmas game bundle has ten printable games for December get-togethers.
-
-[[etsy:christmas-bundle]]
