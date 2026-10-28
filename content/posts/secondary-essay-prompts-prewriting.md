@@ -63,7 +63,7 @@ Pre-writing gets you most of the way. The rest is staying organized:
 1. **Log each secondary the day it arrives**: the school, the prompts, the limits, the fee and any deadline.
 2. **Do the schools with stated deadlines first.** Then work through the rest in order of how much you want to go there.
 3. **Aim for about two weeks per school, but don't trade quality for speed.** A realistic target is half done in the first two weeks and the rest in the two weeks after that.
-4. **Keep everything in one place.** One folder, one master draft per prompt type, and one copy of exactly what you sent to each school. You'll reread those before interviews, so you'll be glad you did!
+4. **Keep everything in one place.** One folder, one master draft per prompt type, and one copy of exactly what you sent to each school. You'll reread those before interviews, so it pays off later!
 
 If you'd rather track all of that in a spreadsheet, with every school's secondary status, fee and deadline next to the rest of your application, that's what my med school tracker is built for:
 
