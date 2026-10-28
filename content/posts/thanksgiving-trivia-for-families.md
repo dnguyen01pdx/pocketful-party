@@ -74,6 +74,3 @@ If your crowd likes it, keep going. Play a round before dinner while the turkey 
 
 We checked every answer against reliable sources before posting, including the parts that surprise people, like Minnesota raising the most turkeys and Wisconsin growing the most cranberries. If you spot something that's changed or that you think is wrong, leave a comment on our Pinterest pin and we'll fix it.
 
-Want more for the holidays? Our Christmas game bundle has ten more printable games for when the decorations come out.
-
-[[etsy:christmas-bundle]]

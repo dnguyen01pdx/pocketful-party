@@ -85,6 +85,3 @@ The hunts are written to keep kids out of trouble, but a quick reminder helps. K
 
 Once the kids have played it, keep one copy in your holiday box. It works just as well next November, and the thankful page makes a sweet keepsake if you write the year on the back.
 
-Planning ahead for December? Our Christmas game bundle has ten more printable games for when the decorations come out.
-
-[[etsy:christmas-bundle]]

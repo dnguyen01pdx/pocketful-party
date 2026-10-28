@@ -76,6 +76,3 @@ Pair non-readers with an older buddy, or read each word slowly and point to a pi
 
 ## Want more Christmas games?
 
-Bingo is a great opener, but most parties need a few more games to fill the evening. Our Christmas bundle on Etsy has ten printable games, including 60 charades cards, 50 trivia questions and a picture bingo set with 30 cards for bigger crowds, plus a screen edition you can put up on the TV.
-
-[[etsy:christmas-bundle]]
