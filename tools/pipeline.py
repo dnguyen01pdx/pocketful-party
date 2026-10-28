@@ -138,11 +138,10 @@ def schedule():
     queue = load_pins()
     now = dt.datetime.now(dt.timezone.utc)
     taken = [utc(p["publish_at"]) for p in queue if p.get("publish_at")]
-    last_by_post = {}
+    times_by_post = {}
     for p in queue:
         if p.get("publish_at"):
-            t = utc(p["publish_at"])
-            last_by_post[p["post"]] = max(last_by_post.get(p["post"], t), t)
+            times_by_post.setdefault(p["post"], []).append(utc(p["publish_at"]))
     todo = [p for p in queue if not p.get("publish_at") and p.get("status", "queued") == "queued"]
     # seasonal pins with the soonest expiry go first, then evergreen in queue order
     todo.sort(key=lambda p: (p.get("expires") or "9999-12-31"))
@@ -159,8 +158,8 @@ def schedule():
             if slot <= now:
                 continue
             for p in list(todo):
-                last = last_by_post.get(p["post"])
-                if last and abs(slot - last) < gap:
+                # keep 48h from every other pin of the same post, not just the latest
+                if any(abs(slot - t) < gap for t in times_by_post.get(p["post"], [])):
                     continue
                 if p.get("expires") and slot.date() > dt.date.fromisoformat(p["expires"]):
                     p["status"] = "expired"
@@ -168,7 +167,7 @@ def schedule():
                     continue
                 p["publish_at"] = slot.strftime("%Y-%m-%dT%H:%M:%SZ")
                 taken.append(slot)
-                last_by_post[p["post"]] = slot
+                times_by_post.setdefault(p["post"], []).append(slot)
                 todo.remove(p)
                 placed += 1
                 break

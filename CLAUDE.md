@@ -1,7 +1,7 @@
 # Med Mapped: operator runbook
 
 **Med Mapped** ("the road to med school, mapped out") is a blog written from the perspective of Dylan, a first-year med student (MD class of 2030). It gets free traffic from Pinterest and sends readers to his Etsy application trackers (med, residency, PA, dental, vet, grad; listing links in `site.json` `etsy_products`). Owner: Dylan (non-engineer, <5 hrs/week, wants it hands-off).
-Renamed from "Pocketful Party" (party games) on 2026-10-24. The repo and URL keep the old name until a custom domain is bought (renaming the repo would break the Pinterest site claim and feeds). The old party posts have `category: extras`: their pages stay live for pins already out, but they're hidden from the site, sitemap and feeds, and their unreleased pins are on `hold`. Dylan wants holiday content to be its own separate thing, so don't write party posts here and don't release held pins.
+Renamed from "Pocketful Party" (party games) on 2026-10-24. The site lives at **https://medmapped.com** (bought 2026-10 at Porkbun, Dylan's account; DNS at Porkbun points to GitHub Pages, custom domain set in the repo's Pages settings). The repo keeps the old name; old github.io/pocketful-party links redirect to the domain. The old party posts have `category: extras`: their pages stay live for pins already out, but they're hidden from the site, sitemap and feeds, and their unreleased pins are on `hold`. Dylan wants holiday content to be its own separate thing, so don't write party posts here and don't release held pins.
 The scheduled tasks that run this blog were created before the rename and their prompts still say "Pocketful Party blog (free printable party games)" and "verify every trivia fact". Those tasks can't be edited in place, so this file wins: it is the Med Mapped blog, every post follows the content rules below, and no party posts.
 Site: static, built by `tools/build.py`, hosted on GitHub Pages, deployed by `.github/workflows/deploy.yml` on every push and every hour.
 
@@ -11,6 +11,7 @@ Site: static, built by `tools/build.py`, hosted on GitHub Pages, deployed by `.g
 |---|---|
 | Posts | `content/posts/<slug>.md` (front matter + markdown; `[[printable]]` and `[[etsy:key]]` shortcodes; `category: applying` or `med-school`) |
 | Brand (name, logo SVG) | `tools/brand.py` + `site.json` `name`/`tagline`/`author_bio`; the site, printables and pins all read it |
+| MD Atlas (Dylan's free app, repo `dnguyen01pdx/Premed-Project`, Vercel) | `site.json` `atlas` (URL, blurb, tool cards). Linked in the nav, footer and a homepage block; `[[atlas:primary|secondaries|planner]]` drops a card into a post (use at most once, not next to the Etsy card). MD Atlas links back to the blog and shows its newest posts from `feed.xml`; both sites share the same colors and fonts |
 | Facts about Dylan | `data/dylan_facts.md`: the only personal details posts may use |
 | Printable specs (game content + pin texts) | `printables/<slug>.json`, rendered by `tools/printables.py` + `tools/render.js` |
 | Pin queue | `data/pins.json`. A pin goes live when the hourly build puts it into `feeds/<board>.xml`; Pinterest auto-publishes from those RSS feeds |
@@ -44,7 +45,7 @@ python3 tools/build.py                    # local build into _site/
    - `python3 tools/pipeline.py check <slug>` must report 0 problems. Then `python3 tools/pipeline.py schedule`.
    - Set the calendar entry's status to `published`.
 4. **Commit and push to main** (message: what was added/fixed). The deploy workflow builds and releases due pins.
-5. **Verify the deploy**: wait for the Actions run (GitHub MCP `actions_list`), then fetch the new post URL and one feed with WebFetch (the cloud box's curl can't reach github.io). If it failed, read the log, fix, push again (up to 3 attempts; then log it as a blocker).
+5. **Verify the deploy**: wait for the Actions run (GitHub MCP `actions_list`), then fetch the new post URL and one feed with WebFetch (the cloud box's curl can't reach the site). If it failed, read the log, fix, push again (up to 3 attempts; then log it as a blocker).
 6. **Log** to `data/runs/YYYY-MM-DD.md`: what was done, checks, anything failed or skipped, queue runway. Commit it.
 7. End with a 3-5 line summary (it is pushed to Dylan's phone): what went live, queue runway, anything that needs him.
 

@@ -466,5 +466,29 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-03T13:07:00Z"
+ },
+ {
+  "id": "med-school-weekly-study-schedule-6",
+  "post": "med-school-weekly-study-schedule",
+  "board": "medlife",
+  "image": "pins/med-school-weekly-study-schedule-6.jpg",
+  "title": "Med School Weekly Routine: What Each Day Is For",
+  "description": "A simple weekly shape for med school studying: daily reviews and new lectures Monday to Thursday, catch-up Friday, practice questions Saturday, planning Sunday, and how exam weeks change it. Free printable weekly study planner.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-04T16:37:00Z"
+ },
+ {
+  "id": "med-school-weekly-study-schedule-7",
+  "post": "med-school-weekly-study-schedule",
+  "board": "medlife",
+  "image": "pins/med-school-weekly-study-schedule-7.jpg",
+  "title": "Flashcards vs Practice Questions in Med School",
+  "description": "Why a weekly practice-question block matters alongside daily Anki reviews, how it shows your weak topics before the exam, and how to shift the balance in exam weeks. Free printable med school study planner.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-06T16:37:00Z"
  }
 ]
