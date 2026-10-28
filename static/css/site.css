@@ -69,3 +69,20 @@ main{padding:0 max(16px,calc(50% - 560px))}
 .author p{margin:6px 0 0;font-size:16px}
 .extras-link{border-top:3px solid var(--ink);padding:22px 0 50px;font:500 15px 'DM Mono',monospace}
 @media (max-width:860px){.post-grid{grid-template-columns:1fr}.post-side{position:static;order:-1;max-width:210px}}
+
+/* MD Atlas: the free app that goes with the blog */
+.atlas{margin:30px 0;padding:24px 26px;border:3px solid var(--ink);background:#fff;box-shadow:8px 8px 0 var(--pink)}
+.atlas-home{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:36px;align-items:center;margin:10px 0 50px;padding:34px 36px;background:var(--ink);color:var(--cream);border:3px solid var(--ink);box-shadow:10px 10px 0 var(--pink)}
+.atlas-home .hero-k{color:var(--pink)}
+.atlas-home h2{font:900 clamp(34px,5vw,52px)/.95 'Big Shoulders Display',sans-serif;text-transform:uppercase;margin:8px 0 12px;color:#fff}
+.atlas-home p{margin:0 0 6px;max-width:560px}
+.atlas-home .btn.alt:hover{background:#fff;color:var(--ink)}
+.btn.ghost.inv{color:var(--cream);border-color:var(--cream)}
+.btn.ghost.inv:hover{background:var(--cream);color:var(--ink)}
+.atlas-route{list-style:none;margin:0;padding:0 0 0 4px;counter-reset:s}
+.atlas-route li{position:relative;padding:0 0 18px 34px;counter-increment:s}
+.atlas-route li:before{content:counter(s,decimal-leading-zero);position:absolute;left:0;top:2px;width:22px;height:22px;border:2px solid var(--mustard);border-radius:50%;font:500 10px/22px 'DM Mono',monospace;text-align:center;color:var(--mustard);box-sizing:content-box}
+.atlas-route li:not(:last-child):after{content:'';position:absolute;left:12px;top:28px;bottom:2px;border-left:2px dashed rgba(185,220,235,.45)}
+.atlas-route b{display:block;font:800 26px/1 'Big Shoulders Display',sans-serif;text-transform:uppercase;color:#fff}
+.atlas-route span{font:400 13px 'DM Mono',monospace;color:var(--mustard)}
+@media (max-width:860px){.atlas-home{grid-template-columns:1fr;padding:26px 22px}}

@@ -37,6 +37,8 @@ Two things about those dates matter more than they look. First, AMCAS has to ver
 - **Start an activity log.** AMCAS gives you up to 15 Work and Activities entries and lets you mark up to 3 as Most Meaningful. You'll need dates, hours and a contact for each one. It's much easier to write these down now than to dig them up later.
 - **Keep your clinical and volunteer hours going.** Schools care more about steady involvement than a big burst right before applying.
 
+[[atlas:primary]]
+
 ## Fall and winter before you apply
 
 - **Study for and take the MCAT** if you haven't. For the 2027 testing year, AAMC lists the registration fee at **$360** ($145 with the Fee Assistance Program).
