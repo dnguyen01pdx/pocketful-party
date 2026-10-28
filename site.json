@@ -10,7 +10,7 @@
   "etsy_shop": "https://www.etsy.com/shop/MedMapped",
   "atlas": {
     "name": "MD Atlas",
-    "url": "https://premed-project-vert.vercel.app",
+    "url": "https://atlas.medmapped.com",
     "blurb": "My free app for the whole med school application: a weekly planner that totals your hours, an activity log with the AMCAS character limits, a secondaries tracker with prompts for 150+ programs, and an interview tracker.",
     "tools": {
       "primary": {"path": "primary", "title": "Log activities as you go", "text": "MD Atlas has a free activity log: hours, dates and a contact for each one, plus Work and Activities drafts with the AMCAS character limits counted as you type. No account needed."},
