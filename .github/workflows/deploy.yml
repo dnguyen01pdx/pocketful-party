@@ -40,3 +40,33 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+  indexnow:
+    # Tell Bing and the other IndexNow engines about the site's pages after a
+    # content push (not on the hourly pin runs, which don't change pages).
+    if: github.event_name == 'push'
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Submit sitemap URLs
+        continue-on-error: true
+        run: |
+          python3 - <<'PY'
+          import json, re, time, urllib.request
+          site = json.load(open("site.json"))
+          key, base = site.get("indexnow_key"), site["base_url"].rstrip("/")
+          if not key:
+              raise SystemExit("no indexnow_key")
+          host = base.split("//", 1)[1]
+          for attempt in range(6):  # Pages can take a minute to serve the new build
+              try:
+                  xml = urllib.request.urlopen(base + "/sitemap.xml?v=" + str(time.time())).read().decode()
+                  urllib.request.urlopen(f"{base}/{key}.txt")
+                  break
+              except Exception as e:
+                  print("waiting for the site:", e); time.sleep(20)
+          urls = re.findall(r"<loc>(.*?)</loc>", xml)
+          body = json.dumps({"host": host, "key": key, "keyLocation": f"{base}/{key}.txt", "urlList": urls}).encode()
+          req = urllib.request.Request("https://api.indexnow.org/indexnow", body, {"Content-Type": "application/json; charset=utf-8"})
+          print(len(urls), "URLs ->", urllib.request.urlopen(req).status)
+          PY

@@ -398,6 +398,17 @@
   "status": "published"
  },
  {
+  "slug": "non-traditional-path-to-med-school",
+  "idea": "My non-traditional path to med school (piano performance, ophthalmic tech, DAT and MCAT): what counted and how to tell your own story, with a 'map your path' worksheet",
+  "keyword": "non traditional med school applicant",
+  "board": "medschool",
+  "theme": "med",
+  "type": "fill",
+  "publish_by": "2026-11-01",
+  "status": "",
+  "note": "Personal details ONLY from data/dylan_facts.md (the 2026-10-28 MD Atlas About page section). Link MD Atlas with [[atlas:primary]]."
+ },
+ {
   "slug": "med-school-interview-prep",
   "idea": "Med school interview prep: traditional vs MMI, question log printable",
   "keyword": "med school interview",
