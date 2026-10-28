@@ -274,6 +274,10 @@ def main():
 
     # 404, robots, sitemap, blog feed
     write(out, "404.html", layout("Not found | " + SITE["name"], f'<section class="hero"><h1>That page wandered off.</h1><p><a href="{rel()}">Back to the homepage</a></p></section>'))
+    # IndexNow: Bing (and the other engines that share it) checks this key file
+    # before accepting the URL list the deploy workflow submits after a push.
+    if SITE.get("indexnow_key"):
+        write(out, SITE["indexnow_key"] + ".txt", SITE["indexnow_key"])
     write(out, "robots.txt", f"User-agent: *\nAllow: /\nSitemap: {url('sitemap.xml')}\n")
     sm = ['<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">', f"<url><loc>{url()}</loc></url>"]
     sm += [f"<url><loc>{url(k + '/')}</loc></url>" for k in SITE["categories"]]
