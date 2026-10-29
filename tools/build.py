@@ -130,7 +130,11 @@ def layout(title, body, desc="", canonical="", image="", kind="website", extra_h
     # posts filed under "extras" (the old party games) stay reachable for pins already out, but aren't listed or indexed
     t = html.escape(title)
     d = html.escape(desc or SITE["tagline"])
-    og_img = f'<meta property="og:image" content="{image}">' if image else ""
+    # every page needs its own share image, or link previews grab whatever picture is on the page
+    if not image or image == url():
+        image = url("img/share-card.png")
+    og_img = (f'<meta property="og:image" content="{image}"><meta name="twitter:card" content="summary_large_image">'
+              f'<meta name="twitter:image" content="{image}">')
     verify = (f'<meta name="p:domain_verify" content="{SITE["pinterest_verify"]}">' if SITE.get("pinterest_verify") else "")
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
