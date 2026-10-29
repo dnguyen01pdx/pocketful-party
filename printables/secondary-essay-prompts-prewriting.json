@@ -148,6 +148,20 @@
    "page": 2,
    "title": "Med School Secondary Checklist: 6 Things to Check Before Submitting",
    "description": "Before you submit a med school secondary: answer the exact question, swap in the right school's details, search for other schools' names, check the limit, confirm the fee or waiver, and save a copy for interview prep."
+  },
+  {
+   "template": "list",
+   "headline": "Secondary prompts by school, free",
+   "kicker": "Free tool · MD Atlas",
+   "items": [
+    "Search 150+ MD programs",
+    "Filter by prompt type",
+    "Spot repeats across your list",
+    "Unconfirmed prompts are labeled"
+   ],
+   "title": "Free Med School Secondary Prompt Search (150+ MD Programs)",
+   "description": "See the reported secondary essay prompts for 150+ MD programs in one place, search by school or prompt type, and spot the ones that repeat across your list so you can pre-write once! It's MD Atlas, a free app I built. Prompts the school hasn't confirmed are labeled, so always check your actual secondary.",
+   "link": "https://atlas.medmapped.com/prompts"
   }
  ],
  "big": true

@@ -169,7 +169,8 @@ def build_pin_feeds(out, now, posts_by_slug):
                f'<lastBuildDate>{format_datetime(now)}</lastBuildDate>']
         for p in items:
             img = url(p["image"])
-            link = url(p["post"] + "/") + f"?utm_source=pinterest&utm_medium=pin&utm_content={p['id']}"
+            link = p.get("link") or url(p["post"] + "/")
+            link += ("&" if "?" in link else "?") + f"utm_source=pinterest&utm_medium=pin&utm_content={p['id']}"
             mime = "image/jpeg" if p["image"].lower().endswith((".jpg", ".jpeg")) else "image/png"
             size = 0
             fp = os.path.join(ROOT, "static", p["image"])

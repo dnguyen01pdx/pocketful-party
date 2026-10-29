@@ -60,6 +60,8 @@ def assets(slug):
             queue.append(dict(id=pid, post=slug, board=spec["board"], image=f"pins/{slug}-{i}.jpg",
                               title=p["title"], description=p["description"], template=p["template"],
                               expires=spec.get("expires"), status="queued"))
+            if p.get("link"):
+                queue[-1]["link"] = p["link"]
     save_pins(queue)
     print(f"assets ok: {slug} ({len(spec['pins'])} pins)")
 
@@ -76,6 +78,9 @@ def check(slug=None):
         pid = p["id"]
         if p["post"] not in posts:
             problems.append(f"{pid}: post '{p['post']}' does not exist")
+        # A pin may link to an MD Atlas page instead of its post; only our own app counts.
+        if p.get("link") and not p["link"].startswith(SITE["atlas"]["url"].rstrip("/") + "/"):
+            problems.append(f"{pid}: link {p['link']} is not an MD Atlas page")
         if p["board"] not in SITE["boards"]:
             problems.append(f"{pid}: unknown board {p['board']}")
         fp = os.path.join(ROOT, "static", p["image"])
