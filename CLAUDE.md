@@ -11,7 +11,7 @@ Site: static, built by `tools/build.py`, hosted on GitHub Pages, deployed by `.g
 |---|---|
 | Posts | `content/posts/<slug>.md` (front matter + markdown; `[[printable]]` and `[[etsy:key]]` shortcodes; `category: applying` or `med-school`) |
 | Brand (name, logo SVG) | `tools/brand.py` + `site.json` `name`/`tagline`/`author_bio`; the site, printables and pins all read it |
-| MD Atlas (Dylan's free app, repo `dnguyen01pdx/Premed-Project`, Vercel) | `site.json` `atlas` (URL, blurb, tool cards). Linked in the nav, footer and a homepage block; `[[atlas:primary|secondaries|planner]]` drops a card into a post (use at most once, not next to the Etsy card). MD Atlas links back to the blog and shows its newest posts from `feed.xml`; both sites share the same colors and fonts |
+| MD Atlas (Dylan's app with a free version and a paid Pro tier, repo `dnguyen01pdx/Premed-Project`, Vercel) | `site.json` `atlas` (URL, blurb, tool cards). Linked in the nav, footer and a homepage block; `[[atlas:primary|secondaries|planner]]` drops a card into a post (use at most once, not next to the Etsy card). MD Atlas links back to the blog and shows its newest posts from `feed.xml`; both sites share the same colors and fonts |
 | Facts about Dylan | `data/dylan_facts.md`: the only personal details posts may use |
 | Printable specs (game content + pin texts) | `printables/<slug>.json`, rendered by `tools/printables.py` + `tools/render.js` |
 | Pin queue | `data/pins.json`. A pin goes live when the hourly build puts it into `feeds/<board>.xml`; Pinterest auto-publishes from those RSS feeds. A pin spec may add `"link": "https://atlas.medmapped.com/..."` to send the pin to an MD Atlas page instead of its post (it still counts toward its post's 48h spacing) |
@@ -57,6 +57,7 @@ python3 tools/build.py                    # local build into _site/
 - **Fees, dates, limits and rules must come from the official source** (AAMC/AMCAS, AACOMAS, CASPA, AADSAS, VMCAS, ERAS/NRMP, the test makers) and the post names the source and cycle year. Tell readers to confirm before paying. If you can't verify a number, leave it out.
 - **Never invent Dylan's personal story.** First person is fine for opinions and advice ("here's how I'd do it"), but experiences, numbers, schools and anecdotes may only come from `data/dylan_facts.md`. Don't name his school until that file says it's OK.
 - No medical advice, and nothing that claims to be official admissions advice or to speak for a school.
+- MD Atlas has a paid Pro tier, so never call it "a free app" or "a free tool". Pitch it as "try the free version of MD Atlas" (Dylan, 2026-10-29). Saying a specific feature is in the free version is fine.
 - Never invent reviews, testimonials, sales numbers, "readers love this" claims or fake urgency.
 - Pins: no misleading text (the pin must show what the post delivers), no more than 3 hashtags (prefer 0), no repeated identical pins. Respect `site.json` limits (8 pins/day, same post at most every 48 hours). Pinterest spam rules: no mass-repinning, no clickbait, no link-only pins.
 - Designs are made by code, not generative AI imagery. If generative AI imagery is ever used, label it per Pinterest's AI rules.

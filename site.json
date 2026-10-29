@@ -13,11 +13,11 @@
   "atlas": {
     "name": "MD Atlas",
     "url": "https://atlas.medmapped.com",
-    "blurb": "My free app for the whole med school application: a weekly planner that totals your hours, an activity log with the AMCAS character limits, a secondaries tracker with prompts for 150+ programs, and an interview tracker. It's all free, so come take a look!",
+    "blurb": "My app for the whole med school application! The free version has a weekly planner that totals your hours, an activity log with the AMCAS character limits, a secondaries tracker with prompts for 150+ programs, and an interview tracker. Come try the free version of MD Atlas!",
     "tools": {
-      "primary": {"path": "primary", "title": "Log activities as you go", "text": "MD Atlas has a free activity log: hours, dates and a contact for each one, plus Work and Activities drafts with the AMCAS character limits counted as you type. No account needed."},
-      "secondaries": {"path": "prompts", "title": "See which schools ask what", "text": "MD Atlas, my free app, lists the reported secondary prompts for 150+ MD programs, searchable by school and prompt type, so you can see which prompts repeat across your list and pre-write once. Prompts are labeled when they aren't confirmed by the school, so always check your actual secondary."},
-      "planner": {"path": "planner", "title": "Plan your week, count your hours", "text": "MD Atlas has a free weekly planner that adds up your clinical, research and volunteer hours as you go, so the numbers are ready and waiting when AMCAS asks!"}
+      "primary": {"path": "primary", "title": "Log activities as you go", "text": "Try the free version of MD Atlas for an activity log: hours, dates and a contact for each one, plus Work and Activities drafts with the AMCAS character limits counted as you type. No account needed!"},
+      "secondaries": {"path": "prompts", "title": "See which schools ask what", "text": "Try the free version of MD Atlas, my app: it lists the reported secondary prompts for 150+ MD programs, searchable by school and prompt type, so you can see which prompts repeat across your list and pre-write once. Prompts are labeled when they aren't confirmed by the school, so always check your actual secondary."},
+      "planner": {"path": "planner", "title": "Plan your week, count your hours", "text": "Try the free version of MD Atlas for a weekly planner that adds up your clinical, research and volunteer hours as you go, so the numbers are ready and waiting when AMCAS asks!"}
     }
   },
   "etsy_products": {

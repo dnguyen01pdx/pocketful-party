@@ -151,8 +151,8 @@
   },
   {
    "template": "list",
-   "headline": "Secondary prompts by school, free",
-   "kicker": "Free tool · MD Atlas",
+   "headline": "Secondary prompts by school",
+   "kicker": "Try the free version · MD Atlas",
    "items": [
     "Search 150+ MD programs",
     "Filter by prompt type",
@@ -160,7 +160,7 @@
     "Unconfirmed prompts are labeled"
    ],
    "title": "Free Med School Secondary Prompt Search (150+ MD Programs)",
-   "description": "See the reported secondary essay prompts for 150+ MD programs in one place, search by school or prompt type, and spot the ones that repeat across your list so you can pre-write once! It's MD Atlas, a free app I built. Prompts the school hasn't confirmed are labeled, so always check your actual secondary.",
+   "description": "See the reported secondary essay prompts for 150+ MD programs in one place, search by school or prompt type, and spot the ones that repeat across your list so you can pre-write once! It's in MD Atlas, an app I built, so try the free version! Prompts the school hasn't confirmed are labeled, so always check your actual secondary.",
    "link": "https://atlas.medmapped.com/prompts"
   }
  ],
