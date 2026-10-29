@@ -18,6 +18,7 @@ Site: static, built by `tools/build.py`, hosted on GitHub Pages, deployed by `.g
 | Content plan | `data/calendar.json` (from Pinterest Trends research in `data/pinterest_trends_*.json`; the med plan is in `pinterest_trends_2026-10-med.json`) |
 | Pin design weights | `data/designs.json` (monthly analytics update these) |
 | Search | Google Search Console + Bing Webmaster Tools (Dylan's Google account) verify both sites with `google5101d02630a05884.html` (blog `static/`, MD Atlas `public/`): never delete it. Every push pings IndexNow (`indexnow` job in deploy.yml) |
+| Traffic | Cookie-free page-view counter on every page (blog and MD Atlas) logging to Dylan's Supabase project: `site.json` `supabase` (URL + public publishable key; RLS makes it insert-only), schema/views/`traffic_summary()` in `tools/traffic.sql`, MD Atlas side in its `src/components/PageViews.tsx`. Privacy pages on both sites describe exactly what a row holds; change them first if the fields change |
 | Run logs | `data/runs/YYYY-MM-DD.md` (one per daily run; the health check reads them) |
 | Analytics | `data/analytics/YYYY-MM.json` |
 

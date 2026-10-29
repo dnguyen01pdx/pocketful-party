@@ -109,6 +109,23 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="
          '<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Archivo:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">')
 
 
+def tracker():
+    # cookie-free page-view counter, logged to Supabase (schema + privacy notes in tools/traffic.sql)
+    sb = SITE.get("supabase") or {}
+    if not (sb.get("url") and sb.get("key")):
+        return ""
+    cfg = json.dumps({"u": sb["url"].rstrip("/") + "/rest/v1/page_views", "k": sb["key"]})
+    return ("<script>(function(c){try{var n=navigator,h=location.hostname;"
+            "if(n.webdriver||/bot|crawl|spider|slurp|preview|lighthouse|headless/i.test(n.userAgent)"
+            "||h==='localhost'||h==='127.0.0.1')return;"
+            "var q=new URLSearchParams(location.search),r=null,w=innerWidth,t=function(k){var v=q.get(k);return v?v.slice(0,100):null};"
+            "try{var R=new URL(document.referrer);if(R.hostname!==h)r=R.hostname.replace(/^www\\./,'').slice(0,200)}catch(e){}"
+            "fetch(c.u,{method:'POST',keepalive:true,headers:{apikey:c.k,'Content-Type':'application/json',Prefer:'return=minimal'},"
+            "body:JSON.stringify({site:'blog',path:location.pathname.slice(0,300),referrer:r,utm_source:t('utm_source'),"
+            "utm_medium:t('utm_medium'),utm_campaign:t('utm_campaign'),utm_content:t('utm_content'),"
+            "device:w<768?'mobile':w<1100?'tablet':'desktop'})}).catch(function(){})}catch(e){}})(" + cfg + ");</script>")
+
+
 def layout(title, body, desc="", canonical="", image="", kind="website", extra_head=""):
     # posts filed under "extras" (the old party games) stay reachable for pins already out, but aren't listed or indexed
     t = html.escape(title)
@@ -130,7 +147,7 @@ def layout(title, body, desc="", canonical="", image="", kind="website", extra_h
 <main>{body}</main>
 <footer class="foot"><div>{logo(22)} {SITE['name']} · the road to med school, mapped out</div>
 <div><a href="{SITE['atlas']['url']}" rel="noopener">MD Atlas (free app)</a> · <a href="{rel('about/')}">About</a> · <a href="{rel('disclosure/')}">Disclosure</a> · <a href="{rel('privacy/')}">Privacy</a> · <a href="{rel('feed.xml')}">RSS</a></div></footer>
-</body></html>"""
+{tracker()}</body></html>"""
 
 
 def card(p):
