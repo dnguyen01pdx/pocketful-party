@@ -139,7 +139,8 @@ def layout(title, body, desc="", canonical="", image="", kind="website", extra_h
 <meta property="og:title" content="{t}"><meta property="og:description" content="{d}"><meta property="og:type" content="{kind}">
 <meta property="og:site_name" content="{SITE['name']}">{og_img}{verify}
 <link rel="alternate" type="application/rss+xml" title="{SITE['name']}" href="{rel('feed.xml')}">
-<link rel="icon" type="image/svg+xml" href="{rel('img/favicon.svg')}">
+<link rel="icon" href="{rel('favicon.ico')}" sizes="48x48"><link rel="icon" type="image/svg+xml" href="{rel('img/favicon.svg')}">
+<link rel="icon" type="image/png" sizes="192x192" href="{rel('img/favicon-192.png')}"><link rel="apple-touch-icon" href="{rel('apple-touch-icon.png')}">
 {FONTS}<link rel="stylesheet" href="{rel('css/site.css')}">{extra_head}
 </head><body>
 <header class="top"><a class="brand" href="{rel()}">{logo(38)}<span>{wordmark()}</span></a>
@@ -278,7 +279,13 @@ def main():
             f'<section class="trackers"><h2 class="sec-h">Application trackers I made</h2>'
             f'<p class="sec-p">Spreadsheets from my Etsy shop, {SITE["shop_name"]}. Every guide here works without them; they just keep everything happily in one file!</p>'
             f'<div class="tiles">{tiles}</div></section>')
-    write(out, "index.html", layout(SITE["name"] + ": " + SITE["tagline"], home, SITE["tagline"], url()))
+    # tells Google the site's name and logo for the search result (the favicon is separate, from <link rel="icon">)
+    org = {"@type": "Organization", "@id": url() + "#org", "name": SITE["name"], "url": url(),
+           "logo": url("img/favicon-512.png"), "sameAs": [SITE["etsy_shop"], SITE["atlas"]["url"]]}
+    site_ld = json.dumps({"@context": "https://schema.org", "@graph": [
+        {"@type": "WebSite", "name": SITE["name"], "url": url(), "publisher": {"@id": url() + "#org"}}, org]})
+    write(out, "index.html", layout(SITE["name"] + ": " + SITE["tagline"], home, SITE["tagline"], url(),
+                                    extra_head=f'<script type="application/ld+json">{site_ld}</script>'))
 
     # one page per category
     for key, c in SITE["categories"].items():
