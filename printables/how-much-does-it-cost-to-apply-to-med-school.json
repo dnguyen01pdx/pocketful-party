@@ -58,7 +58,7 @@
   {
    "template": "list",
    "headline": "What applying to med school costs",
-   "kicker": "2027 fees · free worksheet",
+   "kicker": "2027 fees \u00b7 free worksheet",
    "items": [
     "MCAT: $360",
     "AMCAS first school: $180",
@@ -107,6 +107,29 @@
    ],
    "title": "Pre Med Budget: Plan Your Application Costs",
    "description": "Plan your pre-med application budget before July hits. Fill in your MCAT date, school count and each secondary fee to see your real total. Free printable worksheet."
+  },
+  {
+   "template": "list",
+   "headline": "MCAT reschedule fees",
+   "kicker": "2027 testing year \u00b7 AAMC",
+   "items": [
+    "60+ days out: $55",
+    "30 to 59 days: $110",
+    "10 to 29 days: $210",
+    "Under 10 days: no changes at all",
+    "Registration: $360 ($145 with FAP)"
+   ],
+   "title": "MCAT Reschedule Fees for 2027 (and When You Can't Change)",
+   "description": "Moving your MCAT date costs more the closer you get! For 2027 the AAMC charges $55 at 60+ days out, $110 at 30 to 59 days and $210 at 10 to 29 days, and nothing can change inside 10 days. Plus the full cost of applying to med school and a free budget worksheet."
+  },
+  {
+   "template": "hook",
+   "kicker": "Fee Assistance tip",
+   "quote": "Apply for FAP before you pay for anything",
+   "headline": "The benefits aren't retroactive",
+   "sub": "What it covers + a free budget sheet",
+   "title": "AAMC Fee Assistance: Apply Before You Pay Anything",
+   "description": "If you might qualify for the AAMC Fee Assistance Program, apply first! Benefits aren't retroactive. It covers AMCAS fees for up to 20 schools, drops the MCAT to $145, and adds free Official Prep and MSAR. See what applying to med school really costs, with a free budget worksheet."
   }
  ]
 }

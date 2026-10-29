@@ -589,5 +589,29 @@
   "status": "queued",
   "link": "https://atlas.medmapped.com/planner",
   "publish_at": "2026-11-06T14:52:00Z"
+ },
+ {
+  "id": "how-much-does-it-cost-to-apply-to-med-school-6",
+  "post": "how-much-does-it-cost-to-apply-to-med-school",
+  "board": "medschool",
+  "image": "pins/how-much-does-it-cost-to-apply-to-med-school-6.jpg",
+  "title": "MCAT Reschedule Fees for 2027 (and When You Can't Change)",
+  "description": "Moving your MCAT date costs more the closer you get! For 2027 the AAMC charges $55 at 60+ days out, $110 at 30 to 59 days and $210 at 10 to 29 days, and nothing can change inside 10 days. Plus the full cost of applying to med school and a free budget worksheet.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-04T16:37:00Z"
+ },
+ {
+  "id": "how-much-does-it-cost-to-apply-to-med-school-7",
+  "post": "how-much-does-it-cost-to-apply-to-med-school",
+  "board": "medschool",
+  "image": "pins/how-much-does-it-cost-to-apply-to-med-school-7.jpg",
+  "title": "AAMC Fee Assistance: Apply Before You Pay Anything",
+  "description": "If you might qualify for the AAMC Fee Assistance Program, apply first! Benefits aren't retroactive. It covers AMCAS fees for up to 20 schools, drops the MCAT to $145, and adds free Official Prep and MSAR. See what applying to med school really costs, with a free budget worksheet.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-06T16:37:00Z"
  }
 ]
