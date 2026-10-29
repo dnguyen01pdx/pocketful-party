@@ -7,7 +7,7 @@
   "language": "en-us",
   "pinterest_verify": "56d793d0642b5f3dd05031f4717e5d47",
   "indexnow_key": "9072e99856b82e1cc56b4d7852287baa",
-  "supabase": {"url": null, "key": null, "note": "cookie-free page-view counter; the key is the public publishable key (RLS makes it insert-only), schema in tools/traffic.sql"},
+  "supabase": {"url": "https://cxatqnuqlppmlovmwthu.supabase.co", "key": "sb_publishable_AokVONzSC50geLK1_4NZpw_8DJtCsZq", "note": "cookie-free page-view counter; the key is the public publishable key (RLS makes it insert-only), schema in tools/traffic.sql"},
   "shop_name": "Med Mapped",
   "etsy_shop": "https://www.etsy.com/shop/MedMapped",
   "atlas": {
