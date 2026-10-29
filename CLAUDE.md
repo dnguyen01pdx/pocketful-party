@@ -14,9 +14,10 @@ Site: static, built by `tools/build.py`, hosted on GitHub Pages, deployed by `.g
 | MD Atlas (Dylan's free app, repo `dnguyen01pdx/Premed-Project`, Vercel) | `site.json` `atlas` (URL, blurb, tool cards). Linked in the nav, footer and a homepage block; `[[atlas:primary|secondaries|planner]]` drops a card into a post (use at most once, not next to the Etsy card). MD Atlas links back to the blog and shows its newest posts from `feed.xml`; both sites share the same colors and fonts |
 | Facts about Dylan | `data/dylan_facts.md`: the only personal details posts may use |
 | Printable specs (game content + pin texts) | `printables/<slug>.json`, rendered by `tools/printables.py` + `tools/render.js` |
-| Pin queue | `data/pins.json`. A pin goes live when the hourly build puts it into `feeds/<board>.xml`; Pinterest auto-publishes from those RSS feeds |
+| Pin queue | `data/pins.json`. A pin goes live when the hourly build puts it into `feeds/<board>.xml`; Pinterest auto-publishes from those RSS feeds. A pin spec may add `"link": "https://atlas.medmapped.com/..."` to send the pin to an MD Atlas page instead of its post (it still counts toward its post's 48h spacing) |
 | Content plan | `data/calendar.json` (from Pinterest Trends research in `data/pinterest_trends_*.json`; the med plan is in `pinterest_trends_2026-10-med.json`) |
 | Pin design weights | `data/designs.json` (monthly analytics update these) |
+| Search | Google Search Console + Bing Webmaster Tools (Dylan's Google account) verify both sites with `google5101d02630a05884.html` (blog `static/`, MD Atlas `public/`): never delete it. Every push pings IndexNow (`indexnow` job in deploy.yml) |
 | Run logs | `data/runs/YYYY-MM-DD.md` (one per daily run; the health check reads them) |
 | Analytics | `data/analytics/YYYY-MM.json` |
 
