@@ -147,7 +147,7 @@ def layout(title, body, desc="", canonical="", image="", kind="website", extra_h
 <nav><a href="{rel('applying/')}">Applying</a><a href="{rel('med-school/')}">Med school</a><a href="{SITE['atlas']['url']}" rel="noopener">MD Atlas</a><a href="{rel('about/')}">About</a><a href="{SITE['etsy_shop']}" rel="noopener">Shop</a></nav></header>
 <main>{body}</main>
 <footer class="foot"><div>{logo(22)} {SITE['name']} · the road to med school, mapped out</div>
-<div><a href="{SITE['atlas']['url']}" rel="noopener">MD Atlas (try it free)</a> · <a href="{rel('about/')}">About</a> · <a href="{rel('disclosure/')}">Disclosure</a> · <a href="{rel('privacy/')}">Privacy</a> · <a href="{rel('feed.xml')}">RSS</a></div></footer>
+<div><a href="{SITE['atlas']['url']}" rel="noopener">MD Atlas (try it free)</a> · <a href="{rel('about/')}">About</a> · <a href="{SITE['instagram']}" rel="noopener">Instagram</a> · <a href="{SITE['pinterest_url']}" rel="noopener">Pinterest</a> · <a href="{rel('disclosure/')}">Disclosure</a> · <a href="{rel('privacy/')}">Privacy</a> · <a href="{rel('feed.xml')}">RSS</a></div></footer>
 {tracker()}</body></html>"""
 
 
@@ -281,7 +281,7 @@ def main():
             f'<div class="tiles">{tiles}</div></section>')
     # tells Google the site's name and logo for the search result (the favicon is separate, from <link rel="icon">)
     org = {"@type": "Organization", "@id": url() + "#org", "name": SITE["name"], "url": url(),
-           "logo": url("img/favicon-512.png"), "sameAs": [SITE["etsy_shop"], SITE["atlas"]["url"]]}
+           "logo": url("img/favicon-512.png"), "sameAs": [SITE["etsy_shop"], SITE["atlas"]["url"], SITE["instagram"], SITE["pinterest_url"]]}
     site_ld = json.dumps({"@context": "https://schema.org", "@graph": [
         {"@type": "WebSite", "name": SITE["name"], "url": url(), "publisher": {"@id": url() + "#org"}}, org]})
     write(out, "index.html", layout(SITE["name"] + ": " + SITE["tagline"], home, SITE["tagline"], url(),
