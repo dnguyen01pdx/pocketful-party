@@ -222,10 +222,12 @@ def main():
 
     every = load_posts(now)
     by_slug = {p["slug"]: p for p in every}
-    posts = [p for p in every if p.get("category", "applying") != "extras"]
+    # "hidden: true" parks a post the same way (e.g. the PA checklist, off while the blog stays MD-only)
+    posts = [p for p in every if p.get("category", "applying") != "extras" and not p.get("hidden")]
+    listed = {p["slug"] for p in posts}
 
     for p in every:
-        hidden = p.get("category") == "extras"
+        hidden = p["slug"] not in listed
         body = shortcodes(render_md(p["body_md"]), p)
         hero = (f'<header class="post-h"><div class="kicker">{html.escape(p.get("season_label", ""))}</div>'
                 f'<h1>{html.escape(p["title"])}</h1>'
