@@ -4,6 +4,7 @@ date: 2026-10-28T11:30:00Z
 description: Everything a CASPA application needs, in order: programs, transcripts, hours, evaluations, the essay and verification, with 2026-27 fees and a free checklist.
 keyword: pa school application checklist
 category: applying
+hidden: true
 season_label: Applying · PA school
 cover: pins/pa-school-application-checklist-1.jpg
 cover_alt: PA school application checklist printable for CASPA

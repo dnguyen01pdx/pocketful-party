@@ -395,7 +395,8 @@
   "theme": "pa",
   "type": "list",
   "publish_by": "2026-10-30",
-  "status": "published"
+  "status": "published",
+  "note": "Hidden 2026-10-30 (hidden: true): Dylan wants the blog MD-only for now. Page stays live for pin 1; pins 2-5 on hold"
  },
  {
   "slug": "non-traditional-path-to-med-school",
@@ -446,7 +447,8 @@
   "theme": "dental",
   "type": "list",
   "publish_by": "2026-11-09",
-  "status": ""
+  "status": "skipped",
+  "note": "Dylan 2026-10-30: keep the blog MD-only for now"
  },
  {
   "slug": "personal-statement-brainstorm",
@@ -466,7 +468,8 @@
   "theme": "vet",
   "type": "list",
   "publish_by": "2026-11-13",
-  "status": ""
+  "status": "skipped",
+  "note": "Dylan 2026-10-30: keep the blog MD-only for now"
  },
  {
   "slug": "residency-application-timeline",

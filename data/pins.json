@@ -512,7 +512,7 @@
   "description": "CASPA charges $185 for the first program and $65 for each additional one in the 2026-27 cycle, so 10 programs is $770 before any program fees. What that adds up to, how fee waivers work, and a free printable PA application checklist.",
   "template": "hook",
   "expires": null,
-  "status": "queued",
+  "status": "hold",
   "publish_at": "2026-10-30T14:52:00Z"
  },
  {
@@ -524,7 +524,7 @@
   "description": "A free two-page printable for PA school applicants: programs, transcripts, hours, evaluations and personal statement on page one, then submitting, verification and what to do after on page two. Print it and check things off!",
   "template": "fan",
   "expires": null,
-  "status": "queued",
+  "status": "hold",
   "publish_at": "2026-11-01T14:52:00Z"
  },
  {
@@ -536,7 +536,7 @@
   "description": "CASPA counts patient care experience (you're directly responsible for the patient, like an EMT or nurse) separately from healthcare experience (like scribing). How to sort your hours without double counting, plus a free PA application checklist.",
   "template": "split",
   "expires": null,
-  "status": "queued",
+  "status": "hold",
   "publish_at": "2026-11-03T14:52:00Z"
  },
  {
@@ -548,7 +548,7 @@
   "description": "What to do after you submit your PA school application: watch for Verified status, chase missing transcripts and evaluations, send each program's supplemental and get ready for interviews. Free printable checklist. Almost there!",
   "template": "stack",
   "expires": null,
-  "status": "queued",
+  "status": "hold",
   "publish_at": "2026-11-05T14:52:00Z"
  },
  {
