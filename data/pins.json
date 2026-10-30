@@ -613,5 +613,65 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-06T16:37:00Z"
+ },
+ {
+  "id": "non-traditional-path-to-med-school-1",
+  "post": "non-traditional-path-to-med-school",
+  "board": "medschool",
+  "image": "pins/non-traditional-path-to-med-school-1.jpg",
+  "title": "Non-Traditional Med School Applicant? What Actually Counts",
+  "description": "Worried your path to med school looks too winding? Jobs, long commitments, unplanned research and even a career change all count! What to include, how AMCAS fits a non-traditional story, and a free one-page map-your-path worksheet from a current med student.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-10-30T16:37:00Z"
+ },
+ {
+  "id": "non-traditional-path-to-med-school-2",
+  "post": "non-traditional-path-to-med-school",
+  "board": "medschool",
+  "image": "pins/non-traditional-path-to-med-school-2.jpg",
+  "title": "From Piano Performance Major to Med Student: Mapping a Non-Traditional Path",
+  "description": "I studied piano performance, worked as an ophthalmic tech and took the DAT before choosing medicine. Here's what I learned about telling a non-traditional story, plus a free worksheet to map your own path to med school. You've got this!",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-01T16:37:00Z"
+ },
+ {
+  "id": "non-traditional-path-to-med-school-3",
+  "post": "non-traditional-path-to-med-school",
+  "board": "medschool",
+  "image": "pins/non-traditional-path-to-med-school-3.jpg",
+  "title": "Free Worksheet: Map Your Non-Traditional Path to Med School",
+  "description": "A free one-page worksheet for non-traditional med school applicants: list your chapters, what each one gave you, the thread to medicine, your top 3 most meaningful experiences and letter writers, plus 3 questions to practice out loud.",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-03T16:37:00Z"
+ },
+ {
+  "id": "non-traditional-path-to-med-school-4",
+  "post": "non-traditional-path-to-med-school",
+  "board": "medschool",
+  "image": "pins/non-traditional-path-to-med-school-4.jpg",
+  "title": "How to Tell Your Non-Traditional Story on Your Med School Application",
+  "description": "Find the thread, not the pivot! Use a simple 3-beat arc, show instead of announce, explain gaps plainly and line up letters early. Advice for non-traditional med school applicants and a free printable worksheet.",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-05T16:37:00Z"
+ },
+ {
+  "id": "non-traditional-path-to-med-school-5",
+  "post": "non-traditional-path-to-med-school",
+  "board": "medschool",
+  "image": "pins/non-traditional-path-to-med-school-5.jpg",
+  "title": "AMCAS Work and Activities for Non-Traditional Applicants (2027 Cycle)",
+  "description": "Per the AAMC's 2027 AMCAS webinar: up to 15 Work and Activities entries, up to 3 most meaningful, extra date ranges for activities you returned to, and anticipated hours through August 2027. How to use them for a non-traditional story, plus a free worksheet. Confirm in the current AMCAS guide!",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-07T16:37:00Z"
  }
 ]

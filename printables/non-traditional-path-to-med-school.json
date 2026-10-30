@@ -1,0 +1,112 @@
+{
+ "slug": "non-traditional-path-to-med-school",
+ "title": "Map Your Path to Med School",
+ "subtitle": "non-traditional story worksheet",
+ "theme": "med",
+ "type": "fill",
+ "board": "medschool",
+ "site_label": "med mapped",
+ "note": "Every path counts. Fill this in before you write your personal statement or Work and Activities, then keep it next to your drafts. AMCAS rules change each cycle, so check the current AMCAS Applicant Guide.",
+ "sections": [
+  {
+   "h": "Your chapters",
+   "lines": [
+    "~1. Chapter:                  Years:     What I did:",
+    "~2. Chapter:                  Years:     What I did:",
+    "~3. Chapter:                  Years:     What I did:",
+    "~4. Chapter:                  Years:     What I did:"
+   ]
+  },
+  {
+   "h": "What each chapter gave you",
+   "lines": [
+    "~1. A skill or habit I still use:",
+    "~2. A skill or habit I still use:",
+    "~3. A skill or habit I still use:",
+    "~4. A skill or habit I still use:"
+   ]
+  },
+  {
+   "h": "The thread to medicine",
+   "lines": [
+    "~Where medicine first showed up:",
+    "~What made it grow (people, patients, a job):",
+    "~When I committed, and why then:",
+    "~A field I also considered:      why medicine instead:"
+   ]
+  },
+  {
+   "h": "Turn it into your application",
+   "lines": [
+    "~Jobs to list as experiences:",
+    "~Long commitments (arts, sports, caregiving):",
+    "~Top 3 \"most meaningful\" picks:",
+    "~Supervisor or mentor who could write a letter:",
+    "~Anything to explain plainly (a gap, a grade dip):"
+   ]
+  },
+  {
+   "h": "Practice out loud",
+   "lines": [
+    "~Why medicine, and why now?",
+    "~What did your last role teach you about people or patients?",
+    "~How will your old field make you a better doctor?"
+   ]
+  }
+ ],
+ "pins": [
+  {
+   "template": "list",
+   "headline": "Non-traditional? These count!",
+   "kicker": "Free worksheet · med school apps",
+   "items": [
+    "Jobs, clinical or not",
+    "Years of music, sports or caregiving",
+    "Research you fell into at work",
+    "A field you tried first",
+    "A gap you can explain plainly"
+   ],
+   "title": "Non-Traditional Med School Applicant? What Actually Counts",
+   "description": "Worried your path to med school looks too winding? Jobs, long commitments, unplanned research and even a career change all count! What to include, how AMCAS fits a non-traditional story, and a free one-page map-your-path worksheet from a current med student."
+  },
+  {
+   "template": "hook",
+   "kicker": "From piano major to MS1",
+   "quote": "My path to med school was anything but straight",
+   "headline": "Here's how to map yours",
+   "sub": "What counts + a free story worksheet",
+   "title": "From Piano Performance Major to Med Student: Mapping a Non-Traditional Path",
+   "description": "I studied piano performance, worked as an ophthalmic tech and took the DAT before choosing medicine. Here's what I learned about telling a non-traditional story, plus a free worksheet to map your own path to med school. You've got this!"
+  },
+  {
+   "template": "split",
+   "headline": "Took the scenic route to med school?",
+   "kicker": "Free printable · 1 page",
+   "sub": "Map your chapters, find the thread, and practice \"why now?\"",
+   "page": 1,
+   "title": "Free Worksheet: Map Your Non-Traditional Path to Med School",
+   "description": "A free one-page worksheet for non-traditional med school applicants: list your chapters, what each one gave you, the thread to medicine, your top 3 most meaningful experiences and letter writers, plus 3 questions to practice out loud."
+  },
+  {
+   "template": "stack",
+   "headline": "Map your path to med school",
+   "kicker": "Free worksheet",
+   "page": 1,
+   "title": "How to Tell Your Non-Traditional Story on Your Med School Application",
+   "description": "Find the thread, not the pivot! Use a simple 3-beat arc, show instead of announce, explain gaps plainly and line up letters early. Advice for non-traditional med school applicants and a free printable worksheet."
+  },
+  {
+   "template": "list",
+   "headline": "AMCAS activities for a winding path",
+   "kicker": "2027 AMCAS · free worksheet",
+   "items": [
+    "Up to 15 entries",
+    "Up to 3 \"most meaningful\"",
+    "Extra date ranges for repeated activities",
+    "Anticipated hours through Aug 2027"
+   ],
+   "title": "AMCAS Work and Activities for Non-Traditional Applicants (2027 Cycle)",
+   "description": "Per the AAMC's 2027 AMCAS webinar: up to 15 Work and Activities entries, up to 3 most meaningful, extra date ranges for activities you returned to, and anticipated hours through August 2027. How to use them for a non-traditional story, plus a free worksheet. Confirm in the current AMCAS guide!"
+  }
+ ]
+}
