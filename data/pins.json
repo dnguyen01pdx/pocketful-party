@@ -673,5 +673,17 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-07T16:37:00Z"
+ },
+ {
+  "id": "non-traditional-path-to-med-school-6",
+  "post": "non-traditional-path-to-med-school",
+  "board": "medschool",
+  "image": "pins/non-traditional-path-to-med-school-6.jpg",
+  "title": "Non-Traditional Med School Applicants: Tell Your Story Without Apologizing",
+  "description": "Took the scenic route to med school? Find the thread instead of the pivot, use a simple 3-beat arc, show instead of announce, and explain gaps in a sentence or two, no apology needed! Plus a free one-page worksheet to map your chapters and practice \"why now?\"",
+  "template": "fan",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-09T16:37:00Z"
  }
 ]
