@@ -500,5 +500,49 @@
   "type": "list",
   "publish_by": "2027-05-15",
   "status": ""
+ },
+ {
+  "slug": "anki-for-med-school-beginners",
+  "idea": "How I'd start Anki in med school (setup + daily review planner)",
+  "keyword": "anki",
+  "board": "medlife",
+  "theme": "study",
+  "type": "grid",
+  "publish_by": "2026-11-20",
+  "status": "",
+  "source": "2026-11 analytics content gap"
+ },
+ {
+  "slug": "premed-four-year-roadmap",
+  "idea": "Premed roadmap, year by year (freshman to application checklist)",
+  "keyword": "pre med",
+  "board": "medschool",
+  "theme": "med",
+  "type": "list",
+  "publish_by": "2026-11-23",
+  "status": "",
+  "source": "2026-11 analytics content gap"
+ },
+ {
+  "slug": "med-school-study-motivation",
+  "idea": "Staying motivated through a hard med school block (weekly reset worksheet)",
+  "keyword": "study motivation",
+  "board": "medlife",
+  "theme": "study",
+  "type": "fill",
+  "publish_by": "2026-11-25",
+  "status": "",
+  "source": "2026-11 analytics content gap"
+ },
+ {
+  "slug": "med-student-study-space-setup",
+  "idea": "Setting up a med student study space that actually works (checklist)",
+  "keyword": "med student aesthetic",
+  "board": "medlife",
+  "theme": "study",
+  "type": "list",
+  "publish_by": "2026-11-30",
+  "status": "",
+  "source": "2026-11 analytics content gap"
  }
 ]

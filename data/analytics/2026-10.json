@@ -1,0 +1,227 @@
+{
+ "month": "2026-10",
+ "generated": "2026-11-01",
+ "window_days": 30,
+ "pinterest": {
+  "status": "not_read",
+  "reason": "Pinterest analytics are only readable in Dylan's logged-in Chrome. Dylan banned step-by-step Chrome driving on 2026-10-30, and a scheduled run cannot start a Remote Control session on his PC, so impressions/saves/outbound clicks were not collected this month.",
+  "impressions": null,
+  "saves": null,
+  "outbound_clicks": null,
+  "pins": []
+ },
+ "pins_released": {
+  "total": 22,
+  "by_template": {
+   "stack": 4,
+   "hook": 5,
+   "fan": 3,
+   "list": 6,
+   "split": 4
+  },
+  "by_board": {
+   "thanksgiving": 3,
+   "christmas": 1,
+   "medschool": 13,
+   "medlife": 4,
+   "pa": 1
+  },
+  "by_post": {
+   "thanksgiving-trivia-for-families": 1,
+   "friendsgiving-would-you-rather": 1,
+   "christmas-party-bingo": 1,
+   "thanksgiving-scavenger-hunt-for-kids": 1,
+   "med-school-application-timeline": 4,
+   "how-much-does-it-cost-to-apply-to-med-school": 4,
+   "med-school-weekly-study-schedule": 4,
+   "secondary-essay-prompts-prewriting": 4,
+   "pa-school-application-checklist": 1,
+   "non-traditional-path-to-med-school": 1
+  },
+  "note": "First med pins released 2026-10-25, so most pins are under 7 days old."
+ },
+ "site_traffic": {
+  "source": "Supabase traffic_summary(30); counter live since ~2026-10-29",
+  "totals": {
+   "blog": 74,
+   "atlas": 88
+  },
+  "devices": {
+   "mobile": 66,
+   "desktop": 90,
+   "tablet": 6
+  },
+  "top_pages": [
+   {
+    "site": "blog",
+    "path": "/",
+    "views": 58
+   },
+   {
+    "site": "atlas",
+    "path": "/",
+    "views": 34
+   },
+   {
+    "site": "atlas",
+    "path": "/account",
+    "views": 13
+   },
+   {
+    "site": "atlas",
+    "path": "/pricing",
+    "views": 12
+   },
+   {
+    "site": "atlas",
+    "path": "/secondaries",
+    "views": 9
+   },
+   {
+    "site": "atlas",
+    "path": "/dashboard",
+    "views": 8
+   },
+   {
+    "site": "atlas",
+    "path": "/primary",
+    "views": 5
+   },
+   {
+    "site": "atlas",
+    "path": "/planner",
+    "views": 3
+   },
+   {
+    "site": "blog",
+    "path": "/social/reels/reel-3.mp4",
+    "views": 3
+   },
+   {
+    "site": "blog",
+    "path": "/socials/reels",
+    "views": 3
+   },
+   {
+    "site": "blog",
+    "path": "/about/",
+    "views": 3
+   },
+   {
+    "site": "atlas",
+    "path": "/interviews",
+    "views": 2
+   },
+   {
+    "site": "blog",
+    "path": "/med-school-weekly-study-schedule/",
+    "views": 2
+   },
+   {
+    "site": "blog",
+    "path": "/pa-school-application-checklist/",
+    "views": 1
+   },
+   {
+    "site": "atlas",
+    "path": "/about",
+    "views": 1
+   }
+  ],
+  "top_sources": [
+   {
+    "site": "blog",
+    "source": "(direct)",
+    "views": 55
+   },
+   {
+    "site": "atlas",
+    "source": "accounts.google.com",
+    "views": 36
+   },
+   {
+    "site": "atlas",
+    "source": "medmapped.com",
+    "views": 22
+   },
+   {
+    "site": "atlas",
+    "source": "(direct)",
+    "views": 21
+   },
+   {
+    "site": "atlas",
+    "source": "ig",
+    "views": 5
+   },
+   {
+    "site": "blog",
+    "source": "business.facebook.com",
+    "views": 5
+   },
+   {
+    "site": "blog",
+    "source": "instagram.com",
+    "views": 4
+   },
+   {
+    "site": "blog",
+    "source": "facebook.com",
+    "views": 3
+   },
+   {
+    "site": "atlas",
+    "source": "facebook.com",
+    "views": 2
+   },
+   {
+    "site": "blog",
+    "source": "ig",
+    "views": 2
+   },
+   {
+    "site": "blog",
+    "source": "atlas.medmapped.com",
+    "views": 2
+   },
+   {
+    "site": "blog",
+    "source": "m.facebook.com",
+    "views": 1
+   },
+   {
+    "site": "blog",
+    "source": "claude-check",
+    "views": 1
+   },
+   {
+    "site": "atlas",
+    "source": "claude-check",
+    "views": 1
+   },
+   {
+    "site": "blog",
+    "source": "premed-project-vert.vercel.app",
+    "views": 1
+   }
+  ],
+  "pinterest_referred_views": 0
+ },
+ "top_posts": [
+  {
+   "post": "med-school-weekly-study-schedule",
+   "views": 2
+  },
+  {
+   "post": "pa-school-application-checklist",
+   "views": 1
+  }
+ ],
+ "design_weights": "unchanged (no per-pin click data yet)",
+ "content_gaps_added": [
+  "anki-for-med-school-beginners",
+  "premed-four-year-roadmap",
+  "med-school-study-motivation",
+  "med-student-study-space-setup"
+ ]
+}

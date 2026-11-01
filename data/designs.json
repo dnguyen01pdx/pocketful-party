@@ -6,5 +6,6 @@
   "fan": 1,
   "hook": 1
  },
- "note": "Updated monthly from Pinterest analytics: templates with higher outbound-click rate get higher weight; the daily writer picks pin templates in proportion."
+ "note": "Updated monthly from Pinterest analytics: templates with higher outbound-click rate get higher weight; the daily writer picks pin templates in proportion.",
+ "last_review": "2026-11-01: weights left at 1 (no Pinterest per-pin data collected; see data/analytics/2026-10.json)"
 }
