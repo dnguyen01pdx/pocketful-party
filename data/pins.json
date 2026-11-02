@@ -685,5 +685,65 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-09T16:37:00Z"
+ },
+ {
+  "id": "med-school-interview-prep-1",
+  "post": "med-school-interview-prep",
+  "board": "medschool",
+  "image": "pins/med-school-interview-prep-1.jpg",
+  "title": "Med School Interview Prep Checklist (Free Printable)",
+  "description": "Got a med school interview invite? Congrats! Here's a free 2-page checklist from a current med student: figure out the format, re-read your application, practice the big questions out loud, set up for virtual or in person, and log every question you're asked.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-02T18:22:00Z"
+ },
+ {
+  "id": "med-school-interview-prep-2",
+  "post": "med-school-interview-prep",
+  "board": "medschool",
+  "image": "pins/med-school-interview-prep-2.jpg",
+  "title": "Traditional vs MMI Med School Interviews: How to Prep for Each",
+  "description": "The AAMC describes the MMI as 6-10 short stations with a brief prep period before each one, while a traditional interview is a longer conversation about you and your application. How to practice for each format, plus a free interview prep checklist and question log. Always check your invite for your school's exact format!",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-04T18:22:00Z"
+ },
+ {
+  "id": "med-school-interview-prep-3",
+  "post": "med-school-interview-prep",
+  "board": "medschool",
+  "image": "pins/med-school-interview-prep-3.jpg",
+  "title": "Free Med School Interview Question Log + Day-Of Checklist",
+  "description": "A free printable for med school interview day: virtual and in-person setup checklists, a log for the questions you were asked, space for questions to ask them, and a right-after list for names, thank-you notes and your gut feeling about fit.",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-06T18:22:00Z"
+ },
+ {
+  "id": "med-school-interview-prep-4",
+  "post": "med-school-interview-prep",
+  "board": "medschool",
+  "image": "pins/med-school-interview-prep-4.jpg",
+  "title": "How to Prepare for a Med School Interview: Before-the-Day Checklist",
+  "description": "Know the format, know the school beyond its website, know your own application cold, and practice out loud! A friendly before-the-day plan for med school interviews from a current med student, with a free printable checklist.",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-08T18:22:00Z"
+ },
+ {
+  "id": "med-school-interview-prep-5",
+  "post": "med-school-interview-prep",
+  "board": "medschool",
+  "image": "pins/med-school-interview-prep-5.jpg",
+  "title": "Med School Interview Prep Printable: Checklist + Question Log",
+  "description": "Interview season is here! A free 2-page printable to prep for traditional and MMI med school interviews: what to research, what to re-read, the questions to practice out loud, and a log to fill in right after each interview.",
+  "template": "fan",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-10T18:22:00Z"
  }
 ]

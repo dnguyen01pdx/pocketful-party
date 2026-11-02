@@ -8,7 +8,7 @@ Spec fields: slug, title, subtitle, theme (see THEMES), type, and per type:
   trivia: questions [{q, a}], key_title
   cards:  cards [str], card_label, per_page (6 or 8)
   bingo:  words [str] (24+), count, free_label, caller (bool)
-  list:   sections [{h, items [str]}], checkbox (bool), note; or pages [{title, note, sections}], name_line (bool), big (bool, larger type for kids)
+  list:   sections [{h, items [str]}] ("" item = write-in line), checkbox (bool), note; or pages [{title, note, sections}], name_line (bool), big (bool, larger type for kids)
   story:  paragraphs [str], how_to (str)
   grid:   cols [str], rows [str], note, name_line_label; optional extra page "after": {title, note, sections} drawn like list
   fill:   sections [{h, lines [str]}]: labelled write-in lines ("AMCAS: $180 + $48 x ___"), note
@@ -209,7 +209,9 @@ def listing(spec, t):
     for n, part in enumerate(parts, 1):
         secs = ""
         for s in part["sections"]:
-            lis = "".join(f'<li>{"<span class=bx></span>" if spec.get("checkbox", True) else ""}<span>{html.escape(i)}</span></li>' for i in s["items"])
+            bx = "<span class=bx></span>" if spec.get("checkbox", True) else ""
+            # an empty item is a write-in line (question logs, notes)
+            lis = "".join(f'<li>{bx}<span>{html.escape(i)}</span></li>' if i else f'<li>{bx}<span class="wl"></span></li>' for i in s["items"])
             secs += f'<div class="sec"><h2 class="disp">{html.escape(s["h"])}</h2><ul>{lis}</ul></div>'
         note = f'<p class="note">{html.escape(part["note"])}</p>' if part.get("note") else ""
         name = '<div class="score mono"><span>Hunter / team</span><span style="flex:.45">Found</span></div><div style="height:10px"></div>' if spec.get("name_line") else ""

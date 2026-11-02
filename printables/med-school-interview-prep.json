@@ -1,0 +1,184 @@
+{
+ "slug": "med-school-interview-prep",
+ "title": "Med School Interview Prep",
+ "subtitle": "checklist + question log",
+ "theme": "med-blue",
+ "type": "list",
+ "board": "medschool",
+ "checkbox": true,
+ "site_label": "med mapped",
+ "pages": [
+  {
+   "title": "Before interview day",
+   "note": "Formats differ by school: traditional one-on-one, panel, MMI or a mix, in person or virtual. Your invite email is the final word, and the AAMC's MSAR interview policies report is a good place to compare schools. You've got this!",
+   "sections": [
+    {
+     "h": "Know the format",
+     "items": [
+      "Format from the invite: traditional, panel, MMI or a mix",
+      "In person or virtual (note the time zone!)",
+      "Length of the day and the full schedule",
+      "Anything due before the day (forms, a survey)",
+      "Is the interview open or closed file?"
+     ]
+    },
+    {
+     "h": "Know the school",
+     "items": [
+      "Mission, in your own words",
+      "The community it serves and its health needs",
+      "2-3 things only this school offers (MSAR + its site)",
+      "Why this school, beyond the website copy"
+     ]
+    },
+    {
+     "h": "Know your application",
+     "items": [
+      "Re-read your personal statement",
+      "Re-read your Work and Activities",
+      "Re-read this school's secondary essays",
+      "A plain, honest answer for any gap or weak spot"
+     ]
+    },
+    {
+     "h": "Practice out loud",
+     "items": [
+      "Tell me about yourself (about 2 minutes)",
+      "Why medicine: the spark, what grew it, the doctor you want to be",
+      "A time you worked on a team",
+      "A challenge or mistake and what you learned",
+      "One full mock interview with a real person",
+      "MMI drills on a timer: short read, then talk",
+      "Ethics prompts: talk through both sides first"
+     ]
+    },
+    {
+     "h": "School notes (what makes it different)",
+     "items": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Interview day log",
+   "note": "Fill in the log the same day, while it's fresh. Future you (and your thank-you notes) will be so grateful!",
+   "sections": [
+    {
+     "h": "Virtual setup",
+     "items": [
+      "Test camera, mic and internet the day before",
+      "Quiet room, plain background, light in front of you",
+      "Link, login and a backup phone number saved",
+      "Notifications off, phone on silent"
+     ]
+    },
+    {
+     "h": "In person",
+     "items": [
+      "Route, parking and arrival time planned",
+      "Outfit tried on the night before",
+      "Water, a snack and your questions to ask",
+      "Be kind to everyone you meet that day"
+     ]
+    },
+    {
+     "h": "Questions I was asked",
+     "items": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "h": "Questions to ask them",
+     "items": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "h": "Right after",
+     "items": [
+      "Names of everyone who interviewed me",
+      "One thing we talked about with each",
+      "Thank-you notes, if the school's policy allows them",
+      "My gut feeling about fit, written down today"
+     ]
+    }
+   ]
+  }
+ ],
+ "pins": [
+  {
+   "template": "list",
+   "headline": "Med school interview prep checklist",
+   "kicker": "Free printable · 2 pages",
+   "items": [
+    "Know the format: traditional or MMI",
+    "Re-read your whole application",
+    "Practice \"tell me about yourself\"",
+    "Do one real mock interview",
+    "Log every question you're asked"
+   ],
+   "title": "Med School Interview Prep Checklist (Free Printable)",
+   "description": "Got a med school interview invite? Congrats! Here's a free 2-page checklist from a current med student: figure out the format, re-read your application, practice the big questions out loud, set up for virtual or in person, and log every question you're asked."
+  },
+  {
+   "template": "hook",
+   "kicker": "Traditional vs MMI",
+   "quote": "MMI: 6-10 short stations, each with its own scenario",
+   "headline": "How to prep for both formats",
+   "sub": "Per the AAMC · free checklist",
+   "title": "Traditional vs MMI Med School Interviews: How to Prep for Each",
+   "description": "The AAMC describes the MMI as 6-10 short stations with a brief prep period before each one, while a traditional interview is a longer conversation about you and your application. How to practice for each format, plus a free interview prep checklist and question log. Always check your invite for your school's exact format!"
+  },
+  {
+   "template": "split",
+   "headline": "Your interview question log",
+   "kicker": "Free printable",
+   "sub": "Write down what they asked, who you met and your gut feeling, the same day",
+   "page": 2,
+   "title": "Free Med School Interview Question Log + Day-Of Checklist",
+   "description": "A free printable for med school interview day: virtual and in-person setup checklists, a log for the questions you were asked, space for questions to ask them, and a right-after list for names, thank-you notes and your gut feeling about fit."
+  },
+  {
+   "template": "stack",
+   "headline": "Prep for your med school interview",
+   "kicker": "Free checklist",
+   "page": 1,
+   "title": "How to Prepare for a Med School Interview: Before-the-Day Checklist",
+   "description": "Know the format, know the school beyond its website, know your own application cold, and practice out loud! A friendly before-the-day plan for med school interviews from a current med student, with a free printable checklist."
+  },
+  {
+   "template": "fan",
+   "headline": "Interview invite? Let's prep!",
+   "kicker": "Free 2-page printable",
+   "sub": "Format, school, your application, practice, then a question log",
+   "pages": [
+    1,
+    2
+   ],
+   "title": "Med School Interview Prep Printable: Checklist + Question Log",
+   "description": "Interview season is here! A free 2-page printable to prep for traditional and MMI med school interviews: what to research, what to re-read, the questions to practice out loud, and a log to fill in right after each interview."
+  }
+ ]
+}
