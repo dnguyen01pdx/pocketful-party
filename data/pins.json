@@ -745,5 +745,29 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-10T18:22:00Z"
+ },
+ {
+  "id": "med-school-interview-prep-6",
+  "post": "med-school-interview-prep",
+  "board": "medschool",
+  "image": "pins/med-school-interview-prep-6.jpg",
+  "title": "4 Med School Interview Questions to Practice Out Loud First",
+  "description": "Interview coming up? Start with these four and say them out loud, not just in your head! Tell me about yourself, why medicine, a teamwork story plus a mistake you learned from, and why not a neighboring field. Bullet points, not scripts. A free prep checklist and question log come with the post.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-12T18:22:00Z"
+ },
+ {
+  "id": "secondary-essay-prompts-prewriting-7",
+  "post": "secondary-essay-prompts-prewriting",
+  "board": "medschool",
+  "image": "pins/secondary-essay-prompts-prewriting-7.jpg",
+  "title": "How to Write a \"Why Our School?\" Secondary That Isn't Generic",
+  "description": "The \"why us\" secondary is the most common prompt and the easiest one to reuse badly! Pre-write the part that stays the same, then add two specific details per school (a clinic, a pathway, a patient population) and tie each one to something you've actually done. Free pre-writing checklist in the post.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-27T14:52:00Z"
  }
 ]

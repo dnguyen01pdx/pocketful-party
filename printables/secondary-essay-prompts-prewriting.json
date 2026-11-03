@@ -162,6 +162,15 @@
    "title": "Free Med School Secondary Prompt Search (150+ MD Programs)",
    "description": "See the reported secondary essay prompts for 150+ MD programs in one place, search by school or prompt type, and spot the ones that repeat across your list so you can pre-write once! It's in MD Atlas, an app I built, so try the free version! Prompts the school hasn't confirmed are labeled, so always check your actual secondary.",
    "link": "https://atlas.medmapped.com/prompts"
+  },
+  {
+   "template": "hook",
+   "kicker": "The \"why our school?\" essay",
+   "quote": "If it could go to any school, it reads like it did",
+   "headline": "Two real details per school",
+   "sub": "Pre-write the core · free checklist",
+   "title": "How to Write a \"Why Our School?\" Secondary That Isn't Generic",
+   "description": "The \"why us\" secondary is the most common prompt and the easiest one to reuse badly! Pre-write the part that stays the same, then add two specific details per school (a clinic, a pathway, a patient population) and tie each one to something you've actually done. Free pre-writing checklist in the post."
   }
  ],
  "big": true
