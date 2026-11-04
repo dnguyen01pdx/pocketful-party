@@ -1,0 +1,205 @@
+{
+ "slug": "first-year-med-student-must-haves",
+ "title": "First-Year Must-Haves",
+ "subtitle": "med school checklist",
+ "theme": "study",
+ "type": "list",
+ "board": "medlife",
+ "checkbox": true,
+ "site_label": "med mapped",
+ "pages": [
+  {
+   "title": "Before your first block",
+   "note": "Every school is different. Wait for your school's own list, then ask a second-year what they actually used before you buy anything big. You've got this!",
+   "sections": [
+    {
+     "h": "Check what your school provides",
+     "items": [
+      "Stethoscope or diagnostic kit (some schools hand these out)",
+      "Laptop or tablet requirements",
+      "Anatomy lab rules: scrubs color, shoes, what to bring",
+      "Library e-books and question banks you get free",
+      "Required vs. just \"recommended\" textbooks"
+     ]
+    },
+    {
+     "h": "Worth it for most people",
+     "items": [
+      "One device you can mark up lecture slides on",
+      "A second monitor for lectures + notes side by side",
+      "A chair and desk you can sit at for hours",
+      "Headphones for lectures and the library",
+      "Anki set up on your computer and phone",
+      "Meal prep containers and a water bottle",
+      "Shoes you can stand and walk in all day"
+     ]
+    },
+    {
+     "h": "Clinical gear (buy mid, not fancy)",
+     "items": [
+      "A solid stethoscope, if your school doesn't give one",
+      "Reflex hammer, penlight, tuning fork (cheap is fine)",
+      "Old scrubs and shoes just for anatomy lab"
+     ]
+    },
+    {
+     "h": "Skip or wait on",
+     "items": [
+      "Every book on the recommended list",
+      "A premium diagnostic kit before you need one",
+      "A big stationery haul for pretty notes"
+     ]
+    },
+    {
+     "h": "Ask a second-year",
+     "items": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "h": "My list: still need",
+     "items": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "title": "First-block setup",
+   "note": "Set these up in week one, before the first exam shows up. Small systems now save so much stress later!",
+   "sections": [
+    {
+     "h": "Study space",
+     "items": [
+      "One spot at home that's only for studying",
+      "A backup spot (library, study room, coffee shop)",
+      "Good light and a charger that lives there",
+      "Phone out of reach during lecture blocks"
+     ]
+    },
+    {
+     "h": "Daily bag",
+     "items": [
+      "Laptop or tablet + chargers",
+      "Water bottle and real snacks",
+      "Headphones",
+      "Stethoscope on clinical skills days"
+     ]
+    },
+    {
+     "h": "Systems",
+     "items": [
+      "One calendar with every required session and exam",
+      "A weekly plan (pick a planning day!)",
+      "One folder per course for slides and notes",
+      "Daily Anki reviews before new material"
+     ]
+    },
+    {
+     "h": "Life admin",
+     "items": [
+      "Find counseling and wellness services (before you need them)",
+      "Find the learning specialist or academic support office",
+      "A simple monthly budget for loan money",
+      "Groceries + one batch-cook day each week",
+      "One thing that isn't medicine, on the calendar"
+     ]
+    },
+    {
+     "h": "Questions for my school",
+     "items": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "h": "My notes",
+     "items": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    }
+   ]
+  }
+ ],
+ "pins": [
+  {
+   "template": "list",
+   "headline": "First-year med student must-haves",
+   "kicker": "Free printable · 2 pages",
+   "items": [
+    "A device you can mark up slides on",
+    "A second monitor",
+    "A chair you can sit in for hours",
+    "Anki on every device",
+    "Meal prep containers"
+   ],
+   "title": "First-Year Med Student Must-Haves (Free Checklist)",
+   "description": "What first-year med students actually use, from a current M1! The study setup worth paying for, the clinical gear to buy mid instead of fancy, the life stuff nobody lists, and a free 2-page checklist for your first block."
+  },
+  {
+   "template": "hook",
+   "kicker": "Before you buy anything",
+   "quote": "Wait for your school's list, then ask a second-year",
+   "headline": "The tip that saves the most",
+   "sub": "Free M1 must-haves checklist",
+   "title": "The #1 Med School Shopping Tip: Wait for Your School's List",
+   "description": "Some schools hand out stethoscopes, diagnostic kits or tablets, and many textbooks are free as library e-books. Check what your school provides and ask a second-year what they actually used before you spend a cent! Free first-year checklist in the post."
+  },
+  {
+   "template": "split",
+   "headline": "Buy mid, not fancy",
+   "kicker": "M1 clinical gear",
+   "sub": "A solid stethoscope, a cheap reflex hammer, and wait on the pricey diagnostic kit",
+   "page": 1,
+   "title": "Med School Clinical Gear for First Year: What to Buy and What to Skip",
+   "description": "For preclinical years, a solid mid-range stethoscope (if your school doesn't give you one), an inexpensive reflex hammer, penlight and tuning fork, and old scrubs for anatomy lab are plenty. Ask an upperclassman before buying a pricey diagnostic kit!"
+  },
+  {
+   "template": "stack",
+   "headline": "Set up your first block",
+   "kicker": "Free checklist",
+   "page": 2,
+   "title": "First Block of Med School: Setup Checklist",
+   "description": "Set these up in week one of med school: a study spot and a backup, a daily bag, one calendar with every exam, Anki reviews before new material, and your school's counseling and learning support found early. Free printable setup checklist!"
+  },
+  {
+   "template": "fan",
+   "headline": "Starting med school? Start here!",
+   "kicker": "Free 2-page printable",
+   "sub": "What to check, buy, skip and set up for your first block",
+   "pages": [
+    1,
+    2
+   ],
+   "title": "Starting Med School Checklist: What to Buy, Skip and Set Up",
+   "description": "A free 2-page printable for new med students: what to check with your school first, what's worth buying, what to skip for now, and a first-block setup list for your study space, systems and life admin. You've got this!"
+  }
+ ]
+}

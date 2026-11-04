@@ -769,5 +769,65 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-27T14:52:00Z"
+ },
+ {
+  "id": "first-year-med-student-must-haves-1",
+  "post": "first-year-med-student-must-haves",
+  "board": "medlife",
+  "image": "pins/first-year-med-student-must-haves-1.jpg",
+  "title": "First-Year Med Student Must-Haves (Free Checklist)",
+  "description": "What first-year med students actually use, from a current M1! The study setup worth paying for, the clinical gear to buy mid instead of fancy, the life stuff nobody lists, and a free 2-page checklist for your first block.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-04T20:07:00Z"
+ },
+ {
+  "id": "first-year-med-student-must-haves-2",
+  "post": "first-year-med-student-must-haves",
+  "board": "medlife",
+  "image": "pins/first-year-med-student-must-haves-2.jpg",
+  "title": "The #1 Med School Shopping Tip: Wait for Your School's List",
+  "description": "Some schools hand out stethoscopes, diagnostic kits or tablets, and many textbooks are free as library e-books. Check what your school provides and ask a second-year what they actually used before you spend a cent! Free first-year checklist in the post.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-06T20:07:00Z"
+ },
+ {
+  "id": "first-year-med-student-must-haves-3",
+  "post": "first-year-med-student-must-haves",
+  "board": "medlife",
+  "image": "pins/first-year-med-student-must-haves-3.jpg",
+  "title": "Med School Clinical Gear for First Year: What to Buy and What to Skip",
+  "description": "For preclinical years, a solid mid-range stethoscope (if your school doesn't give you one), an inexpensive reflex hammer, penlight and tuning fork, and old scrubs for anatomy lab are plenty. Ask an upperclassman before buying a pricey diagnostic kit!",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-08T20:07:00Z"
+ },
+ {
+  "id": "first-year-med-student-must-haves-4",
+  "post": "first-year-med-student-must-haves",
+  "board": "medlife",
+  "image": "pins/first-year-med-student-must-haves-4.jpg",
+  "title": "First Block of Med School: Setup Checklist",
+  "description": "Set these up in week one of med school: a study spot and a backup, a daily bag, one calendar with every exam, Anki reviews before new material, and your school's counseling and learning support found early. Free printable setup checklist!",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-10T20:07:00Z"
+ },
+ {
+  "id": "first-year-med-student-must-haves-5",
+  "post": "first-year-med-student-must-haves",
+  "board": "medlife",
+  "image": "pins/first-year-med-student-must-haves-5.jpg",
+  "title": "Starting Med School Checklist: What to Buy, Skip and Set Up",
+  "description": "A free 2-page printable for new med students: what to check with your school first, what's worth buying, what to skip for now, and a first-block setup list for your study space, systems and life admin. You've got this!",
+  "template": "fan",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-12T20:07:00Z"
  }
 ]
