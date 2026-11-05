@@ -3,6 +3,8 @@ title: About Med Mapped
 date: 2026-10-24
 description: Who writes Med Mapped, why it exists, and how the guides and printables are made.
 ---
+<picture markdown="0"><source srcset="../img/dylan-480.webp 480w, ../img/dylan-960.webp 960w" sizes="(max-width: 640px) 70vw, 280px" type="image/webp"><img src="../img/dylan-480.jpg" srcset="../img/dylan-480.jpg 480w, ../img/dylan-960.jpg 960w" sizes="(max-width: 640px) 70vw, 280px" width="480" height="600" alt="Dylan Nguyen" style="display:block;width:100%;max-width:280px;height:auto;margin:0 0 1.5rem;border:2px solid currentColor;box-shadow:6px 6px 0 #ff6f59"></picture>
+
 Hi, I'm Dylan! I'm a first-year med student, class of 2030, and I'm so glad you're here.
 
 Getting into med school felt like a road trip without a map. Nobody hands you the route: when to take the MCAT, what AMCAS costs, how many secondaries show up in July. Med Mapped is my attempt to draw that map for whoever is a few steps behind me, plus notes on what the first year of med school is like from the inside. If that's you, welcome!
