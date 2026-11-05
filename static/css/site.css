@@ -86,3 +86,10 @@ main{padding:0 max(16px,calc(50% - 560px))}
 .atlas-route b{display:block;font:800 26px/1 'Big Shoulders Display',sans-serif;text-transform:uppercase;color:#fff}
 .atlas-route span{font:400 13px 'DM Mono',monospace;color:var(--mustard)}
 @media (max-width:860px){.atlas-home{grid-template-columns:1fr;padding:26px 22px}}
+
+.intro{text-align:center;padding:40px 0 8px;max-width:680px;margin:0 auto}
+.intro-photo{display:block;width:200px;height:200px;object-fit:cover;object-position:50% 25%;border-radius:50%;border:3px solid var(--ink);box-shadow:8px 8px 0 var(--pink);margin:0 auto 22px}
+.intro h1{font:900 clamp(44px,8vw,80px)/.9 'Big Shoulders Display',sans-serif;text-transform:uppercase;margin:10px 0 14px;color:var(--ink)}
+.intro-lede{font-size:20px;max-width:520px;margin:0 auto}
+.intro-cta{justify-content:center}
+.page .intro + .post-body{max-width:680px;margin:28px auto 0}

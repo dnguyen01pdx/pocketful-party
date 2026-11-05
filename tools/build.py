@@ -257,9 +257,20 @@ def main():
     for f in sorted(os.listdir(pdir)):
         if f.endswith(".md"):
             pg = parse_post(os.path.join(pdir, f))
+            if pg.get("intro_photo"):
+                ph = pg["intro_photo"]
+                timeline = "med-school-application-timeline"
+                head = (f'<header class="intro"><picture><source type="image/webp" srcset="{rel(ph + "-480.webp")} 480w, {rel(ph + "-960.webp")} 960w" sizes="200px">'
+                        f'<img class="intro-photo" src="{rel(ph + "-480.jpg")}" srcset="{rel(ph + "-480.jpg")} 480w, {rel(ph + "-960.jpg")} 960w" sizes="200px" width="480" height="600" alt="Photo of Dylan"></picture>'
+                        f'<div class="hero-k">{html.escape(pg["title"])}</div><h1>{html.escape(pg.get("intro_heading", pg["title"]))}</h1>'
+                        f'<p class="intro-lede">{html.escape(pg.get("intro_lede", ""))}</p>'
+                        f'<p class="hero-cta intro-cta"><a class="btn ghost" href="{rel(timeline + "/")}">Read the timeline</a>'
+                        f'<a class="btn alt" href="{SITE["atlas"]["url"]}" rel="noopener">Try MD Atlas</a></p></header>')
+            else:
+                head = f'<header class="post-h"><h1>{html.escape(pg["title"])}</h1></header>'
             write(out, f"{pg['slug']}/index.html",
                   layout(pg["title"] + " | " + SITE["name"],
-                         f'<article class="post page"><header class="post-h"><h1>{html.escape(pg["title"])}</h1></header><div class="post-body">{render_md(pg["body_md"])}</div></article>',
+                         f'<article class="post page">{head}<div class="post-body">{render_md(pg["body_md"])}</div></article>',
                          pg.get("description", ""), url(pg["slug"] + "/")))
 
     # home: newest posts first
