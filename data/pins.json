@@ -829,5 +829,29 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-12T20:07:00Z"
+ },
+ {
+  "id": "first-year-med-student-must-haves-6",
+  "post": "first-year-med-student-must-haves",
+  "board": "medlife",
+  "image": "pins/first-year-med-student-must-haves-6.jpg",
+  "title": "The Med School Must-Haves Nobody Puts on the List",
+  "description": "The first-year must-haves that keep you fed, rested and sane! Meal prep containers, snacks in your bag, one calendar with every exam on it, your school's counseling and learning support found in week one, and a simple budget for loan money. Free first-year checklist in the post.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-14T20:07:00Z"
+ },
+ {
+  "id": "med-school-weekly-study-schedule-8",
+  "post": "med-school-weekly-study-schedule",
+  "board": "medlife",
+  "image": "pins/med-school-weekly-study-schedule-8.jpg",
+  "title": "How to Adjust Your Med School Study Plan for Exam Week",
+  "description": "In the last week or two before a block exam, shift the balance: fewer new flashcards, more practice questions, and a review pass on the topics you keep missing. Don't drop your daily reviews, or you'll come back to a mountain! Free weekly study planner in the post.",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-29T16:37:00Z"
  }
 ]
