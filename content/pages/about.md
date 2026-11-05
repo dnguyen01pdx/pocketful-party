@@ -3,7 +3,7 @@ title: About Med Mapped
 date: 2026-10-24
 description: Who writes Med Mapped, why it exists, and how the guides and printables are made.
 ---
-Hi, I'm Dylan! I'm a first-year med student, class of 2030, and I'm so glad you're here.
+Hi, I'm Nova! I'm a first-year med student, class of 2030, and I'm so glad you're here. (Nova is a pen name; I keep this blog anonymous so I can write honestly about med school.)
 
 Getting into med school felt like a road trip without a map. Nobody hands you the route: when to take the MCAT, what AMCAS costs, how many secondaries show up in July. Med Mapped is my attempt to draw that map for whoever is a few steps behind me, plus notes on what the first year of med school is like from the inside. If that's you, welcome!
 

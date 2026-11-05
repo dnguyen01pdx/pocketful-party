@@ -1,12 +1,14 @@
-# Facts Dylan has confirmed about himself
+# Facts for Nova (Dylan's anonymous pen name)
+
+Since 2026-11-05 the blog is written as Nova, a first-year med student (she/her). Dylan stays anonymous: details marked IDENTIFYING below may NOT appear in posts, pins or pages.
 
 Posts may only use personal details listed here. Never invent experiences, numbers, schools or stories.
 Add a line (with the date and where he said it) whenever Dylan shares something.
 
 - Current first-year med student, MD class of 2030 (confirmed 2026-10-23). OK to say "made by a current med student".
-- School: Brown's Warren Alpert Medical School. Dylan published this himself on the MD Atlas About page (atlas.medmapped.com/about, 2026-10-28), so it's OK to name it here too.
+- IDENTIFYING, do not use: the school name.
 
-## From his MD Atlas About page (published 2026-10-28, his own words)
+## From his MD Atlas About page (2026-10-28). IDENTIFYING items: piano/University of Oregon, ophthalmic technician job, the case report, DAT/MCAT scores, dental school acceptance. Do not use these as Nova.
 - Applied in the 2025-2026 cycle.
 - Studied piano performance at the University of Oregon, with a chemistry minor. Still performs and competes internationally.
 - After college, worked as an ophthalmic technician; that's where he first saw clinic from the inside.
