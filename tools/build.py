@@ -126,6 +126,9 @@ def tracker():
             "device:w<768?'mobile':w<1100?'tablet':'desktop'})}).catch(function(){})}catch(e){}})(" + cfg + ");</script>")
 
 
+CSS_VER = __import__("hashlib").md5(open(os.path.join(ROOT, "static", "css", "site.css"), "rb").read()).hexdigest()[:8]
+
+
 def layout(title, body, desc="", canonical="", image="", kind="website", extra_head=""):
     # posts filed under "extras" (the old party games) stay reachable for pins already out, but aren't listed or indexed
     t = html.escape(title)
@@ -145,7 +148,7 @@ def layout(title, body, desc="", canonical="", image="", kind="website", extra_h
 <link rel="alternate" type="application/rss+xml" title="{SITE['name']}" href="{rel('feed.xml')}">
 <link rel="icon" href="{rel('favicon.ico')}" sizes="48x48"><link rel="icon" type="image/svg+xml" href="{rel('img/favicon.svg')}">
 <link rel="icon" type="image/png" sizes="192x192" href="{rel('img/favicon-192.png')}"><link rel="apple-touch-icon" href="{rel('apple-touch-icon.png')}">
-{FONTS}<link rel="stylesheet" href="{rel('css/site.css')}">{extra_head}
+{FONTS}<link rel="stylesheet" href="{rel('css/site.css')}?v={CSS_VER}">{extra_head}
 </head><body>
 <header class="top"><a class="brand" href="{rel()}">{logo(38)}<span>{wordmark()}</span></a>
 <nav><a href="{rel('applying/')}">Applying</a><a href="{rel('med-school/')}">Med school</a><a href="{SITE['atlas']['url']}" rel="noopener">MD Atlas</a><a href="{rel('about/')}">About</a><a href="{SITE['etsy_shop']}" rel="noopener">Shop</a></nav></header>
