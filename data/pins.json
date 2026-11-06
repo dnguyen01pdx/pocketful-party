@@ -853,5 +853,65 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-29T16:37:00Z"
+ },
+ {
+  "id": "mcat-study-schedule-1",
+  "post": "mcat-study-schedule",
+  "board": "medschool",
+  "image": "pins/mcat-study-schedule-1.jpg",
+  "title": "3-Month MCAT Study Schedule (Free 12-Week Printable)",
+  "description": "A realistic 3-month MCAT plan from a med student who's been there! Content and daily CARS in weeks 1-6, one full-length a week in weeks 7-10, official AAMC practice and rest at the end, plus a free 12-week grid and score log.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-06T21:52:00Z"
+ },
+ {
+  "id": "mcat-study-schedule-2",
+  "post": "mcat-study-schedule",
+  "board": "medschool",
+  "image": "pins/mcat-study-schedule-2.jpg",
+  "title": "MCAT Full-Length Tip: Spend as Long Reviewing as Testing",
+  "description": "Go through every missed question and every lucky guess, and write down why the right answer is right. Give the review at least as long as the test took! Free MCAT score log and after-test review checklist in the post.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-08T21:52:00Z"
+ },
+ {
+  "id": "mcat-study-schedule-3",
+  "post": "mcat-study-schedule",
+  "board": "medschool",
+  "image": "pins/mcat-study-schedule-3.jpg",
+  "title": "12-Week MCAT Study Plan Printable Grid",
+  "description": "Plan all 12 weeks of MCAT prep on one page: each week's focus, content, practice question goals, full-length and a quick note on wins and misses. Free printable, plus how to split the three months into phases!",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-10T21:52:00Z"
+ },
+ {
+  "id": "mcat-study-schedule-4",
+  "post": "mcat-study-schedule",
+  "board": "medschool",
+  "image": "pins/mcat-study-schedule-4.jpg",
+  "title": "MCAT Format: 4 Sections and How Long the Test Really Is",
+  "description": "Per the AAMC's guide for the 2027 testing year: Chem/Phys, CARS, Bio/Biochem and Psych/Soc, about 6 hours 15 minutes of testing and 7.5 hours seated. Stamina is part of the plan! Always confirm the current format on the AAMC site.",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-12T21:52:00Z"
+ },
+ {
+  "id": "mcat-study-schedule-5",
+  "post": "mcat-study-schedule",
+  "board": "medschool",
+  "image": "pins/mcat-study-schedule-5.jpg",
+  "title": "MCAT Study Plan Printable: 12-Week Grid + Score Log",
+  "description": "A free 2-page MCAT planner: a 12-week grid, a before-week-1 checklist, a full-length score log, a review checklist for every practice test and a calm test-week list. Pick a timeline that fits your real life, you've got this!",
+  "template": "fan",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-14T21:52:00Z"
  }
 ]

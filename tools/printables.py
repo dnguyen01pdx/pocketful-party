@@ -10,7 +10,7 @@ Spec fields: slug, title, subtitle, theme (see THEMES), type, and per type:
   bingo:  words [str] (24+), count, free_label, caller (bool)
   list:   sections [{h, items [str]}] ("" item = write-in line), checkbox (bool), note; or pages [{title, note, sections}], name_line (bool), big (bool, larger type for kids)
   story:  paragraphs [str], how_to (str)
-  grid:   cols [str], rows [str], note, name_line_label; optional extra page "after": {title, note, sections} drawn like list
+  grid:   cols [str], rows [str], note, name_line_label, week_line [2 labels for the top boxes]; optional extra page "after": {title, note, sections} drawn like list
   fill:   sections [{h, lines [str]}]: labelled write-in lines ("AMCAS: $180 + $48 x ___"), note
 Usage: python3 tools/printables.py printables/<slug>.json
 """
@@ -234,7 +234,8 @@ def grid(spec, t):
     for r in rows:
         cells += f'<div class="rh">{html.escape(r)}</div>' + "<div></div>" * len(cols)
     note = f'<p class="note">{html.escape(spec["note"])}</p>' if spec.get("note") else ""
-    week = '<div class="score mono"><span>Week of</span><span style="flex:.6">Exam / quiz this week</span></div><div style="height:8px"></div>'
+    wl = spec.get("week_line", ["Week of", "Exam / quiz this week"])
+    week = f'<div class="score mono"><span>{html.escape(wl[0])}</span><span style="flex:.6">{html.escape(wl[1])}</span></div><div style="height:8px"></div>'
     inner = (f'{week}{note}<div class="gp" style="grid-template-columns:.95in repeat({len(cols)},1fr);'
              f'grid-template-rows:auto repeat({len(rows)},{h})">{cells}</div>')
     pages = [page(t, spec, inner, 1, 2 if spec.get("after") else 1)]

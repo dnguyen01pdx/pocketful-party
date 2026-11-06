@@ -1,0 +1,161 @@
+{
+  "slug": "mcat-study-schedule",
+  "title": "3-Month MCAT Plan",
+  "subtitle": "12-week study schedule",
+  "theme": "med",
+  "type": "grid",
+  "board": "medschool",
+  "site_label": "med mapped",
+  "cols": [
+    "Focus",
+    "Content",
+    "Questions",
+    "Full-length",
+    "Wins + misses"
+  ],
+  "rows": [
+    "Week 1",
+    "Week 2",
+    "Week 3",
+    "Week 4",
+    "Week 5",
+    "Week 6",
+    "Week 7",
+    "Week 8",
+    "Week 9",
+    "Week 10",
+    "Week 11",
+    "Week 12"
+  ],
+  "row_h": "0.6in",
+  "note": "Weeks 1-6: content review, daily CARS, daily flashcards. Weeks 7-10: practice questions + one full-length a week. Weeks 11-12: official AAMC practice, deep review, then rest before test day.",
+  "after": {
+    "title": "Score log + test week",
+    "note": "A full-length is only as useful as the review after it. Give the review at least as long as the test took. You've got this!",
+    "sections": [
+      {
+        "h": "Before week 1",
+        "items": [
+          "Pick a test date (check the AAMC's current calendar)",
+          "Check if you qualify for AAMC Fee Assistance first",
+          "Take one diagnostic, untimed is fine",
+          "List your resources (keep it short!)",
+          "Block study hours on your calendar"
+        ]
+      },
+      {
+        "h": "Full-length score log (date, score, top 3 misses)",
+        "items": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "h": "Weak topics to revisit",
+        "items": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "h": "After every full-length",
+        "items": [
+          "Review every miss AND every guess",
+          "Write why the right answer is right",
+          "Add weak topics to next week's plan",
+          "Rest the evening after"
+        ]
+      },
+      {
+        "h": "Test week",
+        "items": [
+          "Light review only, no new content",
+          "Confirm test center, time and ID rules",
+          "Practice your test-day schedule once",
+          "Pack snacks, water, layers",
+          "Sleep is part of the plan!"
+        ]
+      },
+      {
+        "h": "My test-day routine (wake-up, breakfast, break snacks)",
+        "items": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  "pins": [
+    {
+      "template": "list",
+      "headline": "3-month MCAT study schedule",
+      "kicker": "Free printable · 2 pages",
+      "items": [
+        "Weeks 1-6: content + daily CARS",
+        "Flashcards every single day",
+        "Weeks 7-10: one full-length a week",
+        "Review every test slowly",
+        "Weeks 11-12: official practice, then rest"
+      ],
+      "title": "3-Month MCAT Study Schedule (Free 12-Week Printable)",
+      "description": "A realistic 3-month MCAT plan from a med student who's been there! Content and daily CARS in weeks 1-6, one full-length a week in weeks 7-10, official AAMC practice and rest at the end, plus a free 12-week grid and score log."
+    },
+    {
+      "template": "hook",
+      "kicker": "The MCAT tip people repeat most",
+      "quote": "The review is where the points come from",
+      "headline": "Review every full-length slowly",
+      "sub": "Free score log + review checklist",
+      "page": 2,
+      "title": "MCAT Full-Length Tip: Spend as Long Reviewing as Testing",
+      "description": "Go through every missed question and every lucky guess, and write down why the right answer is right. Give the review at least as long as the test took! Free MCAT score log and after-test review checklist in the post."
+    },
+    {
+      "template": "split",
+      "headline": "12 weeks, mapped out",
+      "kicker": "MCAT plan grid",
+      "sub": "Focus, content, questions and full-lengths for every week",
+      "page": 1,
+      "title": "12-Week MCAT Study Plan Printable Grid",
+      "description": "Plan all 12 weeks of MCAT prep on one page: each week's focus, content, practice question goals, full-length and a quick note on wins and misses. Free printable, plus how to split the three months into phases!"
+    },
+    {
+      "template": "stack",
+      "headline": "Track every full-length in one place",
+      "kicker": "Free MCAT score log",
+      "page": 2,
+      "title": "MCAT Score Log + Test Week Checklist (Free Printable)",
+      "description": "Watching the trend over several full-lengths tells you far more than any single score! Log each practice test with your top 3 misses, list weak topics for next week, and use the calm test-week checklist. Free printable in the post."
+    },
+    {
+      "template": "fan",
+      "headline": "Starting MCAT prep? Start here!",
+      "kicker": "Free 2-page printable",
+      "sub": "12-week grid, score log and a test-week checklist",
+      "pages": [
+        1,
+        2
+      ],
+      "title": "MCAT Study Plan Printable: 12-Week Grid + Score Log",
+      "description": "A free 2-page MCAT planner: a 12-week grid, a before-week-1 checklist, a full-length score log, a review checklist for every practice test and a calm test-week list. Pick a timeline that fits your real life, you've got this!"
+    }
+  ],
+  "week_line": [
+    "Test date",
+    "Study hours per week"
+  ]
+}
