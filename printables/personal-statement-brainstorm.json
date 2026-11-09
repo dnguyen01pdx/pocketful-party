@@ -1,0 +1,109 @@
+{
+  "slug": "personal-statement-brainstorm",
+  "title": "Personal Statement Brainstorm",
+  "subtitle": "brainstorm worksheet",
+  "theme": "med-blue",
+  "type": "fill",
+  "board": "medschool",
+  "site_label": "med mapped",
+  "note": "Fill this in with notes, not sentences. The AMCAS essay is 5,300 characters with spaces (2027 AAMC applicant guide), so you're looking for 2-3 moments and one thread, not your whole resume.",
+  "sections": [
+    {
+      "h": "Moments that stuck with you",
+      "lines": [
+        "~A moment with someone you were helping:",
+        "~",
+        "~A time you felt out of your depth and kept going:",
+        "~",
+        "~Something outside medicine that shaped you:",
+        "~"
+      ]
+    },
+    {
+      "h": "Traits + the proof",
+      "lines": [
+        "~Trait 1 + the story that shows it:",
+        "~",
+        "~Trait 2 + the story that shows it:",
+        "~"
+      ]
+    },
+    {
+      "h": "Why medicine, specifically",
+      "lines": [
+        "~What you've seen doctors do that you want to do:",
+        "~",
+        "~Why this and not nursing, PA, research or teaching:",
+        "~",
+        "~Your answer in one sentence, to a friend:",
+        "~"
+      ]
+    },
+    {
+      "h": "Your thread",
+      "lines": [
+        "~The one idea every paragraph comes back to:",
+        "~",
+        "~Opening: a real scene (not a quote or definition):",
+        "~",
+        "~Readers (2-3 max) + date for each draft:",
+        "~"
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "template": "list",
+      "headline": "Brainstorm your personal statement",
+      "kicker": "Free worksheet",
+      "items": [
+        "Find 2-3 moments, not your whole resume",
+        "Pair each trait with a real story",
+        "Answer \"why not nursing or PA?\"",
+        "Pick one thread for every paragraph",
+        "Open with a real scene, not a quote"
+      ],
+      "title": "Med School Personal Statement Brainstorm (Free Worksheet)",
+      "description": "Stuck on a blank page? Start with notes, not sentences! Find 2-3 moments that stuck with you, pair your traits with real stories, get specific about why medicine, and pick one thread. Free printable brainstorm worksheet from a current med student."
+    },
+    {
+      "template": "hook",
+      "kicker": "The question to answer first",
+      "quote": "Why medicine, and not nursing, PA or research?",
+      "headline": "Get specific about why",
+      "sub": "Free personal statement worksheet",
+      "page": 1,
+      "title": "The Personal Statement Question Most Applicants Skip",
+      "description": "\"I want to help people\" fits a lot of careers. The strongest answers show what you've seen doctors do that you want to do yourself. Work it out on the free brainstorm worksheet before you write a single paragraph!"
+    },
+    {
+      "template": "split",
+      "headline": "Notes first, sentences later",
+      "kicker": "Personal statement",
+      "sub": "Moments, traits, why medicine and your thread on one page",
+      "page": 1,
+      "title": "Personal Statement Brainstorm Worksheet for Med School",
+      "description": "One page to plan your AMCAS personal statement before drafting: the moments that stuck with you, two traits with proof, why medicine specifically, and the one idea that ties it together. Free printable!"
+    },
+    {
+      "template": "stack",
+      "headline": "5,300 characters, one page",
+      "kicker": "AMCAS essay · AAMC",
+      "sub": "Spaces count, schools get plain text, and every school sees the same essay",
+      "page": 1,
+      "title": "AMCAS Personal Statement Length and Format (2027 Guide)",
+      "description": "Per the AAMC's 2027 AMCAS applicant guide, the personal comments essay is 5,300 characters including spaces, about one page, sent as plain text to every school you apply to. No edits after you submit, so proofread! Free brainstorm worksheet in the post."
+    },
+    {
+      "template": "fan",
+      "headline": "Personal statement? Start here!",
+      "kicker": "Free printable",
+      "sub": "A one-page brainstorm to find your story",
+      "pages": [
+        1
+      ],
+      "title": "How to Start Your Med School Personal Statement (Free Printable)",
+      "description": "The hardest part is figuring out what to write about. This free one-page brainstorm walks you through moments, traits and your why, so your first draft has a clear thread. You've got this!"
+    }
+  ]
+}

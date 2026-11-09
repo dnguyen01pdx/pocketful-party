@@ -120,6 +120,7 @@ body{{font-family:'{t['body']}',sans-serif;color:var(--a);background:#fff}}
 .fill h2{{font-size:24px;margin:16px 0 6px}}
 .fill .fl{{display:flex;gap:10px;align-items:flex-end;font-size:13px;padding:7px 0 4px;border-bottom:1.2px solid color-mix(in srgb,var(--a) 45%,transparent)}}
 .fill .fl span{{flex:1}}
+.fl span:empty{{display:block;height:15px}}
 .fill .fl i{{font-style:normal;font:500 11px 'DM Mono';min-width:1.2in;text-align:right;opacity:.75}}
 .howto{{border:2px solid var(--a);padding:10px 14px;font-size:12px;margin-bottom:16px}}
 """

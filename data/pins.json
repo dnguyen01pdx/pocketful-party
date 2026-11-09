@@ -913,5 +913,65 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-14T21:52:00Z"
+ },
+ {
+  "id": "personal-statement-brainstorm-1",
+  "post": "personal-statement-brainstorm",
+  "board": "medschool",
+  "image": "pins/personal-statement-brainstorm-1.jpg",
+  "title": "Med School Personal Statement Brainstorm (Free Worksheet)",
+  "description": "Stuck on a blank page? Start with notes, not sentences! Find 2-3 moments that stuck with you, pair your traits with real stories, get specific about why medicine, and pick one thread. Free printable brainstorm worksheet from a current med student.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-09T20:07:00Z"
+ },
+ {
+  "id": "personal-statement-brainstorm-2",
+  "post": "personal-statement-brainstorm",
+  "board": "medschool",
+  "image": "pins/personal-statement-brainstorm-2.jpg",
+  "title": "The Personal Statement Question Most Applicants Skip",
+  "description": "\"I want to help people\" fits a lot of careers. The strongest answers show what you've seen doctors do that you want to do yourself. Work it out on the free brainstorm worksheet before you write a single paragraph!",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-11T20:07:00Z"
+ },
+ {
+  "id": "personal-statement-brainstorm-3",
+  "post": "personal-statement-brainstorm",
+  "board": "medschool",
+  "image": "pins/personal-statement-brainstorm-3.jpg",
+  "title": "Personal Statement Brainstorm Worksheet for Med School",
+  "description": "One page to plan your AMCAS personal statement before drafting: the moments that stuck with you, two traits with proof, why medicine specifically, and the one idea that ties it together. Free printable!",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-13T20:07:00Z"
+ },
+ {
+  "id": "personal-statement-brainstorm-4",
+  "post": "personal-statement-brainstorm",
+  "board": "medschool",
+  "image": "pins/personal-statement-brainstorm-4.jpg",
+  "title": "AMCAS Personal Statement Length and Format (2027 Guide)",
+  "description": "Per the AAMC's 2027 AMCAS applicant guide, the personal comments essay is 5,300 characters including spaces, about one page, sent as plain text to every school you apply to. No edits after you submit, so proofread! Free brainstorm worksheet in the post.",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-15T20:07:00Z"
+ },
+ {
+  "id": "personal-statement-brainstorm-5",
+  "post": "personal-statement-brainstorm",
+  "board": "medschool",
+  "image": "pins/personal-statement-brainstorm-5.jpg",
+  "title": "How to Start Your Med School Personal Statement (Free Printable)",
+  "description": "The hardest part is figuring out what to write about. This free one-page brainstorm walks you through moments, traits and your why, so your first draft has a clear thread. You've got this!",
+  "template": "fan",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-17T20:07:00Z"
  }
 ]
