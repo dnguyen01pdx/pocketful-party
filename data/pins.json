@@ -973,5 +973,29 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-17T20:07:00Z"
+ },
+ {
+  "id": "med-school-interview-prep-7",
+  "post": "med-school-interview-prep",
+  "board": "medschool",
+  "image": "pins/med-school-interview-prep-7.jpg",
+  "title": "Virtual Med School Interview Tips: Camera, Light and Backup Plan",
+  "description": "Test your camera, mic and internet the day before, sit with light in front of you, and save a backup phone number. Looking at the camera feels weird but reads as eye contact! Free virtual + in-person day-of checklist in the post.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-12-03T18:22:00Z"
+ },
+ {
+  "id": "med-school-interview-prep-8",
+  "post": "med-school-interview-prep",
+  "board": "medschool",
+  "image": "pins/med-school-interview-prep-8.jpg",
+  "title": "Questions to Ask at Your Med School Interview (+ Free Question Log)",
+  "description": "\"Do you have any questions for us?\" is your chance to learn if the school fits you. Ask students about support, schedules and what they wish they'd known, then jot their answers in the free question log the same day. Comparing schools in spring gets so much easier!",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-12-05T18:22:00Z"
  }
 ]
