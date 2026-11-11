@@ -1,0 +1,41 @@
+{
+  "slug": "med-school-exam-week-plan",
+  "title": "2-Week Exam Countdown",
+  "subtitle": "block exam plan",
+  "theme": "study",
+  "type": "grid",
+  "board": "medlife",
+  "site_label": "med mapped",
+  "week_line": ["Exam date", "Topics on this exam"],
+  "cols": ["Topics", "Questions", "Misses to review", "Reviews done", "How I feel"],
+  "rows": ["Day 14", "Day 13", "Day 12", "Day 11", "Day 10", "Day 9", "Day 8", "Day 7", "Day 6", "Day 5", "Day 4", "Day 3", "Day 2", "Day 1"],
+  "row_h": "0.5in",
+  "note": "Days 14-8: finish new material, start question blocks. Days 7-3: questions first, then review every miss. Days 2-1: light review, your weak-topic list, early night.",
+  "after": {
+    "title": "Miss log + exam eve",
+    "note": "Write down why you missed it, not just what the answer was. That's the part that sticks!",
+    "sections": [
+      {"h": "Miss log (topic + why I missed it)", "items": ["", "", "", "", "", "", "", "", "", ""]},
+      {"h": "Weak topics for the last 2 days", "items": ["", "", "", "", "", ""]},
+      {"h": "Exam eve", "items": ["Light review only, no new material", "Check the exam time, room and what to bring", "Laptop charged + exam software updated (if your school uses it)", "Pack water and a snack", "Set a stop time and keep it"]},
+      {"h": "After the exam", "items": ["Do something fun tonight!", "Catch up on reviews the next day", "Write 2 things to change for next block"]}
+    ]
+  },
+  "pins": [
+    {"template": "list", "headline": "2-week med school exam plan", "kicker": "Free printable · 2 pages", "items": ["Days 14-8: finish new material", "Start question blocks early", "Days 7-3: questions first, then misses", "Keep up daily reviews", "Days 2-1: light review + sleep"],
+      "title": "How to Plan a Med School Exam Week (Free 2-Week Countdown)",
+      "description": "A calm two-week plan for med school block exams from a current M1! Finish new material by day 8, let practice questions lead the last week, review every miss, and keep the final two days light. Free countdown grid + miss log."},
+    {"template": "hook", "kicker": "The exam tip students repeat most", "quote": "Write down WHY you missed it, not just the answer", "headline": "Your misses are your study guide", "sub": "Free miss log + exam countdown", "page": 2,
+      "title": "The Med School Exam Habit That Actually Helps: A Miss Log",
+      "description": "After each question block, write the topic and why you missed it: didn't know it, misread it, or second-guessed yourself. By exam week that list tells you exactly what to review! Free miss log printable in the post."},
+    {"template": "split", "headline": "14 days, mapped out", "kicker": "Exam countdown", "sub": "Topics, questions, misses and reviews for every day", "page": 1,
+      "title": "Med School Block Exam Countdown Printable (14-Day Grid)",
+      "description": "Plan the two weeks before a block exam on one page: topics, question goals, misses to review, daily reviews and a quick check on how you feel. Free printable for med students!"},
+    {"template": "stack", "headline": "The night before your exam", "kicker": "Exam eve checklist", "page": 2,
+      "title": "Night Before a Med School Exam: A Calm Checklist",
+      "description": "Light review only, check the time and room, charge your laptop, pack water and a snack, and set a stop time you actually keep. Then do something fun after the exam! Free exam-eve checklist in the post."},
+    {"template": "fan", "headline": "Block exam coming? Start here!", "kicker": "Free 2-page printable", "sub": "14-day countdown, miss log and exam-eve checklist", "pages": [1, 2],
+      "title": "Med School Exam Study Plan Printable: Countdown + Miss Log",
+      "description": "A free two-page planner for med school exams: a 14-day countdown grid, a miss log, a weak-topics list and an exam-eve checklist. You've got this!"}
+  ]
+}

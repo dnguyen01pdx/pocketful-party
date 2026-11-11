@@ -997,5 +997,65 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-12-05T18:22:00Z"
+ },
+ {
+  "id": "med-school-exam-week-plan-1",
+  "post": "med-school-exam-week-plan",
+  "board": "medlife",
+  "image": "pins/med-school-exam-week-plan-1.jpg",
+  "title": "How to Plan a Med School Exam Week (Free 2-Week Countdown)",
+  "description": "A calm two-week plan for med school block exams from a current M1! Finish new material by day 8, let practice questions lead the last week, review every miss, and keep the final two days light. Free countdown grid + miss log.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-11T20:07:00Z"
+ },
+ {
+  "id": "med-school-exam-week-plan-2",
+  "post": "med-school-exam-week-plan",
+  "board": "medlife",
+  "image": "pins/med-school-exam-week-plan-2.jpg",
+  "title": "The Med School Exam Habit That Actually Helps: A Miss Log",
+  "description": "After each question block, write the topic and why you missed it: didn't know it, misread it, or second-guessed yourself. By exam week that list tells you exactly what to review! Free miss log printable in the post.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-13T20:07:00Z"
+ },
+ {
+  "id": "med-school-exam-week-plan-3",
+  "post": "med-school-exam-week-plan",
+  "board": "medlife",
+  "image": "pins/med-school-exam-week-plan-3.jpg",
+  "title": "Med School Block Exam Countdown Printable (14-Day Grid)",
+  "description": "Plan the two weeks before a block exam on one page: topics, question goals, misses to review, daily reviews and a quick check on how you feel. Free printable for med students!",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-15T20:07:00Z"
+ },
+ {
+  "id": "med-school-exam-week-plan-4",
+  "post": "med-school-exam-week-plan",
+  "board": "medlife",
+  "image": "pins/med-school-exam-week-plan-4.jpg",
+  "title": "Night Before a Med School Exam: A Calm Checklist",
+  "description": "Light review only, check the time and room, charge your laptop, pack water and a snack, and set a stop time you actually keep. Then do something fun after the exam! Free exam-eve checklist in the post.",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-17T20:07:00Z"
+ },
+ {
+  "id": "med-school-exam-week-plan-5",
+  "post": "med-school-exam-week-plan",
+  "board": "medlife",
+  "image": "pins/med-school-exam-week-plan-5.jpg",
+  "title": "Med School Exam Study Plan Printable: Countdown + Miss Log",
+  "description": "A free two-page planner for med school exams: a 14-day countdown grid, a miss log, a weak-topics list and an exam-eve checklist. You've got this!",
+  "template": "fan",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-19T20:07:00Z"
  }
 ]
