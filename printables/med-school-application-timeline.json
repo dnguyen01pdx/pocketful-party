@@ -161,6 +161,23 @@
    "title": "Free Premed Weekly Planner That Totals Your Hours",
    "description": "Plan your regular week once (clinic shifts, research, volunteering, classes) and MD Atlas adds up your hours by activity category, so the numbers are ready when it's time to fill out AMCAS. Try the free version, no account needed. You've got this!",
    "link": "https://atlas.medmapped.com/planner"
+  },
+  {
+   "template": "split",
+   "headline": "Applying in 2027? Start this winter!",
+   "kicker": "Free printable checklist",
+   "sub": "The MCAT, your letters and the Fee Assistance Program, in the right order.",
+   "page": 1,
+   "title": "Applying to Med School in 2027? What to Do This Fall and Winter",
+   "description": "Applying to med school in the 2027 cycle? This fall and winter is for the MCAT, asking for letters and applying for the AAMC Fee Assistance Program before you register for anything (FAP isn't retroactive). Month-by-month timeline plus a free printable checklist. You've got this!"
+  },
+  {
+   "template": "stack",
+   "headline": "Ask for letters before you need them",
+   "kicker": "Free checklist",
+   "page": 1,
+   "title": "When to Ask for Med School Letters of Recommendation",
+   "description": "Ask for med school letters early: give each writer your CV, a short note on what you'd like them to speak to, and a deadline a few weeks before you really need it. Where letters fit in the whole application timeline, with a free printable month-by-month checklist!"
   }
  ],
  "big": true

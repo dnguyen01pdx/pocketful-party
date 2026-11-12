@@ -1057,5 +1057,29 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-19T20:07:00Z"
+ },
+ {
+  "id": "med-school-application-timeline-8",
+  "post": "med-school-application-timeline",
+  "board": "medschool",
+  "image": "pins/med-school-application-timeline-8.jpg",
+  "title": "Applying to Med School in 2027? What to Do This Fall and Winter",
+  "description": "Applying to med school in the 2027 cycle? This fall and winter is for the MCAT, asking for letters and applying for the AAMC Fee Assistance Program before you register for anything (FAP isn't retroactive). Month-by-month timeline plus a free printable checklist. You've got this!",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-26T19:37:00Z"
+ },
+ {
+  "id": "med-school-application-timeline-9",
+  "post": "med-school-application-timeline",
+  "board": "medschool",
+  "image": "pins/med-school-application-timeline-9.jpg",
+  "title": "When to Ask for Med School Letters of Recommendation",
+  "description": "Ask for med school letters early: give each writer your CV, a short note on what you'd like them to speak to, and a deadline a few weeks before you really need it. Where letters fit in the whole application timeline, with a free printable month-by-month checklist!",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-28T19:37:00Z"
  }
 ]
