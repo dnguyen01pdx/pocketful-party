@@ -1,0 +1,153 @@
+{
+ "slug": "residency-application-timeline",
+ "title": "Residency Application Timeline",
+ "subtitle": "ERAS to Match Day checklist",
+ "theme": "residency",
+ "type": "list",
+ "board": "residency",
+ "checkbox": true,
+ "site_label": "med mapped",
+ "pages": [
+  {
+   "title": "Before ERAS opens",
+   "note": "Anchor dates from the AAMC's 2027 ERAS timeline and the NRMP's 2027 Main Residency Match calendar. Dates shift a little each year; confirm the current ones before you plan around them.",
+   "sections": [
+    {
+     "h": "Early clinical years",
+     "items": [
+      "Keep a running list of patients, cases and projects that stuck with you",
+      "Note attendings and residents who saw your work up close",
+      "Try to explore the specialties you're curious about",
+      "Ask your school when away rotations get planned"
+     ]
+    },
+    {
+     "h": "Winter and spring before you apply",
+     "items": [
+      "Pick a specialty (or a main one plus a backup)",
+      "Ask for letters: CV, talking points, early deadline",
+      "Check your specialty's letter and exam expectations",
+      "Talk to an advisor and residents in that field",
+      "Draft your personal statement"
+     ]
+    },
+    {
+     "h": "June: ERAS opens (June 4, 2026 for ERAS 2027)",
+     "items": [
+      "Start your MyERAS application early",
+      "Write up experiences while details are fresh",
+      "Look up your specialty's program signal rules",
+      "Build a first program list and budget"
+     ]
+    },
+    {
+     "h": "Your letter writers",
+     "items": [
+      "Writer 1: asked / reminded / uploaded",
+      "Writer 2: asked / reminded / uploaded",
+      "Writer 3: asked / reminded / uploaded",
+      "Thank-you notes sent"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "From submit to Match Day",
+   "sections": [
+    {
+     "h": "September: submit",
+     "items": [
+      "Submit on the first day if you can (Sept 2, 2026)",
+      "Budget fees: $11/program for 1-30, $30 each after, per specialty",
+      "Register for the NRMP Match (opened Sept 15, 2026)",
+      "Programs start reviewing + MSPE (Sept 23, 2026)"
+     ]
+    },
+    {
+     "h": "October to January: interviews",
+     "items": [
+      "Log every invite and reply quickly",
+      "Test camera, light and sound for virtual days",
+      "Write notes right after each interview",
+      "NRMP standard registration deadline (Jan 29, 2027)"
+     ]
+    },
+    {
+     "h": "February to March: rank and Match",
+     "items": [
+      "Ranking opens (Feb 1, 2027)",
+      "Rank in the order you truly prefer",
+      "Certify your rank list early (deadline Mar 3, 2027, 9 p.m. ET)",
+      "Match Week starts (Mar 15, 2027)",
+      "Match Day! (Mar 19, 2027, 12 p.m. ET)"
+     ]
+    },
+    {
+     "h": "After Match Day",
+     "items": [
+      "Celebrate (seriously!)",
+      "Thank your letter writers and mentors",
+      "Watch for your program's onboarding and contract emails",
+      "Start the licensing paperwork your program asks for"
+     ]
+    }
+   ]
+  }
+ ],
+ "big": true,
+ "pins": [
+  {
+   "template": "list",
+   "headline": "Residency applications, in order",
+   "kicker": "Free printable checklist",
+   "items": [
+    "Pick a specialty + ask for letters",
+    "Start MyERAS when it opens in June",
+    "Submit early in September",
+    "Interview season: log every invite",
+    "Rank, certify, then Match Day!"
+   ],
+   "title": "Residency Application Timeline: ERAS to Match Day (Free Checklist)",
+   "description": "The whole residency application in order, from picking a specialty to Match Day, with real dates from the AAMC's 2027 ERAS timeline and the NRMP's 2027 Match calendar. Free printable two-page checklist from a current med student!"
+  },
+  {
+   "template": "hook",
+   "kicker": "Residency timing tip",
+   "quote": "Programs could start reviewing ERAS applications on Sept 23, 2026",
+   "headline": "So submit on day one if you can",
+   "sub": "Real 2027 ERAS + Match dates + a free checklist",
+   "title": "When to Submit ERAS (and Why Early Helps)",
+   "description": "In the 2027 ERAS cycle, applicants could submit on Sept 2 and programs could start reviewing on Sept 23. Here's the whole residency timeline from ERAS to Match Day, plus a free printable checklist to keep it all straight!"
+  },
+  {
+   "template": "split",
+   "headline": "Applying to residency next year?",
+   "kicker": "Free printable checklist",
+   "sub": "ERAS, letters, interviews and your rank list, with real 2027 dates.",
+   "page": 1,
+   "title": "Applying to Residency Next Year? Start With This Timeline",
+   "description": "Applying to residency next cycle? This timeline walks through picking a specialty, letters, MyERAS, program signals, interviews and the rank list, with dates from the 2027 ERAS and NRMP calendars. Free printable checklist included!"
+  },
+  {
+   "template": "stack",
+   "headline": "From ERAS to Match Day",
+   "kicker": "Free checklist",
+   "page": 2,
+   "title": "Residency Match Timeline Checklist: ERAS, Interviews, Rank List",
+   "description": "A month-by-month residency checklist: submit ERAS in September, interviews through January, ranking opens in February, and Match Day in March (March 19 in 2027). Free two-page printable from a fellow med student. You've got this!"
+  },
+  {
+   "template": "fan",
+   "headline": "Residency application timeline",
+   "kicker": "2 page printable · free",
+   "sub": "ERAS, interviews, rank list, Match Day",
+   "pages": [
+    1,
+    2,
+    1
+   ],
+   "title": "Free Printable Residency Application Timeline Checklist",
+   "description": "A free two-page residency application checklist: before ERAS opens, submitting in September, interview season, ranking and Match Day, with real dates from the 2027 cycle. Print it and check things off as you go!"
+  }
+ ]
+}
