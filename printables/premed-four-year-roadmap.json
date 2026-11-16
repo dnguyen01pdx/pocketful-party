@@ -1,0 +1,159 @@
+{
+ "slug": "premed-four-year-roadmap",
+ "title": "Premed Roadmap",
+ "subtitle": "year-by-year checklist",
+ "theme": "med",
+ "type": "list",
+ "board": "medschool",
+ "checkbox": true,
+ "site_label": "med mapped",
+ "pages": [
+  {
+   "title": "Years 1 and 2: build the base",
+   "note": "A general plan for applying the summer after junior year; many people take gap years, and that's totally normal. Prerequisites vary by school, so check the AAMC's MSAR for the schools you like.",
+   "sections": [
+    {
+     "h": "Freshman fall: settle in",
+     "items": [
+      "Meet your prehealth advisor",
+      "Map your prerequisite courses with them",
+      "Find study habits that work before adding more",
+      "Join one or two clubs you actually like"
+     ]
+    },
+    {
+     "h": "Freshman spring and summer",
+     "items": [
+      "Start an activity log: dates, hours, a contact",
+      "Try one clinical role (volunteer, scribe, CNA, EMT...)",
+      "Keep a short journal of patient moments",
+      "Look into research labs if you're curious"
+     ]
+    },
+    {
+     "h": "Sophomore year: find your groove",
+     "items": [
+      "Stay with the activities you care about",
+      "Add non-clinical service you'd do anyway",
+      "Shadow a few physicians, in different fields",
+      "Get to know 2-3 professors (future letters!)",
+      "Check your GPA trend; get help early if it dips"
+     ]
+    },
+    {
+     "h": "Summer after sophomore year",
+     "items": [
+      "Keep your clinical role going (steady beats a burst)",
+      "Try research, a job or a program that interests you",
+      "Update your activity log and journal",
+      "Rest, too! Summers count as recovery"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Years 3 and 4: apply",
+   "sections": [
+    {
+     "h": "Junior fall and winter",
+     "items": [
+      "Apply for the AAMC Fee Assistance Program first, if eligible",
+      "Plan your MCAT date with room for a retake",
+      "Ask for letters with your CV and an early deadline",
+      "Start a list of schools in MSAR"
+     ]
+    },
+    {
+     "h": "Junior spring",
+     "items": [
+      "Take the MCAT (2027 fee: $360, $145 with FAP)",
+      "Draft your personal statement (5,300 characters)",
+      "Write your Work and Activities (up to 15)",
+      "Pre-write common secondary prompts"
+     ]
+    },
+    {
+     "h": "Summer after junior year: AMCAS",
+     "items": [
+      "AMCAS opens in early May (May 5 in 2027)",
+      "Submit early in the window (from May 28 in 2027)",
+      "Turn secondaries around in about 2 weeks"
+     ]
+    },
+    {
+     "h": "Senior year",
+     "items": [
+      "Interview season: practice out loud",
+      "Keep your activities going (they still count!)",
+      "Send updates where schools allow them",
+      "Decisions in spring: compare cost, aid and fit"
+     ]
+    },
+    {
+     "h": "Every single year",
+     "items": [
+      "Protect your sleep and your grades",
+      "Log hours the same week you do them",
+      "Do things you'd do even if med school weren't the goal"
+     ]
+    }
+   ]
+  }
+ ],
+ "big": true,
+ "pins": [
+  {
+   "template": "list",
+   "headline": "The premed roadmap, year by year",
+   "kicker": "Free printable checklist",
+   "items": [
+    "Freshman: advisor, prereqs, study habits",
+    "Sophomore: steady clinical + service",
+    "Junior: letters, MCAT, personal statement",
+    "Summer: submit AMCAS early",
+    "Senior: secondaries, interviews, decisions"
+   ],
+   "title": "Premed Roadmap: What to Do Each Year of College (Free Checklist)",
+   "description": "A year-by-year premed roadmap from freshman fall to med school decisions: prerequisites, clinical experience, shadowing, letters, the MCAT and AMCAS, with real 2027 AAMC dates. Free printable checklist from a current med student!"
+  },
+  {
+   "template": "hook",
+   "kicker": "Premed tip",
+   "quote": "Log your hours the same week you do them",
+   "headline": "Future you will be so grateful",
+   "sub": "Year-by-year premed roadmap + free checklist",
+   "title": "The Premed Habit That Saves You Hours on AMCAS",
+   "description": "AMCAS asks for dates, hours and a contact person for every activity. Logging them the same week you do them makes application season so much easier! Here's the full year-by-year premed roadmap with a free printable checklist."
+  },
+  {
+   "template": "split",
+   "headline": "New premed? Start here!",
+   "kicker": "Free printable checklist",
+   "sub": "What to do freshman through senior year, without burning out.",
+   "page": 1,
+   "title": "New Premed? A Year-by-Year Roadmap for College",
+   "description": "Just starting as a premed? This roadmap walks through freshman, sophomore, junior and senior year: classes, clinical experience, shadowing, letters, the MCAT and applying. Free printable checklist, written by a fellow student. You've got this!"
+  },
+  {
+   "template": "stack",
+   "headline": "Freshman to med school, mapped out",
+   "kicker": "Free checklist",
+   "page": 2,
+   "title": "Premed Checklist: Junior Year to Applying to Med School",
+   "description": "The application years of the premed roadmap: Fee Assistance, letters, the MCAT, your personal statement, AMCAS in May and interview season. Two-page free printable checklist with real 2027 AAMC dates!"
+  },
+  {
+   "template": "fan",
+   "headline": "Premed roadmap",
+   "kicker": "2 page printable · free",
+   "sub": "Year by year, freshman to acceptance",
+   "pages": [
+    1,
+    2,
+    1
+   ],
+   "title": "Free Printable Premed Roadmap Checklist (Year by Year)",
+   "description": "A free two-page premed checklist that goes year by year, from meeting your advisor freshman fall to choosing a med school senior spring. Print it, stick it on your wall and check things off!"
+  }
+ ]
+}

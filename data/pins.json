@@ -1141,5 +1141,65 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-21T20:07:00Z"
+ },
+ {
+  "id": "premed-four-year-roadmap-1",
+  "post": "premed-four-year-roadmap",
+  "board": "medschool",
+  "image": "pins/premed-four-year-roadmap-1.jpg",
+  "title": "Premed Roadmap: What to Do Each Year of College (Free Checklist)",
+  "description": "A year-by-year premed roadmap from freshman fall to med school decisions: prerequisites, clinical experience, shadowing, letters, the MCAT and AMCAS, with real 2027 AAMC dates. Free printable checklist from a current med student!",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-16T20:07:00Z"
+ },
+ {
+  "id": "premed-four-year-roadmap-2",
+  "post": "premed-four-year-roadmap",
+  "board": "medschool",
+  "image": "pins/premed-four-year-roadmap-2.jpg",
+  "title": "The Premed Habit That Saves You Hours on AMCAS",
+  "description": "AMCAS asks for dates, hours and a contact person for every activity. Logging them the same week you do them makes application season so much easier! Here's the full year-by-year premed roadmap with a free printable checklist.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-18T20:07:00Z"
+ },
+ {
+  "id": "premed-four-year-roadmap-3",
+  "post": "premed-four-year-roadmap",
+  "board": "medschool",
+  "image": "pins/premed-four-year-roadmap-3.jpg",
+  "title": "New Premed? A Year-by-Year Roadmap for College",
+  "description": "Just starting as a premed? This roadmap walks through freshman, sophomore, junior and senior year: classes, clinical experience, shadowing, letters, the MCAT and applying. Free printable checklist, written by a fellow student. You've got this!",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-20T20:07:00Z"
+ },
+ {
+  "id": "premed-four-year-roadmap-4",
+  "post": "premed-four-year-roadmap",
+  "board": "medschool",
+  "image": "pins/premed-four-year-roadmap-4.jpg",
+  "title": "Premed Checklist: Junior Year to Applying to Med School",
+  "description": "The application years of the premed roadmap: Fee Assistance, letters, the MCAT, your personal statement, AMCAS in May and interview season. Two-page free printable checklist with real 2027 AAMC dates!",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-22T20:07:00Z"
+ },
+ {
+  "id": "premed-four-year-roadmap-5",
+  "post": "premed-four-year-roadmap",
+  "board": "medschool",
+  "image": "pins/premed-four-year-roadmap-5.jpg",
+  "title": "Free Printable Premed Roadmap Checklist (Year by Year)",
+  "description": "A free two-page premed checklist that goes year by year, from meeting your advisor freshman fall to choosing a med school senior spring. Print it, stick it on your wall and check things off!",
+  "template": "fan",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-24T20:07:00Z"
  }
 ]

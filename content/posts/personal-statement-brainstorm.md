@@ -45,7 +45,7 @@ Write down more than you'll use. You're looking for the two or three that still 
 
 One tip I see confirmed again and again: list the qualities you want readers to see, then find the story that proves each one. "I'm resilient" on its own doesn't land. A specific moment where you were struggling and figured it out does, and the reader reaches "resilient" on their own.
 
-If you're stuck on traits, the AAMC's list of core competencies for entering medical students (things like service orientation, teamwork, resilience and adaptability) is a helpful checklist. Pick two that are honestly true of you, not the ones you think sound best.
+If you're stuck on traits, the AAMC's premed competencies (formerly called the core competencies for entering medical students, with things like service orientation, teamwork, resilience and adaptability) is a helpful checklist. Pick two that are honestly true of you, not the ones you think sound best.
 
 ## Step 3: Get specific about why medicine
 
