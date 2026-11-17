@@ -58,7 +58,7 @@
   {
    "template": "list",
    "headline": "What applying to med school costs",
-   "kicker": "2027 fees \u00b7 free worksheet",
+   "kicker": "2027 fees · free worksheet",
    "items": [
     "MCAT: $360",
     "AMCAS first school: $180",
@@ -111,7 +111,7 @@
   {
    "template": "list",
    "headline": "MCAT reschedule fees",
-   "kicker": "2027 testing year \u00b7 AAMC",
+   "kicker": "2027 testing year · AAMC",
    "items": [
     "60+ days out: $55",
     "30 to 59 days: $110",
@@ -130,6 +130,24 @@
    "sub": "What it covers + a free budget sheet",
    "title": "AAMC Fee Assistance: Apply Before You Pay Anything",
    "description": "If you might qualify for the AAMC Fee Assistance Program, apply first! Benefits aren't retroactive. It covers AMCAS fees for up to 20 schools, drops the MCAT to $145, and adds free Official Prep and MSAR. See what applying to med school really costs, with a free budget worksheet."
+  },
+  {
+   "template": "split",
+   "headline": "Secondaries: the cost people forget",
+   "kicker": "Free printable budget sheet",
+   "sub": "From free to about $150 each, and they all land in July and August.",
+   "page": 1,
+   "title": "Med School Secondary Fees: The Cost Most Premeds Forget",
+   "description": "Secondary application fees can run from free to about $150 per school, and they arrive all at once in July and August. Here's how to budget for them (and ask about fee waivers), plus a free printable med school application budget sheet!"
+  },
+  {
+   "template": "hook",
+   "kicker": "Premed money tip",
+   "quote": "20 schools you'd really attend beat 30 added out of panic",
+   "headline": "Build your list on fit, not volume",
+   "sub": "Real AMCAS fees + a free budget sheet",
+   "title": "How to Spend Less Applying to Med School (Without Hurting Your Chances)",
+   "description": "Every extra school adds an AMCAS fee plus a secondary fee. Build your list on fit, take the MCAT once on purpose, ask about secondary fee waivers and track every charge. Full cost breakdown with official AAMC fees and a free printable budget sheet!"
   }
  ]
 }

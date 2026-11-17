@@ -1201,5 +1201,29 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-24T20:07:00Z"
+ },
+ {
+  "id": "how-much-does-it-cost-to-apply-to-med-school-8",
+  "post": "how-much-does-it-cost-to-apply-to-med-school",
+  "board": "medschool",
+  "image": "pins/how-much-does-it-cost-to-apply-to-med-school-8.jpg",
+  "title": "Med School Secondary Fees: The Cost Most Premeds Forget",
+  "description": "Secondary application fees can run from free to about $150 per school, and they arrive all at once in July and August. Here's how to budget for them (and ask about fee waivers), plus a free printable med school application budget sheet!",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-26T21:52:00Z"
+ },
+ {
+  "id": "how-much-does-it-cost-to-apply-to-med-school-9",
+  "post": "how-much-does-it-cost-to-apply-to-med-school",
+  "board": "medschool",
+  "image": "pins/how-much-does-it-cost-to-apply-to-med-school-9.jpg",
+  "title": "How to Spend Less Applying to Med School (Without Hurting Your Chances)",
+  "description": "Every extra school adds an AMCAS fee plus a secondary fee. Build your list on fit, take the MCAT once on purpose, ask about secondary fee waivers and track every charge. Full cost breakdown with official AAMC fees and a free printable budget sheet!",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-28T21:52:00Z"
  }
 ]
