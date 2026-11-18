@@ -1225,5 +1225,65 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-28T21:52:00Z"
+ },
+ {
+  "id": "anki-for-med-school-beginners-1",
+  "post": "anki-for-med-school-beginners",
+  "board": "medlife",
+  "image": "pins/anki-for-med-school-beginners-1.jpg",
+  "title": "How to Start Anki in Med School: 5 Simple Rules (Free Planner)",
+  "description": "New to Anki in med school? Start with these five habits: reviews first, one main deck, a new-card limit you can keep, and a check-in after two weeks. Free printable 2-week Anki review tracker from a fellow med student!",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-18T20:07:00Z"
+ },
+ {
+  "id": "anki-for-med-school-beginners-2",
+  "post": "anki-for-med-school-beginners",
+  "board": "medlife",
+  "image": "pins/anki-for-med-school-beginners-2.jpg",
+  "title": "The #1 Anki Rule for Med Students (Reviews First!)",
+  "description": "Skipped reviews pile up fast in Anki. When a week gets heavy, lower your new cards instead of skipping reviews, and the pile stays manageable. Full beginner guide plus a free printable two-week review tracker!",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-20T20:07:00Z"
+ },
+ {
+  "id": "anki-for-med-school-beginners-3",
+  "post": "anki-for-med-school-beginners",
+  "board": "medlife",
+  "image": "pins/anki-for-med-school-beginners-3.jpg",
+  "title": "Anki for Beginners in Med School: Setup + Daily Routine",
+  "description": "Just starting Anki in med school? Here's a simple setup (free desktop app, free AnkiWeb sync), a daily routine that keeps reviews under control, and a free printable two-week review tracker. You can do this!",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-22T20:07:00Z"
+ },
+ {
+  "id": "anki-for-med-school-beginners-4",
+  "post": "anki-for-med-school-beginners",
+  "board": "medlife",
+  "image": "pins/anki-for-med-school-beginners-4.jpg",
+  "title": "Anki Starter Checklist for Med Students (Free Printable)",
+  "description": "A free Anki starter checklist for med school: install and sync, pick your decks, set a daily routine, track the cards you keep missing and check in at the end of each week. Two-page printable!",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-24T20:07:00Z"
+ },
+ {
+  "id": "anki-for-med-school-beginners-5",
+  "post": "anki-for-med-school-beginners",
+  "board": "medlife",
+  "image": "pins/anki-for-med-school-beginners-5.jpg",
+  "title": "Free Printable Anki Planner for Med School (2-Week Tracker)",
+  "description": "Track your daily Anki reviews, new cards and time for your first two weeks, plus a setup checklist and weekly check-in. Free two-page printable for med students starting Anki!",
+  "template": "fan",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-26T20:07:00Z"
  }
 ]

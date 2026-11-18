@@ -1,0 +1,164 @@
+{
+ "slug": "anki-for-med-school-beginners",
+ "title": "Anki Starter Planner",
+ "subtitle": "2-week daily review tracker",
+ "theme": "study",
+ "type": "grid",
+ "board": "medlife",
+ "site_label": "med mapped",
+ "cols": [
+  "Reviews due",
+  "All done?",
+  "New cards",
+  "Time spent",
+  "Notes + tricky cards"
+ ],
+ "rows": [
+  "Day 1",
+  "Day 2",
+  "Day 3",
+  "Day 4",
+  "Day 5",
+  "Day 6",
+  "Day 7",
+  "Day 8",
+  "Day 9",
+  "Day 10",
+  "Day 11",
+  "Day 12",
+  "Day 13",
+  "Day 14"
+ ],
+ "row_h": "0.5in",
+ "note": "Reviews first, every day. Then new cards for today's lectures. If the pile gets heavy, cut new cards before you skip reviews.",
+ "week_line": [
+  "Start date",
+  "New cards per day goal"
+ ],
+ "after": {
+  "title": "Setup + weekly check-in",
+  "note": "Settings change as you go. Start simple, give it two weeks, then adjust. You've got this!",
+  "sections": [
+   {
+    "h": "Day 1 setup",
+    "items": [
+     "Install Anki on your computer (free)",
+     "Make a free AnkiWeb account to sync",
+     "Phone: AnkiDroid (free) or AnkiMobile (paid, iOS)",
+     "Pick one main deck for now",
+     "Set a daily new-card limit you can keep"
+    ]
+   },
+   {
+    "h": "My deck plan (deck, what it covers, new/day)",
+    "items": [
+     "",
+     "",
+     "",
+     ""
+    ]
+   },
+   {
+    "h": "Daily routine",
+    "items": [
+     "Do due reviews before anything new",
+     "Unsuspend or make cards for today's lectures",
+     "Stop at your set time",
+     "Sync before bed"
+    ]
+   },
+   {
+    "h": "Cards I keep missing (topic + why)",
+    "items": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   },
+   {
+    "h": "End-of-week check-in",
+    "items": [
+     "Did reviews get done every day?",
+     "Average time per day: ____",
+     "Too many new cards? Too few?",
+     "One thing to change next week"
+    ]
+   },
+   {
+    "h": "Settings I'm trying (what + date changed)",
+    "items": [
+     "",
+     "",
+     "",
+     ""
+    ]
+   },
+   {
+    "h": "Before a block exam",
+    "items": [
+     "Keep reviews going, lower new cards",
+     "Do practice questions on topics you keep missing",
+     "Plan a light catch-up day after the exam"
+    ]
+   }
+  ]
+ },
+ "pins": [
+  {
+   "template": "list",
+   "headline": "How I'd start Anki in med school",
+   "kicker": "Free printable planner",
+   "items": [
+    "Reviews first, every single day",
+    "Pick one main deck to start",
+    "Set a new-card limit you can keep",
+    "Cut new cards before skipping reviews",
+    "Check in after two weeks"
+   ],
+   "title": "How to Start Anki in Med School: 5 Simple Rules (Free Planner)",
+   "description": "New to Anki in med school? Start with these five habits: reviews first, one main deck, a new-card limit you can keep, and a check-in after two weeks. Free printable 2-week Anki review tracker from a fellow med student!"
+  },
+  {
+   "template": "hook",
+   "kicker": "Anki tip for M1s",
+   "quote": "Cut new cards before you skip reviews",
+   "headline": "Your future self will thank you",
+   "sub": "Anki starter guide + free review tracker",
+   "title": "The #1 Anki Rule for Med Students (Reviews First!)",
+   "description": "Skipped reviews pile up fast in Anki. When a week gets heavy, lower your new cards instead of skipping reviews, and the pile stays manageable. Full beginner guide plus a free printable two-week review tracker!"
+  },
+  {
+   "template": "split",
+   "headline": "New to Anki? Start here!",
+   "kicker": "Free printable planner",
+   "sub": "Setup, daily routine and a 2-week review tracker for med school.",
+   "page": 1,
+   "title": "Anki for Beginners in Med School: Setup + Daily Routine",
+   "description": "Just starting Anki in med school? Here's a simple setup (free desktop app, free AnkiWeb sync), a daily routine that keeps reviews under control, and a free printable two-week review tracker. You can do this!"
+  },
+  {
+   "template": "stack",
+   "headline": "Your first two weeks of Anki",
+   "kicker": "Free planner",
+   "page": 2,
+   "title": "Anki Starter Checklist for Med Students (Free Printable)",
+   "description": "A free Anki starter checklist for med school: install and sync, pick your decks, set a daily routine, track the cards you keep missing and check in at the end of each week. Two-page printable!"
+  },
+  {
+   "template": "fan",
+   "headline": "Anki starter planner",
+   "kicker": "2 page printable · free",
+   "sub": "Daily reviews, new cards, weekly check-in",
+   "pages": [
+    1,
+    2,
+    1
+   ],
+   "title": "Free Printable Anki Planner for Med School (2-Week Tracker)",
+   "description": "Track your daily Anki reviews, new cards and time for your first two weeks, plus a setup checklist and weekly check-in. Free two-page printable for med students starting Anki!"
+  }
+ ]
+}
