@@ -1285,5 +1285,29 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-26T20:07:00Z"
+ },
+ {
+  "id": "non-traditional-path-to-med-school-7",
+  "post": "non-traditional-path-to-med-school",
+  "board": "medschool",
+  "image": "pins/non-traditional-path-to-med-school-7.jpg",
+  "title": "Switching to Medicine From Another Field? Be Ready for \"Why Not That?\"",
+  "description": "If you seriously considered a neighboring field (dentistry, PA, nursing, research), expect to be asked why not that. Here's how to answer honestly without knocking the other field, plus a free worksheet to map your path to med school!",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-29T17:12:00Z"
+ },
+ {
+  "id": "non-traditional-path-to-med-school-8",
+  "post": "non-traditional-path-to-med-school",
+  "board": "medschool",
+  "image": "pins/non-traditional-path-to-med-school-8.jpg",
+  "title": "How to Tell a Non-Traditional Med School Story (Free Worksheet)",
+  "description": "Non-traditional applicant? Find the thread through your chapters instead of apologizing for the pivots: a simple three-beat arc, specific moments instead of claims, and short honest explanations for gaps. Free printable worksheet from a fellow non-trad!",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-12-01T17:12:00Z"
  }
 ]
