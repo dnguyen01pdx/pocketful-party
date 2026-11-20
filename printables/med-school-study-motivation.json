@@ -1,0 +1,102 @@
+{
+ "slug": "med-school-study-motivation",
+ "title": "Weekly Reset",
+ "subtitle": "hard-block worksheet",
+ "theme": "study",
+ "type": "fill",
+ "board": "medlife",
+ "site_label": "med mapped",
+ "note": "Ten minutes every Sunday. Be honest, keep it small, and remember: a hard block is temporary. If you've felt low for more than a couple of weeks, please reach out to your school's counseling or wellness services.",
+ "sections": [
+  {
+   "h": "Last week, honestly",
+   "lines": [
+    "~What went well (even small things):",
+    "~",
+    "~What drained me:",
+    "~"
+   ]
+  },
+  {
+   "h": "This week's exams + must-dos",
+   "lines": [
+    "~Exam or quiz (date):",
+    "~Must-do 1:",
+    "~Must-do 2:"
+   ]
+  },
+  {
+   "h": "Make it smaller",
+   "lines": [
+    "~One thing I'll drop or do lighter:",
+    "~",
+    "~My minimum on a bad day (reviews only? one lecture?):",
+    "~"
+   ]
+  },
+  {
+   "h": "Refill",
+   "lines": [
+    "~One thing that isn't medicine this week:",
+    "~Who I'll see or call:",
+    "~Bedtime goal + stop-studying time:"
+   ]
+  },
+  {
+   "h": "Why I'm here",
+   "lines": [
+    "~One moment that reminded me why I chose this:",
+    "~"
+   ]
+  },
+  {
+   "h": "Help I can ask for",
+   "lines": [
+    "~Learning specialist / advisor / upperclassman:",
+    "~One question to ask them:"
+   ]
+  }
+ ],
+ "pins": [
+  {
+   "template": "list",
+   "headline": "Stuck in a hard block? Try a weekly reset",
+   "kicker": "Free printable worksheet",
+   "items": [
+    "Look back honestly (wins too!)",
+    "Write this week's must-dos",
+    "Make the plan smaller, not bigger",
+    "Plan one thing that isn't medicine",
+    "Ask for help early"
+   ],
+   "title": "How to Stay Motivated in Med School: A 10-Minute Weekly Reset",
+   "description": "Running on empty in a hard med school block? This 10-minute Sunday reset helps: look back honestly, list this week's must-dos, shrink the plan, schedule one thing that isn't medicine and ask for help early. Free printable worksheet from a fellow med student!"
+  },
+  {
+   "template": "hook",
+   "kicker": "Hard block tip",
+   "quote": "Make the plan smaller, not bigger",
+   "headline": "Then actually keep it",
+   "sub": "Weekly reset worksheet, free",
+   "title": "Burned Out in a Med School Block? Shrink the Plan First",
+   "description": "When motivation is gone, adding more to your plan rarely helps. Decide your minimum for a bad day, drop one thing, and protect your sleep. Here's a simple weekly reset with a free printable worksheet. Be kind to yourself!"
+  },
+  {
+   "template": "split",
+   "headline": "Running on empty this block?",
+   "kicker": "Free printable worksheet",
+   "sub": "A 10-minute Sunday reset for hard weeks in med school.",
+   "page": 1,
+   "title": "Med School Motivation: A Weekly Reset for Hard Blocks",
+   "description": "Hard blocks happen to everyone in med school. This weekly reset worksheet helps you look back, plan a smaller week, refill your tank and remember why you started. Free printable, written by a fellow student!"
+  },
+  {
+   "template": "stack",
+   "headline": "Your Sunday reset, on one page",
+   "kicker": "Free worksheet",
+   "page": 1,
+   "title": "Free Weekly Reset Worksheet for Med Students",
+   "description": "One page every Sunday: last week's wins and drains, this week's must-dos, your bad-day minimum, one thing that isn't medicine, and who to ask for help. Free printable worksheet for med students!"
+  }
+ ]
+}
