@@ -1,0 +1,129 @@
+{
+ "slug": "med-student-study-space-setup",
+ "title": "Study Space Setup",
+ "subtitle": "med student checklist",
+ "theme": "study",
+ "type": "list",
+ "board": "medlife",
+ "checkbox": true,
+ "site_label": "med mapped",
+ "pages": [
+  {
+   "title": "A study space that actually works",
+   "note": "You don't need a perfect or expensive setup. Check off what you already have, pick one or two things to fix this week, and leave the rest!",
+   "sections": [
+    {
+     "h": "Pick your spots",
+     "items": [
+      "A home base for deep work (desk or table)",
+      "A backup spot (library, study room)",
+      "A light-review spot for Anki on tired days",
+      "Bed stays for sleep, not lectures"
+     ]
+    },
+    {
+     "h": "Set up the desk",
+     "items": [
+      "Screen near eye level (a stand or a stack of books)",
+      "Second screen if you have one: lecture + notes",
+      "A chair you can sit in for a two-hour block",
+      "Good light: a desk lamp, plus daylight if you can",
+      "Clear surface: only today's stuff out"
+     ]
+    },
+    {
+     "h": "Cut the distractions",
+     "items": [
+      "Phone in another room (or out of reach)",
+      "Site blocker on during study blocks",
+      "Headphones or earplugs for noise",
+      "Roommates know your study hours"
+     ]
+    },
+    {
+     "h": "Keep within reach",
+     "items": [
+      "Water bottle and a snack",
+      "Charger and a long cord",
+      "Whiteboard or scratch paper",
+      "Today's to-do list, written down"
+     ]
+    },
+    {
+     "h": "Before each study block",
+     "items": [
+      "Phone away, blocker on",
+      "Pick the one task this block is for",
+      "Set a timer for the block, and a break after",
+      "Fill your water bottle"
+     ]
+    },
+    {
+     "h": "Make it yours (the optional, fun part!)",
+     "items": [
+      "One thing you love looking at",
+      "A note with why you chose medicine",
+      "A plant, a photo or a print you like"
+     ]
+    },
+    {
+     "h": "Reset and check in",
+     "items": [
+      "Five-minute desk reset at your stop time",
+      "Set out tomorrow's first task",
+      "After two weeks: where did I focus best?"
+     ]
+    },
+    {
+     "h": "My one or two fixes this week",
+     "items": [
+      "",
+      ""
+     ]
+    }
+   ]
+  }
+ ],
+ "pins": [
+  {
+   "template": "list",
+   "headline": "A med student study space that works",
+   "kicker": "Free printable checklist",
+   "items": [
+    "Pick a home base + a backup spot",
+    "Screen near eye level",
+    "Phone in another room",
+    "Water, charger, scratch paper in reach",
+    "Reset your desk at stop time"
+   ],
+   "title": "Med Student Study Space Setup: A Simple Checklist That Works",
+   "description": "Setting up your med school study space? Start simple: a home base and a backup spot, your screen near eye level, your phone out of reach, and the basics within arm's reach. Free printable checklist from a fellow med student, no fancy setup required!"
+  },
+  {
+   "template": "hook",
+   "kicker": "Study space tip",
+   "quote": "Put your phone in another room",
+   "headline": "It's the cheapest upgrade there is",
+   "sub": "Study space setup guide + free checklist",
+   "title": "The Easiest Med School Study Space Upgrade (It's Free!)",
+   "description": "Before you buy anything for your study space, try this: put your phone in another room during study blocks. Then fix your lighting and screen height. Here's a simple med student study space guide with a free printable checklist!"
+  },
+  {
+   "template": "split",
+   "headline": "Your study space, simplified",
+   "kicker": "Free printable checklist",
+   "sub": "Spots, desk setup and distractions, without buying a bunch of stuff.",
+   "page": 1,
+   "title": "Med Student Aesthetic Study Space, the Practical Version",
+   "description": "Love a cozy, aesthetic study space? Same! Here's how to make one that also helps you focus in med school: the right spots, a comfortable desk, fewer distractions and a quick daily reset. Free printable checklist included!"
+  },
+  {
+   "template": "stack",
+   "headline": "Set up your study space in one page",
+   "kicker": "Free checklist",
+   "page": 1,
+   "title": "Free Study Space Setup Checklist for Med Students",
+   "description": "One page to set up a study space that works: where to study, how to set up your desk, how to cut distractions, what to keep within reach, and a daily reset. Free printable checklist for med students!"
+  }
+ ]
+}

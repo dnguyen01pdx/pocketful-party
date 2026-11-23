@@ -1357,5 +1357,53 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-26T20:07:00Z"
+ },
+ {
+  "id": "med-student-study-space-setup-1",
+  "post": "med-student-study-space-setup",
+  "board": "medlife",
+  "image": "pins/med-student-study-space-setup-1.jpg",
+  "title": "Med Student Study Space Setup: A Simple Checklist That Works",
+  "description": "Setting up your med school study space? Start simple: a home base and a backup spot, your screen near eye level, your phone out of reach, and the basics within arm's reach. Free printable checklist from a fellow med student, no fancy setup required!",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-23T20:07:00Z"
+ },
+ {
+  "id": "med-student-study-space-setup-2",
+  "post": "med-student-study-space-setup",
+  "board": "medlife",
+  "image": "pins/med-student-study-space-setup-2.jpg",
+  "title": "The Easiest Med School Study Space Upgrade (It's Free!)",
+  "description": "Before you buy anything for your study space, try this: put your phone in another room during study blocks. Then fix your lighting and screen height. Here's a simple med student study space guide with a free printable checklist!",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-25T20:07:00Z"
+ },
+ {
+  "id": "med-student-study-space-setup-3",
+  "post": "med-student-study-space-setup",
+  "board": "medlife",
+  "image": "pins/med-student-study-space-setup-3.jpg",
+  "title": "Med Student Aesthetic Study Space, the Practical Version",
+  "description": "Love a cozy, aesthetic study space? Same! Here's how to make one that also helps you focus in med school: the right spots, a comfortable desk, fewer distractions and a quick daily reset. Free printable checklist included!",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-27T20:07:00Z"
+ },
+ {
+  "id": "med-student-study-space-setup-4",
+  "post": "med-student-study-space-setup",
+  "board": "medlife",
+  "image": "pins/med-student-study-space-setup-4.jpg",
+  "title": "Free Study Space Setup Checklist for Med Students",
+  "description": "One page to set up a study space that works: where to study, how to set up your desk, how to cut distractions, what to keep within reach, and a daily reset. Free printable checklist for med students!",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-29T20:07:00Z"
  }
 ]
