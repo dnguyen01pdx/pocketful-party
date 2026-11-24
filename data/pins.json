@@ -1405,5 +1405,29 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-11-29T20:07:00Z"
+ },
+ {
+  "id": "mcat-study-schedule-6",
+  "post": "mcat-study-schedule",
+  "board": "medschool",
+  "image": "pins/mcat-study-schedule-6.jpg",
+  "title": "MCAT CARS Tip: A Few Passages Every Day From Week 1",
+  "description": "CARS improves slowly, so a common tip from people who've taken the MCAT is to do two or three passages every day from the very first week, not just at the end. Here's a 3-month MCAT study schedule with a free 12-week printable plan and score log!",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-12-07T16:22:00Z"
+ },
+ {
+  "id": "mcat-study-schedule-7",
+  "post": "mcat-study-schedule",
+  "board": "medschool",
+  "image": "pins/mcat-study-schedule-7.jpg",
+  "title": "How Long Should You Study for the MCAT? 3 Months vs 4-6 Months",
+  "description": "Three months works for a lot of people, especially if you can study close to full time. Working or taking a full course load? Stretching the same plan over four to six months is totally normal! Free 12-week MCAT printable plan you can stretch to fit your life.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-12-09T16:22:00Z"
  }
 ]
