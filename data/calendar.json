@@ -544,5 +544,16 @@
   "publish_by": "2026-11-30",
   "status": "published",
   "source": "2026-11 analytics content gap"
+ },
+ {
+  "slug": "med-school-letters-of-recommendation",
+  "idea": "How to ask for med school letters of recommendation (checklist)",
+  "keyword": "med school letters of recommendation",
+  "board": "medschool",
+  "theme": "med",
+  "type": "list",
+  "publish_by": "2026-11-25",
+  "status": "published",
+  "source": "2026-11-25 operator pick (applying side; calendar empty)"
  }
 ]

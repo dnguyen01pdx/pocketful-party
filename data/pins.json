@@ -1429,5 +1429,65 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-12-09T16:22:00Z"
+ },
+ {
+  "id": "med-school-letters-of-recommendation-1",
+  "post": "med-school-letters-of-recommendation",
+  "board": "medschool",
+  "image": "pins/med-school-letters-of-recommendation-1.jpg",
+  "title": "How to Ask for Letters of Recommendation for Med School",
+  "description": "Asking for med school letters of recommendation feels awkward, but it doesn't have to! Pick people who know your work, ask 6-8 weeks ahead, send a short packet with your CV and a few points to mention, and follow up kindly. Free 2-page checklist from a fellow med student.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-25T20:07:00Z"
+ },
+ {
+  "id": "med-school-letters-of-recommendation-2",
+  "post": "med-school-letters-of-recommendation",
+  "board": "medschool",
+  "image": "pins/med-school-letters-of-recommendation-2.jpg",
+  "title": "Med School Letters of Recommendation: Who Should You Ask?",
+  "description": "A professor who watched you work all semester can write a much more specific letter than a big name who barely knows you. Here's how to pick your med school letter writers, ask them, and track every letter, with a free printable checklist!",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-27T20:07:00Z"
+ },
+ {
+  "id": "med-school-letters-of-recommendation-3",
+  "post": "med-school-letters-of-recommendation",
+  "board": "medschool",
+  "image": "pins/med-school-letters-of-recommendation-3.jpg",
+  "title": "Letters of Recommendation Checklist for Med School Applicants",
+  "description": "Everything for your med school letters in one place: checking each school's rules, picking writers, making the ask, the packet to send, AMCAS letter basics from the 2027 Applicant Guide, and a writer tracker. Free printable checklist!",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-29T20:07:00Z"
+ },
+ {
+  "id": "med-school-letters-of-recommendation-4",
+  "post": "med-school-letters-of-recommendation",
+  "board": "medschool",
+  "image": "pins/med-school-letters-of-recommendation-4.jpg",
+  "title": "What to Send Your Letter Writers (Free Med School Checklist)",
+  "description": "Make your letter writers' job easy: your CV, a short note with 2-3 things you'd love them to mention, your why medicine in a few sentences, and an early deadline. Plus AMCAS letter basics and a writer tracker. Free printable!",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-12-01T20:07:00Z"
+ },
+ {
+  "id": "med-school-letters-of-recommendation-5",
+  "post": "med-school-letters-of-recommendation",
+  "board": "medschool",
+  "image": "pins/med-school-letters-of-recommendation-5.jpg",
+  "title": "Med School Letters of Recommendation Planner (Free Printable)",
+  "description": "A free 2-page planner for med school letters of recommendation: who to ask, how to ask, what to send, AMCAS Section 6 basics and a tracker for your letter writers. Made by a fellow med student!",
+  "template": "fan",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-12-03T20:07:00Z"
  }
 ]

@@ -1,0 +1,190 @@
+{
+ "slug": "med-school-letters-of-recommendation",
+ "title": "Letters of Recommendation",
+ "subtitle": "ask-and-track checklist",
+ "theme": "med",
+ "type": "list",
+ "board": "medschool",
+ "checkbox": true,
+ "site_label": "med mapped",
+ "pages": [
+  {
+   "title": "Who to ask, and how",
+   "note": "Requirements vary a lot by school, so check each school's letter rules (MSAR lists them) before you finalize who you ask. AMCAS details below are from the AAMC's 2027 AMCAS Applicant Guide; confirm them for your cycle.",
+   "sections": [
+    {
+     "h": "Check what your schools want",
+     "items": [
+      "Look up each school's letter rules in MSAR",
+      "Ask your prehealth office about a committee letter",
+      "Note any school that wants a physician or research letter",
+      "List the 3-5 writers that cover most of your schools"
+     ]
+    },
+    {
+     "h": "Pick people who know you",
+     "items": [
+      "Science professors who saw your work up close",
+      "A non-science professor who knows how you think",
+      "A supervisor from clinical work or research",
+      "Someone who can share a specific story about you",
+      "A warm, detailed letter beats a famous name"
+     ]
+    },
+    {
+     "h": "Make the ask",
+     "items": [
+      "Ask in person, at office hours, or in a kind email",
+      "Ask if they can write a strong letter for you",
+      "Make it easy for them to say no",
+      "Ask 6-8 weeks before you need it",
+      "Ask early in the year, before summer travel"
+     ]
+    },
+    {
+     "h": "Before you even ask",
+     "items": [
+      "Go to office hours more than once",
+      "Keep a few notes on projects you did with them",
+      "Save graded work they might want to look back at"
+     ]
+    },
+    {
+     "h": "If your college has a committee",
+     "items": [
+      "Find the committee's own deadlines (often spring)",
+      "Ask what they need from you: forms, essays, an interview",
+      "Ask which writers they want letters from",
+      "Put their deadlines on your calendar now"
+     ]
+    },
+    {
+     "h": "Writers I'm thinking of asking",
+     "items": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Send, follow up, track",
+   "sections": [
+    {
+     "h": "Your packet for each writer",
+     "items": [
+      "Your CV or activity list",
+      "A short note: what you did with them, 2-3 points",
+      "Why medicine, in a few sentences",
+      "Your deadline (a few weeks before you need it)",
+      "How to submit (AMCAS Letter Request Form)"
+     ]
+    },
+    {
+     "h": "In AMCAS (Section 6)",
+     "items": [
+      "Up to 10 letter entries in total",
+      "One entry each: committee, packet or individual",
+      "Writers upload via the Letter Writer Portal or Interfolio",
+      "Assign letters to schools after adding schools"
+     ]
+    },
+    {
+     "h": "Follow up kindly",
+     "items": [
+      "Gentle reminder about a week before the deadline",
+      "Thank-you note once the letter is in",
+      "Share good news with them later!"
+     ]
+    },
+    {
+     "h": "If a letter is running late",
+     "items": [
+      "Check the letter's status in your AMCAS application",
+      "Send one more short, friendly note",
+      "Ask your prehealth office for advice",
+      "Keep a backup writer in mind"
+     ]
+    },
+    {
+     "h": "Reapplying?",
+     "items": [
+      "Letters must be resubmitted each cycle",
+      "Consider one new, recent letter"
+     ]
+    },
+    {
+     "h": "My letter writers",
+     "items": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    }
+   ]
+  }
+ ],
+ "pins": [
+  {
+   "template": "list",
+   "headline": "How to ask for med school letters",
+   "kicker": "Free printable checklist",
+   "items": [
+    "Check each school's letter rules",
+    "Pick people who know your work",
+    "Ask 6-8 weeks ahead",
+    "Send a CV + 2-3 points to mention",
+    "Follow up kindly, then say thank you"
+   ],
+   "title": "How to Ask for Letters of Recommendation for Med School",
+   "description": "Asking for med school letters of recommendation feels awkward, but it doesn't have to! Pick people who know your work, ask 6-8 weeks ahead, send a short packet with your CV and a few points to mention, and follow up kindly. Free 2-page checklist from a fellow med student."
+  },
+  {
+   "template": "hook",
+   "kicker": "Letter tip",
+   "quote": "A detailed letter beats a famous name",
+   "headline": "Ask people who saw your work up close",
+   "sub": "Letters of recommendation guide + free checklist",
+   "title": "Med School Letters of Recommendation: Who Should You Ask?",
+   "description": "A professor who watched you work all semester can write a much more specific letter than a big name who barely knows you. Here's how to pick your med school letter writers, ask them, and track every letter, with a free printable checklist!"
+  },
+  {
+   "template": "split",
+   "headline": "Letters of rec, without the stress",
+   "kicker": "Free 2-page checklist",
+   "sub": "Who to ask, what to send, and how AMCAS letters work.",
+   "page": 1,
+   "title": "Letters of Recommendation Checklist for Med School Applicants",
+   "description": "Everything for your med school letters in one place: checking each school's rules, picking writers, making the ask, the packet to send, AMCAS letter basics from the 2027 Applicant Guide, and a writer tracker. Free printable checklist!"
+  },
+  {
+   "template": "stack",
+   "headline": "Your letter packet, ready to send",
+   "kicker": "Free checklist",
+   "page": 2,
+   "title": "What to Send Your Letter Writers (Free Med School Checklist)",
+   "description": "Make your letter writers' job easy: your CV, a short note with 2-3 things you'd love them to mention, your why medicine in a few sentences, and an early deadline. Plus AMCAS letter basics and a writer tracker. Free printable!"
+  },
+  {
+   "template": "fan",
+   "headline": "Med school letters, mapped out",
+   "kicker": "2 page printable · free",
+   "sub": "Who to ask, what to send, how to track",
+   "pages": [
+    1,
+    2
+   ],
+   "title": "Med School Letters of Recommendation Planner (Free Printable)",
+   "description": "A free 2-page planner for med school letters of recommendation: who to ask, how to ask, what to send, AMCAS Section 6 basics and a tracker for your letter writers. Made by a fellow med student!"
+  }
+ ]
+}
