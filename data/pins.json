@@ -1489,5 +1489,29 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-12-03T20:07:00Z"
+ },
+ {
+  "id": "personal-statement-brainstorm-6",
+  "post": "personal-statement-brainstorm",
+  "board": "medschool",
+  "image": "pins/personal-statement-brainstorm-6.jpg",
+  "title": "Personal Statement Tip: Pair Every Trait With a Story",
+  "description": "\"I'm resilient\" on its own doesn't land. A specific moment where you struggled and figured it out does, and the reader reaches resilient on their own! Here's how to brainstorm your med school personal statement, with a free printable worksheet.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-12-04T15:37:00Z"
+ },
+ {
+  "id": "personal-statement-brainstorm-7",
+  "post": "personal-statement-brainstorm",
+  "board": "medschool",
+  "image": "pins/personal-statement-brainstorm-7.jpg",
+  "title": "How to Structure Your Med School Personal Statement",
+  "description": "A few structure tips that come up again and again: open with a real scene (not a quote), spend more words on reflection than setup, tie every paragraph back to one thread, and end with the doctor you're working toward. Free personal statement brainstorm worksheet!",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-12-10T15:37:00Z"
  }
 ]
