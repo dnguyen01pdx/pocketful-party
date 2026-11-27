@@ -555,5 +555,16 @@
   "publish_by": "2026-11-25",
   "status": "published",
   "source": "2026-11-25 operator pick (applying side; calendar empty)"
+ },
+ {
+  "slug": "med-school-winter-break-plan",
+  "idea": "How to spend med school winter break: rest first (planner)",
+  "keyword": "med student",
+  "board": "medlife",
+  "theme": "study",
+  "type": "list",
+  "publish_by": "2026-11-27",
+  "status": "published",
+  "source": "2026-11-27 operator pick (life/study side; calendar empty)"
  }
 ]

@@ -1,0 +1,122 @@
+{
+ "slug": "med-school-winter-break-plan",
+ "title": "Winter Break Plan",
+ "subtitle": "rest-first planner",
+ "theme": "study",
+ "type": "list",
+ "board": "medlife",
+ "checkbox": true,
+ "site_label": "med mapped",
+ "pages": [
+  {
+   "title": "Winter break, rest first",
+   "note": "Rest is the main job of this break. Everything else is optional and small. Check with your school about anything due over break, and fill in only what you actually want to do!",
+   "sections": [
+    {
+     "h": "Before you leave",
+     "items": [
+      "Check if anything is due over break (school email, syllabus)",
+      "Write down where you'll pick up in January",
+      "Lower Anki new cards to zero (or close to it)",
+      "Clear your desk and pack light: no textbook pile!"
+     ]
+    },
+    {
+     "h": "My rest plan (the main event)",
+     "items": [
+      "Sleep in at least a few days, on purpose",
+      "People I want to see:",
+      "",
+      "Something fun I've been putting off:",
+      "",
+      "One day with zero medicine at all"
+     ]
+    },
+    {
+     "h": "Light upkeep (only if you want it)",
+     "items": [
+      "Anki reviews: a short session most days, or my plan:",
+      "",
+      "Days I'll skip completely (that's okay!):",
+      ""
+     ]
+    },
+    {
+     "h": "Little things that refill me",
+     "items": [
+      "A walk outside most days",
+      "Call someone I haven't talked to in a while",
+      "A favorite meal, cooked or ordered",
+      "A movie, book or game just for fun"
+     ]
+    },
+    {
+     "h": "Small life admin",
+     "items": [
+      "Doctor, dentist or eye appointments while home",
+      "Fix one annoying thing (laptop, bike, apartment)",
+      "Restock basics for January"
+     ]
+    },
+    {
+     "h": "The last 2-3 days: ease back in",
+     "items": [
+      "Bump Anki back up slowly, a few days early",
+      "Look at the first week of next block's schedule",
+      "Set out January's first study task",
+      "Reset your sleep schedule a little each day"
+     ]
+    },
+    {
+     "h": "One thing I'm proud of from this semester",
+     "items": [
+      "",
+      ""
+     ]
+    }
+   ]
+  }
+ ],
+ "pins": [
+  {
+   "template": "list",
+   "headline": "Med school winter break, rest first",
+   "kicker": "Free printable planner",
+   "items": [
+    "Check if anything is due",
+    "Lower Anki new cards before you leave",
+    "Plan real rest (on purpose!)",
+    "Keep upkeep small, or skip it",
+    "Ease back in 2-3 days early"
+   ],
+   "title": "Med School Winter Break: How to Actually Rest (Free Planner)",
+   "description": "Winter break in med school is for rest first! Check if anything's due, lower your Anki new cards before you leave, plan real time off, keep any upkeep small, and ease back in a few days early. Free printable winter break planner from a fellow med student."
+  },
+  {
+   "template": "hook",
+   "kicker": "Winter break tip",
+   "quote": "Rest is the main job of this break",
+   "headline": "Everything else is optional",
+   "sub": "Med school winter break guide + free planner",
+   "title": "Med Student Winter Break Tip: Make Rest the Main Plan",
+   "description": "You made it through the semester! The advice upperclassmen repeat most: make rest the main job of winter break, and keep any studying light and optional. Here's a simple rest-first plan with a free printable planner."
+  },
+  {
+   "template": "split",
+   "headline": "Winter break, without the guilt",
+   "kicker": "Free printable planner",
+   "sub": "Rest, light Anki upkeep and an easy way back in January.",
+   "page": 1,
+   "title": "Med School Winter Break Planner: Rest Without the Guilt",
+   "description": "Worried you'll come back to a mountain of Anki reviews? This rest-first winter break plan covers what to do before you leave, real rest, optional light upkeep and how to ease back in. Free printable planner for med students!"
+  },
+  {
+   "template": "stack",
+   "headline": "Your winter break plan, on one page",
+   "kicker": "Free planner",
+   "page": 1,
+   "title": "Free Winter Break Planner for Med Students",
+   "description": "One page for a restful med school winter break: a before-you-leave checklist, your rest plan, optional Anki upkeep, small life admin and an ease-back-in list for January. Free printable planner!"
+  }
+ ]
+}

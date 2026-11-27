@@ -1513,5 +1513,53 @@
   "expires": null,
   "status": "queued",
   "publish_at": "2026-12-10T15:37:00Z"
+ },
+ {
+  "id": "med-school-winter-break-plan-1",
+  "post": "med-school-winter-break-plan",
+  "board": "medlife",
+  "image": "pins/med-school-winter-break-plan-1.jpg",
+  "title": "Med School Winter Break: How to Actually Rest (Free Planner)",
+  "description": "Winter break in med school is for rest first! Check if anything's due, lower your Anki new cards before you leave, plan real time off, keep any upkeep small, and ease back in a few days early. Free printable winter break planner from a fellow med student.",
+  "template": "list",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-27T20:07:00Z"
+ },
+ {
+  "id": "med-school-winter-break-plan-2",
+  "post": "med-school-winter-break-plan",
+  "board": "medlife",
+  "image": "pins/med-school-winter-break-plan-2.jpg",
+  "title": "Med Student Winter Break Tip: Make Rest the Main Plan",
+  "description": "You made it through the semester! The advice upperclassmen repeat most: make rest the main job of winter break, and keep any studying light and optional. Here's a simple rest-first plan with a free printable planner.",
+  "template": "hook",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-11-29T20:07:00Z"
+ },
+ {
+  "id": "med-school-winter-break-plan-3",
+  "post": "med-school-winter-break-plan",
+  "board": "medlife",
+  "image": "pins/med-school-winter-break-plan-3.jpg",
+  "title": "Med School Winter Break Planner: Rest Without the Guilt",
+  "description": "Worried you'll come back to a mountain of Anki reviews? This rest-first winter break plan covers what to do before you leave, real rest, optional light upkeep and how to ease back in. Free printable planner for med students!",
+  "template": "split",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-12-01T20:07:00Z"
+ },
+ {
+  "id": "med-school-winter-break-plan-4",
+  "post": "med-school-winter-break-plan",
+  "board": "medlife",
+  "image": "pins/med-school-winter-break-plan-4.jpg",
+  "title": "Free Winter Break Planner for Med Students",
+  "description": "One page for a restful med school winter break: a before-you-leave checklist, your rest plan, optional Anki upkeep, small life admin and an ease-back-in list for January. Free printable planner!",
+  "template": "stack",
+  "expires": null,
+  "status": "queued",
+  "publish_at": "2026-12-03T20:07:00Z"
  }
 ]
